@@ -12,7 +12,8 @@ public class AirportMapper extends Mapper<LongWritable, Text, Text, Text> {
             InterruptedException {
         String line = value.toString();
 
-        String[] words = line.split(",");
+        int commaPosition = line.indexOf(",");
+        
         if (words[0].equals("\"Code\"") || words[0].equals("Code")) return;
         context.write(new Text(words[0]), new Text(words[1]));
     }
