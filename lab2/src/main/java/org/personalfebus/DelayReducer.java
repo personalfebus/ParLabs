@@ -32,6 +32,7 @@ public class DelayReducer extends Reducer<Text, IntWritable, Text, Text> {
 			sum_delay += current_delay;
 			count++;
 		}
+		int average_delay = sum_delay / count;
 		StringBuilder answerBuilder = new StringBuilder();
 		answerBuilder.append("min delay = ").append(min_delay).append("; max delay = ")
 		.append(max_delay);
