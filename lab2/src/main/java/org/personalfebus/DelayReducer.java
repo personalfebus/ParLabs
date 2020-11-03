@@ -32,6 +32,8 @@ public class DelayReducer extends Reducer<Text, IntWritable, Text, Text> {
 			sum_delay += current_delay;
 		}
 		StringBuilder answerBuilder = new StringBuilder();
+		answerBuilder.append("min delay = ").append(min_delay).append("; max delay = ")
+		.append(max_delay);
 		context.write(key, new LongWritable(count));
 	}
 }
