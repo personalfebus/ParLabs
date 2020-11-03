@@ -31,7 +31,7 @@ public class DelayReducer extends Reducer<Text, IntWritable, Text, Text> {
 			}
 			sum_delay += current_delay;
 		}
-		
+		StringBuilder answerBuilder = new StringBuilder();
 		context.write(key, new LongWritable(count));
 	}
 }
