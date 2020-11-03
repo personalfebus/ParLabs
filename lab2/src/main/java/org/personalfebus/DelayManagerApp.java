@@ -24,6 +24,7 @@ public class DelayManagerApp {
 		FileOutputFormat.setOutputPath(job, new Path(args[2]));
 		job.setMapperClass(DelayMapper.class);
 		job.setReducerClass(DelayReducer.class);
+
 		job.setOutputKeyClass(Text.class);
 		job.setOutputValueClass(IntWritable.class);
 		job.setNumReduceTasks(2);
