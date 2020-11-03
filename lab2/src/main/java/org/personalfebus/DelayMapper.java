@@ -23,8 +23,8 @@ public class DelayMapper extends Mapper<LongWritable, Text, Text, IntWritable> {
 		String[] words = line.split(",");
 		if (words[0].equals("\"YEAR\"") || words[0].equals("YEAR")) return;
 		for (int j = 0; j < words[18].length(); j++) {
-			char a = words[18].charAt(j);
-			
+			int number = (int)words[18].charAt(j) - 48;
+
 		}
 		context.write(new Text(words[14]), new Text(words[18]));
 	}
