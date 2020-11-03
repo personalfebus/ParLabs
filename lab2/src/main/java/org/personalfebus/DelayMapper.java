@@ -11,14 +11,14 @@ public class DelayMapper extends Mapper<LongWritable, Text, Text, IntWritable> {
 	protected void map(LongWritable key, Text value, Context context) throws IOException,
 	InterruptedException {
 		String line = value.toString();
-		
-		for (int i = 0; i < tmp.length(); i++) {
-			int num = (int)tmp.charAt(i);
-			if (((num != 32)  && (num < 97)) || ((num > 122) && (num < 1072)) || ((num > 1103) && (num != 1105))){
-				tmp.deleteCharAt(i);
-				i--;
-			}
-		}
+
+//		for (int i = 0; i < tmp.length(); i++) {
+//			int num = (int)tmp.charAt(i);
+//			if (((num != 32)  && (num < 97)) || ((num > 122) && (num < 1072)) || ((num > 1103) && (num != 1105))){
+//				tmp.deleteCharAt(i);
+//				i--;
+//			}
+//		}
 		line = tmp.toString();
 		String[] words = line.split(" ");
 		for (String word : words) {
