@@ -17,6 +17,7 @@ public class DelayManagerApp {
 		job.setJarByClass(DelayManagerApp.class);
 		job.setJobName("Delay Manager");
 		MultipleInputs.addInputPath(job, new Path(args[0]), TextInputFormat.class, CallsJoinMapper.class);
+		MultipleInputs.addInputPath(job, new Path(args[0]), TextInputFormat.class, CallsJoinMapper.class);
 		//FileInputFormat.addInputPath(job, new Path(args[0]));
 		FileOutputFormat.setOutputPath(job, new Path(args[1]));
 		job.setMapperClass(DelayMapper.class);
