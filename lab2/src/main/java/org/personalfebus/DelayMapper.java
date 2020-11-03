@@ -6,7 +6,7 @@ import org.apache.hadoop.mapreduce.Mapper;
 
 import java.io.IOException;
 
-public class DelayMapper extends Mapper<LongWritable, Text, Text, Text> {
+public class DelayMapper extends Mapper<LongWritable, Text, Text, IntWritable> {
 	@Override
 	protected void map(LongWritable key, Text value, Context context) throws IOException,
 	InterruptedException {
@@ -22,6 +22,7 @@ public class DelayMapper extends Mapper<LongWritable, Text, Text, Text> {
 
 		String[] words = line.split(",");
 		if (words[0].equals("\"YEAR\"") || words[0].equals("YEAR")) return;
+		for
 		context.write(new Text(words[14]), new Text(words[18]));
 	}
 }
