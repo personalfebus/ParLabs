@@ -35,7 +35,7 @@ public class DelayReducer extends Reducer<Text, IntWritable, Text, Text> {
 		int average_delay = sum_delay / count;
 		StringBuilder answerBuilder = new StringBuilder();
 		answerBuilder.append("min delay = ").append(min_delay).append("; max delay = ")
-		.append(max_delay);
+		.append(max_delay).append(";average delay = ").append(average_delay);
 		context.write(key, new LongWritable(count));
 	}
 }
