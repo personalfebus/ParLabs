@@ -13,7 +13,7 @@ public class AirportMapper extends Mapper<LongWritable, Text, Text, IntWritable>
         String line = value.toString();
 
         String[] words = line.split(",");
-        if (words[0].equals("\"YEAR\"") || words[0].equals("YEAR")) return;
+        if (words[0].equals("\"Code\"") || words[0].equals("Code")) return;
         int number = 0;
         for (int j = 0; j < words[18].length(); j++) {
             int digit = (int)words[18].charAt(j) - 48;
