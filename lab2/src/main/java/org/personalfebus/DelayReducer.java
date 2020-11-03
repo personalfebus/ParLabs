@@ -14,8 +14,12 @@ public class DelayReducer extends Reducer<Text, IntWritable, Text, Text> {
 		long count = 0;
 		Iterator iter = values.iterator();
 
+		int max_delay = 0;
+		int min_delay = 0;
+		
 		while(iter.hasNext()){
-			int delay = iter.next();
+			IntWritable delay = (IntWritable)iter.next();
+			int
 			count++;
 		}
 
