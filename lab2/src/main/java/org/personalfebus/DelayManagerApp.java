@@ -4,6 +4,7 @@ import org.apache.hadoop.io.IntWritable;
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.*;
 import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
+import org.apache.hadoop.mapreduce.lib.input.MultipleInputs;
 import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 
 public class DelayManagerApp {
@@ -16,7 +17,7 @@ public class DelayManagerApp {
 		job.setJarByClass(DelayManagerApp.class);
 		job.setJobName("Delay Manager");
 		MultipleInputs.addInputPath(job, new Path(args[0]), TextInputFormat.class, CallsJoinMapper.class);
-		FileInputFormat.addInputPath(job, new Path(args[0]));
+		//FileInputFormat.addInputPath(job, new Path(args[0]));
 		FileOutputFormat.setOutputPath(job, new Path(args[1]));
 		job.setMapperClass(DelayMapper.class);
 		job.setReducerClass(DelayReducer.class);
