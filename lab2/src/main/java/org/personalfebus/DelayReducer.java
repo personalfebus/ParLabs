@@ -11,7 +11,6 @@ public class DelayReducer extends Reducer<Text, IntWritable, Text, Text> {
 	@Override
 	protected void reduce(Text key, Iterable<IntWritable> values, Context context) throws
 			IOException, InterruptedException {
-		long count = 0;
 		Iterator iter = values.iterator();
 
 		int max_delay = 0;
