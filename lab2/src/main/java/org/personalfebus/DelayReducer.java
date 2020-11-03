@@ -18,7 +18,7 @@ public class DelayReducer extends Reducer<Text, IntWritable, Text, Text> {
 		int min_delay = 0;
 		int sum_delay = 0;
 		boolean first_iter = true;
-		
+
 		while(iter.hasNext()){
 			IntWritable delay = (IntWritable)iter.next();
 			int current_delay = delay.get();
@@ -28,7 +28,6 @@ public class DelayReducer extends Reducer<Text, IntWritable, Text, Text> {
 				first_iter = false;
 			}
 			sum_delay += current_delay;
-			count++;
 		}
 
 		context.write(key, new LongWritable(count));
