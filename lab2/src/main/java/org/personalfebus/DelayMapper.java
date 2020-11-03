@@ -21,7 +21,7 @@ public class DelayMapper extends Mapper<LongWritable, Text, Text, IntWritable> {
 //		}
 
 		String[] words = line.split(",");
-		if (words[0] == "")
+		if (words[0] == "\"YEAR\"" || words[0] == "YEAR") return;
 		for (String word : words) {
 			if (word.length() != 0) {
 				context.write(new Text(word), new IntWritable(1));
