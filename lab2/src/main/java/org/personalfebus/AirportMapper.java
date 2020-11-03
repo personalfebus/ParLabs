@@ -12,14 +12,6 @@ public class AirportMapper extends Mapper<LongWritable, Text, Text, IntWritable>
             InterruptedException {
         String line = value.toString();
 
-//		for (int i = 0; i < tmp.length(); i++) {
-//			int num = (int)tmp.charAt(i);
-//			if (((num != 32)  && (num < 97)) || ((num > 122) && (num < 1072)) || ((num > 1103) && (num != 1105))){
-//				tmp.deleteCharAt(i);
-//				i--;
-//			}
-//		}
-
         String[] words = line.split(",");
         if (words[0].equals("\"YEAR\"") || words[0].equals("YEAR")) return;
         int number = 0;
