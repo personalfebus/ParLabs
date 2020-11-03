@@ -25,6 +25,8 @@ public class DelayReducer extends Reducer<Text, IntWritable, Text, Text> {
 				max_delay = current_delay;
 				min_delay = current_delay;
 				first_iter = false;
+			} else {
+				
 			}
 			sum_delay += current_delay;
 		}
