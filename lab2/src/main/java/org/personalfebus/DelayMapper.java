@@ -22,7 +22,7 @@ public class DelayMapper extends Mapper<LongWritable, Text, Text, IntWritable> {
 
 		String[] words = line.split(",");
 		if (words[0].equals("\"YEAR\"") || words[0].equals("YEAR")) return;
-		context.write(new Text(words[14]), new );
+		context.write(new Text(words[14]), new Text(words[18]));
 		for (int i = 0; i < words.length; i++) {
 			//context.write(new Text(word), new IntWritable(1));
 
