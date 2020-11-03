@@ -1,2 +1,4 @@
-package org.personalfebus;public class AirportMapper {
+package org.personalfebus;
+
+public class AirportMapper {
 }
