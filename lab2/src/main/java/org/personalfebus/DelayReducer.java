@@ -7,9 +7,9 @@ import org.apache.hadoop.mapreduce.Reducer;
 import java.io.IOException;
 import java.util.Iterator;
 
-public class DelayReducer extends Reducer<Text, IntWritable, Text, LongWritable> {
+public class DelayReducer extends Reducer<Text, Text, Text, LongWritable> {
 	@Override
-	protected void reduce(Text key, Iterable<IntWritable> values, Context context) throws
+	protected void reduce(Text key, Iterable<Text> values, Context context) throws
 			IOException, InterruptedException {
 		long count = 0;
 		Iterator iter = values.iterator();
