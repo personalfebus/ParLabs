@@ -19,7 +19,7 @@ public class DelayMapper extends Mapper<LongWritable, Text, Text, IntWritable> {
 //				i--;
 //			}
 //		}
-		line = tmp.toString();
+		
 		String[] words = line.split(" ");
 		for (String word : words) {
 			if (word.length() != 0) {
