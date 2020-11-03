@@ -33,7 +33,6 @@ public class DelayMapper extends Mapper<LongWritable, Text, Text, IntWritable> {
 			if (digit < 0) break;
 			number = number * 10 + digit;
 		}
-		number *= -1;
 		context.write(new Text(words[14]), new IntWritable(number));
 	}
 }
