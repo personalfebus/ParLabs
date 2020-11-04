@@ -12,6 +12,7 @@ public class DelayReducer extends Reducer<Text, Text, Text, Text> {
 	protected void reduce(Text key, Iterable<IntWritable> values, Context context) throws
 			IOException, InterruptedException {
 		Iterator iter = values.iterator();
+		String airportName = "";
 		int count = 0;
 		int max_delay = 0;
 		int min_delay = 0;
