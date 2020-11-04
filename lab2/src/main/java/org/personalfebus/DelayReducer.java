@@ -25,18 +25,19 @@ public class DelayReducer extends Reducer<Text, Text, Text, Text> {
 			int firstLetterCode = (int)delayOrName.charAt(0);
 			if ((firstLetterCode > 64) && (firstLetterCode < 91)){
 				airportName = delayOrNameStr;
-			}
-			int current_delay = 0;
-			if (first_iter) {
-				max_delay = current_delay;
-				min_delay = current_delay;
-				first_iter = false;
 			} else {
-				if (current_delay < min_delay) min_delay = current_delay;
-				if (current_delay > max_delay) max_delay = current_delay;
+				int current_delay = 0;
+				if (first_iter) {
+					max_delay = current_delay;
+					min_delay = current_delay;
+					first_iter = false;
+				} else {
+					if (current_delay < min_delay) min_delay = current_delay;
+					if (current_delay > max_delay) max_delay = current_delay;
+				}
+				sum_delay += current_delay;
+				count++;
 			}
-			sum_delay += current_delay;
-			count++;
 		}
 		int average_delay = sum_delay / count;
 		StringBuilder answerBuilder = new StringBuilder();
