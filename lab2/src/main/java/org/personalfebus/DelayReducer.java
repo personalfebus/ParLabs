@@ -9,7 +9,7 @@ import java.util.Iterator;
 
 public class DelayReducer extends Reducer<Text, Text, Text, Text> {
 	@Override
-	protected void reduce(Text key, Iterable<IntWritable> values, Context context) throws
+	protected void reduce(Text key, Iterable<Text> values, Context context) throws
 			IOException, InterruptedException {
 		Iterator iter = values.iterator();
 		String airportName = "";
