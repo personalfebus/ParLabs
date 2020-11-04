@@ -45,12 +45,11 @@ public class DelayReducer extends Reducer<Text, Text, Text, Text> {
 			}
 		}
 		if (!first_iter) {
-
+			int average_delay = sum_delay / count;
+			StringBuilder answerBuilder = new StringBuilder();
+			answerBuilder.append("name = ").append(airportName).append("; min delay = ").append(min_delay).append("; max delay = ")
+					.append(max_delay).append(";average delay = ").append(average_delay);
+			context.write(key, new Text(answerBuilder.toString()));
 		}
-		int average_delay = sum_delay / count;
-		StringBuilder answerBuilder = new StringBuilder();
-		answerBuilder.append("name = ").append(airportName).append("; min delay = ").append(min_delay).append("; max delay = ")
-		.append(max_delay).append(";average delay = ").append(average_delay);
-		context.write(key, new Text(answerBuilder.toString()));
 	}
 }
