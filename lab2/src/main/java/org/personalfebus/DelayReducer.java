@@ -12,11 +12,10 @@ public class DelayReducer extends Reducer<Text, Text, Text, Text> {
 		Iterator iter = values.iterator();
 		String airportName = "";
 		int count = 0;
-		int max_delay = 0;
-		int min_delay = 0;
-		int sum_delay = 0;
-		boolean first_iter = true;
-		String kk = key.toString();
+		int maxDelay = 0;
+		int minDelay = 0;
+		int sumDelay = 0;
+		boolean firstIter = true;
 
 		while(iter.hasNext()){
 			Text delayOrName = (Text)iter.next();
@@ -31,24 +30,24 @@ public class DelayReducer extends Reducer<Text, Text, Text, Text> {
 					if (digit < 0) break;
 					current_delay = current_delay * 10 + digit;
 				}
-				if (first_iter) {
-					max_delay = current_delay;
-					min_delay = current_delay;
-					first_iter = false;
+				if (firstIter) {
+					maxDelay = current_delay;
+					minDelay = current_delay;
+					firstIter = false;
 				} else {
-					if (current_delay < min_delay) min_delay = current_delay;
-					if (current_delay > max_delay) max_delay = current_delay;
+					if (current_delay < minDelay) minDelay = current_delay;
+					if (current_delay > maxDelay) maxDelay = current_delay;
 				}
-				sum_delay += current_delay;
+				sumDelay += current_delay;
 				count++;
 			}
 		}
 		int average_delay = 0;
-		if (!first_iter) {
-			average_delay = sum_delay / count;
+		if (!firstIter) {
+			average_delay = sumDelay / count;
 			StringBuilder answerBuilder = new StringBuilder();
-			answerBuilder.append("name = ").append(airportName).append("; min delay = ").append(min_delay).append("; max delay = ")
-					.append(max_delay).append(";average delay = ").append(average_delay);
+			answerBuilder.append("name = ").append(airportName).append("; min delay = ").append(minDelay).append("; max delay = ")
+					.append(maxDelay).append(";average delay = ").append(average_delay);
 			context.write(key, new Text(answerBuilder.toString()));
 		}
 	}
