@@ -44,8 +44,9 @@ public class DelayReducer extends Reducer<Text, Text, Text, Text> {
 				count++;
 			}
 		}
+		int average_delay = 0;
 		if (first_iter) {
-			
+
 		}
 		int average_delay = sum_delay / count;
 		StringBuilder answerBuilder = new StringBuilder();
