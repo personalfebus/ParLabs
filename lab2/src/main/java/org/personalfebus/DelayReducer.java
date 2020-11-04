@@ -45,7 +45,7 @@ public class DelayReducer extends Reducer<Text, Text, Text, Text> {
 			}
 		}
 		int average_delay = 0;
-		if (first_iter) {
+		if (!first_iter) {
 
 		}
 		int average_delay = sum_delay / count;
