@@ -156,7 +156,7 @@
 10326	name = Apolo, Bolivia: Apolo Airport; min delay = 0; max delay = 0;average delay = 0
 10328	name = San Juan Aposento, Peru: San Juan Aposento Airport; min delay = 0; max delay = 0;average delay = 0
 10331	name = Apataki, French Polynesia: Apataki Airport; min delay = 0; max delay = 0;average delay = 0
-10333	name = ; min delay = 0; max delay = 0;average delay = 0
+10333	name = Alpena, MI: Alpena County Regional; min delay = 0; max delay = 0;average delay = 0
 10335	name = April River, Papua New Guinea: April River Airport; min delay = 0; max delay = 0;average delay = 0
 10337	name = Apple Valley, CA: Apple Valley Airport; min delay = 0; max delay = 0;average delay = 0
 10339	name = Qaisumah, Saudi Arabia: Al Qaisumah; min delay = 0; max delay = 0;average delay = 0
@@ -223,7 +223,7 @@
 10463	name = Grand Canyon, AZ: Valle; min delay = 0; max delay = 0;average delay = 0
 10465	name = Glendale, AZ: Glendale Municipal; min delay = 0; max delay = 0;average delay = 0
 10467	name = Yazd, Iran: Shahid Sadooghi; min delay = 0; max delay = 0;average delay = 0
-10469	name = Kalamazoo, MI: Kalamazoo/Battle Creek International; min delay = 0; max delay = 122;average delay = 19
+10469	name = Kalamazoo, MI: Kalamazoo/Battle Creek International; min delay = 0; max delay = 122;average delay = 23
 10470	name = Samana, Dominican Republic: El Catey International; min delay = 0; max delay = 0;average delay = 0
 10472	name = Carrabassett, ME: Sugarloaf Regional; min delay = 0; max delay = 0;average delay = 0
 10474	name = Marysville, CA: Beale AFB; min delay = 0; max delay = 0;average delay = 0
@@ -328,7 +328,7 @@
 10678	name = Stockholm, Sweden: Bromma; min delay = 0; max delay = 0;average delay = 0
 10681	name = Belo, Madagascar: Belo Sur Tsiribihina; min delay = 0; max delay = 0;average delay = 0
 10683	name = Bloomington, IN: Monroe County; min delay = 0; max delay = 0;average delay = 0
-10685	name = Bloomington/Normal, IL: Central Illinois Regional; min delay = 0; max delay = 241;average delay = 25
+10685	name = Bloomington/Normal, IL: Central Illinois Regional; min delay = 0; max delay = 241;average delay = 27
 10687	name = Berlin, NH: Berlin Regional; min delay = 0; max delay = 0;average delay = 0
 10689	name = Bhamo, Burma: Banmaw; min delay = 0; max delay = 0;average delay = 0
 10690	name = Brampton Island, Australia: Brampton Island Airport; min delay = 0; max delay = 0;average delay = 0
@@ -350,8 +350,8 @@
 10722	name = Bartow, FL: Bartow Municipal; min delay = 0; max delay = 0;average delay = 0
 10724	name = Bobo Dioulasso, Burkina Faso: Bobo Dioulasso Airport; min delay = 0; max delay = 0;average delay = 0
 10726	name = Balikpapan, Indonesia: Sepinggan; min delay = 0; max delay = 0;average delay = 0
-10728	name = Beaumont/Port Arthur, TX: Jack Brooks Regional; min delay = 0; max delay = 36;average delay = 15
-10731	name = Brunswick, GA: Brunswick Golden Isles; min delay = 0; max delay = 187;average delay = 20
+10728	name = Beaumont/Port Arthur, TX: Jack Brooks Regional; min delay = 0; max delay = 36;average delay = 17
+10731	name = Brunswick, GA: Brunswick Golden Isles; min delay = 0; max delay = 187;average delay = 23
 10733	name = Blagoveschensk, Russia: Blagoveshchensk; min delay = 0; max delay = 0;average delay = 0
 10735	name = Bartlett Cove, AK: Bartlett Cove Seaplane Base; min delay = 0; max delay = 0;average delay = 0
 10737	name = Barreiras, Brazil: Barreiras Airport; min delay = 0; max delay = 0;average delay = 0
@@ -505,19 +505,19 @@
 11037	name = Conakry, Guinea: Conakry Airport; min delay = 0; max delay = 0;average delay = 0
 11039	name = Castlebar, Ireland: Castlebar Airport; min delay = 0; max delay = 0;average delay = 0
 11040	name = Clear Lake City, TX: Clear Lake Metroport; min delay = 0; max delay = 0;average delay = 0
-11042	name = Cleveland, OH: Cleveland-Hopkins International; min delay = 0; max delay = 326;average delay = 17
+11042	name = Cleveland, OH: Cleveland-Hopkins International; min delay = 0; max delay = 326;average delay = 18
 11044	name = Coalinga, CA: New Coalinga Municipal; min delay = 0; max delay = 0;average delay = 0
 11046	name = Clintonville, WI: Clintonville Municipal; min delay = 0; max delay = 0;average delay = 0
 11048	name = Clinton, OK: Clinton Regional; min delay = 0; max delay = 0;average delay = 0
 11051	name = Carolina, Brazil: Carolina Airport; min delay = 0; max delay = 0;average delay = 0
 11053	name = Clarks Point, AK: Clarks Point Airport; min delay = 0; max delay = 0;average delay = 0
 11055	name = Calipatria, CA: Cliff Hatfield Memorial; min delay = 0; max delay = 0;average delay = 0
-11057	name = Charlotte, NC: Charlotte Douglas International; min delay = 0; max delay = 263;average delay = 9
+11057	name = Charlotte, NC: Charlotte Douglas International; min delay = 0; max delay = 263;average delay = 10
 11059	name = Calvi, France: Calvi Sainte Catherine; min delay = 0; max delay = 0;average delay = 0
 11060	name = Cunnamulla, Australia: Cunnamulla Airport; min delay = 0; max delay = 0;average delay = 0
 11062	name = Cootamundra, Australia: Cootamundra Airport; min delay = 0; max delay = 0;average delay = 0
 11064	name = Chambery, France: Chambery Aix Les Bains; min delay = 0; max delay = 0;average delay = 0
-11066	name = Columbus, OH: Port Columbus International; min delay = 0; max delay = 315;average delay = 19
+11066	name = Columbus, OH: Port Columbus International; min delay = 0; max delay = 315;average delay = 20
 11068	name = Chi Mei, Taiwan: Chi Mei Airport; min delay = 0; max delay = 0;average delay = 0
 11071	name = Colmar, France: Colmar Houssen; min delay = 0; max delay = 0;average delay = 0
 11073	name = Kundiawa, Papua New Guinea: Chimbu; min delay = 0; max delay = 0;average delay = 0
@@ -538,7 +538,7 @@
 11103	name = Kochi, India: Cochin International; min delay = 0; max delay = 0;average delay = 0
 11105	name = Coleman, TX: Coleman Municipal; min delay = 0; max delay = 0;average delay = 0
 11107	name = Cotonou, Benin: Card Bernardin Gadin de Cadjehoun International; min delay = 0; max delay = 0;average delay = 0
-11109	name = Colorado Springs, CO: City of Colorado Springs Municipal; min delay = 0; max delay = 224;average delay = 26
+11109	name = Colorado Springs, CO: City of Colorado Springs Municipal; min delay = 0; max delay = 224;average delay = 27
 11110	name = Cotulla, TX: Cotulla-La Salle County; min delay = 0; max delay = 0;average delay = 0
 11112	name = Coolawanyah, Australia: Coolawanyah Airport; min delay = 0; max delay = 0;average delay = 0
 11114	name = Capurgana, Colombia: Capurgana Airport; min delay = 0; max delay = 0;average delay = 0
@@ -723,7 +723,7 @@
 11497	name = Kefallinia Island, Greece: Argostolion; min delay = 0; max delay = 0;average delay = 0
 11499	name = Jiyanklis, Egypt: Jiyanklis AB; min delay = 0; max delay = 0;average delay = 0
 11501	name = Chenega, AK: Chenega Airport; min delay = 0; max delay = 0;average delay = 0
-11503	name = Eagle, CO: Eagle County Regional; min delay = 0; max delay = 124;average delay = 19
+11503	name = Eagle, CO: Eagle County Regional; min delay = 0; max delay = 124;average delay = 20
 11505	name = Geneina, Sudan: Geneina Airport; min delay = 0; max delay = 0;average delay = 0
 11507	name = Egilsstadir, Iceland: Egilsstadir Airport; min delay = 0; max delay = 0;average delay = 0
 11510	name = Eagle River, WI: Eagle River Union; min delay = 0; max delay = 0;average delay = 0
@@ -764,7 +764,7 @@
 11581	name = Erdenet, Mongolia: Erdenet Airport; min delay = 0; max delay = 0;average delay = 0
 11583	name = Erzurum, Turkey: Erzurum Airport; min delay = 0; max delay = 0;average delay = 0
 11585	name = Esa'ala, Papua New Guinea: Esa'ala Airport; min delay = 0; max delay = 0;average delay = 0
-11587	name = Escanaba, MI: Delta County; min delay = 0; max delay = 245;average delay = 46
+11587	name = Escanaba, MI: Delta County; min delay = 0; max delay = 245;average delay = 56
 11589	name = Ensenada, Mexico: General Alberto L. Salinas Carranza; min delay = 0; max delay = 0;average delay = 0
 11590	name = Alexandria, LA: Esler Regional; min delay = 0; max delay = 0;average delay = 0
 11592	name = Easton, MD: Easton/Newnam Field; min delay = 0; max delay = 0;average delay = 0
@@ -817,7 +817,7 @@
 11688	name = Chipley, FL: Vosikas; min delay = 0; max delay = 0;average delay = 0
 11691	name = Florencia, Colombia: Gustavo Artunduaga Paredes; min delay = 0; max delay = 0;average delay = 0
 11693	name = Fond Du Lac, WI: Fond Du Lac County; min delay = 0; max delay = 0;average delay = 0
-11695	name = Flagstaff, AZ: Flagstaff Pulliam; min delay = 0; max delay = 112;average delay = 15
+11695	name = Flagstaff, AZ: Flagstaff Pulliam; min delay = 0; max delay = 112;average delay = 16
 11697	name = Fort Lauderdale, FL: Fort Lauderdale-Hollywood International; min delay = 0; max delay = 269;average delay = 10
 11699	name = Florence, SC: Florence Regional; min delay = 0; max delay = 0;average delay = 0
 11701	name = Flinders Island, Australia: Flinders Island Airport; min delay = 0; max delay = 0;average delay = 0
@@ -1049,7 +1049,7 @@
 12166	name = Hemet, CA: Hemet-Ryan; min delay = 0; max delay = 0;average delay = 0
 12168	name = Hatteras, NC: Billy Mitchell; min delay = 0; max delay = 0;average delay = 0
 12171	name = Hoonah, AK: Hoonah Airport; min delay = 0; max delay = 0;average delay = 0
-12173	name = Honolulu, HI: Honolulu International; min delay = 0; max delay = 1013;average delay = 11
+12173	name = Honolulu, HI: Honolulu International; min delay = 0; max delay = 1013;average delay = 12
 12175	name = Haines, AK: Haines Airport; min delay = 0; max delay = 0;average delay = 0
 12177	name = Hobbs, NM: Lea County Regional; min delay = 0; max delay = 73;average delay = 20
 12179	name = Hofuf, Saudi Arabia: Al Ahsa; min delay = 0; max delay = 0;average delay = 0
@@ -1060,7 +1060,7 @@
 12191	name = Houston, TX: William P Hobby; min delay = 0; max delay = 171;average delay = 8
 12193	name = Balboa, Panama: Panama Pacifico International; min delay = 0; max delay = 0;average delay = 0
 12195	name = Hooper Bay, AK: Hooper Bay Airport; min delay = 0; max delay = 0;average delay = 0
-12197	name = White Plains, NY: Westchester County; min delay = 0; max delay = 233;average delay = 14
+12197	name = White Plains, NY: Westchester County; min delay = 0; max delay = 233;average delay = 17
 12199	name = Hanalei, HI: Princeville; min delay = 0; max delay = 0;average delay = 0
 12201	name = Harbin, China: Taiping; min delay = 0; max delay = 0;average delay = 0
 12203	name = Harare, Zimbabwe: Harare International; min delay = 0; max delay = 0;average delay = 0
@@ -1099,7 +1099,7 @@
 12272	name = Ibague, Colombia: Perales; min delay = 0; max delay = 0;average delay = 0
 12274	name = Ibiza, Spain: Ibiza Airport; min delay = 0; max delay = 0;average delay = 0
 12276	name = Nieuw Nickerie, Suriname: Nieuw; min delay = 0; max delay = 0;average delay = 0
-12278	name = Wichita, KS: Wichita Dwight D Eisenhower National; min delay = 0; max delay = 186;average delay = 21
+12278	name = Wichita, KS: Wichita Dwight D Eisenhower National; min delay = 0; max delay = 186;average delay = 22
 12281	name = Indiana, PA: Indiana County; min delay = 0; max delay = 0;average delay = 0
 12283	name = Independence, KS: Independence Municipal; min delay = 0; max delay = 0;average delay = 0
 12285	name = Baldonnel, Ireland: Casement; min delay = 0; max delay = 0;average delay = 0
@@ -1126,9 +1126,9 @@
 12328	name = Ilorin, Nigeria: Ilorin Airport; min delay = 0; max delay = 0;average delay = 0
 12331	name = Imphal, India: Imphal Airport; min delay = 0; max delay = 0;average delay = 0
 12333	name = Immokalee, FL: Immokalee Regional; min delay = 0; max delay = 0;average delay = 0
-12335	name = Iron Mountain/Kingsfd, MI: Ford; min delay = 0; max delay = 114;average delay = 30
+12335	name = Iron Mountain/Kingsfd, MI: Ford; min delay = 0; max delay = 114;average delay = 36
 12337	name = Indianapolis, IN: Indianapolis Executive; min delay = 0; max delay = 0;average delay = 0
-12339	name = ; min delay = 0; max delay = 262;average delay = 12
+12339	name = Indianapolis, IN: Indianapolis International; min delay = 0; max delay = 262;average delay = 13
 12340	name = In Guezzam, Algeria: In Guezzam Airport; min delay = 0; max delay = 0;average delay = 0
 12342	name = Inhambane, Mozambique: Inhambane Airport; min delay = 0; max delay = 0;average delay = 0
 12344	name = Innsbruck, Austria: Innsbruck Airport; min delay = 0; max delay = 0;average delay = 0
@@ -1177,7 +1177,7 @@
 12434	name = Kandla, India: Kandla Airport; min delay = 0; max delay = 0;average delay = 0
 12436	name = Inyokern, CA: Inyokern Airport; min delay = 0; max delay = 0;average delay = 0
 12438	name = Izumo, Japan: Izumo Airport; min delay = 0; max delay = 0;average delay = 0
-12441	name = Jackson, WY: Jackson Hole; min delay = 0; max delay = 320;average delay = 22
+12441	name = Jackson, WY: Jackson Hole; min delay = 0; max delay = 320;average delay = 23
 12443	name = Jacobabad, Pakistan: Shahbaz AB; min delay = 0; max delay = 0;average delay = 0
 12445	name = Atlanta, GA: Perimeter Mall Helipad; min delay = 0; max delay = 0;average delay = 0
 12447	name = Jalapa, Mexico: El Lencero; min delay = 0; max delay = 0;average delay = 0
@@ -1196,7 +1196,7 @@
 12472	name = Jeddah, Saudi Arabia: King Abdulaziz International; min delay = 0; max delay = 0;average delay = 0
 12474	name = Jefferson City, MO: Jefferson City Memorial; min delay = 0; max delay = 0;average delay = 0
 12476	name = Jersey, United Kingdom: Jersey Airport; min delay = 0; max delay = 0;average delay = 0
-12478	name = New York, NY: John F. Kennedy International; min delay = 0; max delay = 395;average delay = 15
+12478	name = New York, NY: John F. Kennedy International; min delay = 0; max delay = 395;average delay = 16
 12481	name = Frederikshab, Greenland: Frederikshaab; min delay = 0; max delay = 0;average delay = 0
 12483	name = Grand Canyon, AZ: Grand Canyon Heliport; min delay = 0; max delay = 0;average delay = 0
 12485	name = Atlanta, GA: Galleria; min delay = 0; max delay = 0;average delay = 0
@@ -1216,7 +1216,7 @@
 12513	name = Houston, TX: Astrodome; min delay = 0; max delay = 0;average delay = 0
 12515	name = San Francisco, CA: Marin County Heliport; min delay = 0; max delay = 0;average delay = 0
 12517	name = Malmo, Sweden: Harbour Heliport; min delay = 0; max delay = 0;average delay = 0
-12519	name = Jamestown, ND: Jamestown Regional; min delay = 0; max delay = 104;average delay = 39
+12519	name = Jamestown, ND: Jamestown Regional; min delay = 0; max delay = 104;average delay = 45
 12520	name = Johannesburg, South Africa: Oliver Reginald Tambo International; min delay = 0; max delay = 0;average delay = 0
 12522	name = Newport Beach, CA: Newport Beach Airport; min delay = 0; max delay = 0;average delay = 0
 12524	name = Safawi, Jordan: Prince Hasan; min delay = 0; max delay = 0;average delay = 0
@@ -1401,7 +1401,7 @@
 12908	name = Libreville, Gabon: Libreville Leon M'Ba; min delay = 0; max delay = 0;average delay = 0
 12911	name = Larnaca, Cyprus: Larnaca Airport; min delay = 0; max delay = 0;average delay = 0
 12913	name = La Ceiba, Honduras: Goloson International; min delay = 0; max delay = 0;average delay = 0
-12915	name = Lake Charles, LA: Lake Charles Regional; min delay = 0; max delay = 43;average delay = 6
+12915	name = Lake Charles, LA: Lake Charles Regional; min delay = 0; max delay = 43;average delay = 7
 12917	name = Columbus, OH: Rickenbacker International; min delay = 0; max delay = 0;average delay = 0
 12919	name = Las Canas, Costa Rica: Las Canas Airport; min delay = 0; max delay = 0;average delay = 0
 12920	name = London, United Kingdom: London City; min delay = 0; max delay = 0;average delay = 0
@@ -1418,7 +1418,7 @@
 12944	name = Lewiston/Auburn, ME: Auburn Lewiston Municipal; min delay = 0; max delay = 0;average delay = 0
 12948	name = Lufkin, TX: Angelina County; min delay = 0; max delay = 0;average delay = 0
 12951	name = Lafayette, LA: Lafayette Regional Paul Fournet Field; min delay = 0; max delay = 92;average delay = 10
-12953	name = New York, NY: LaGuardia; min delay = 0; max delay = 331;average delay = 16
+12953	name = New York, NY: LaGuardia; min delay = 0; max delay = 331;average delay = 18
 12955	name = LaGrange, GA: LaGrange-Callaway; min delay = 0; max delay = 0;average delay = 0
 12957	name = Liege, Belgium: Liege Airport; min delay = 0; max delay = 0;average delay = 0
 12959	name = Deadman's Cay, The Bahamas: Deadman's Cay Airport; min delay = 0; max delay = 0;average delay = 0
@@ -1520,7 +1520,7 @@
 13152	name = Edgartown, MA: Katama Airpark; min delay = 0; max delay = 0;average delay = 0
 13154	name = Maraba, Brazil: Joao Correa Da Rocha; min delay = 0; max delay = 0;average delay = 0
 13156	name = Madrid, Spain: Adolfo Suarez Madrid Barajas; min delay = 0; max delay = 0;average delay = 0
-13158	name = ; min delay = 0; max delay = 153;average delay = 9
+13158	name = Midland/Odessa, TX: Midland International; min delay = 0; max delay = 153;average delay = 10
 13161	name = Mangochi, Malawi: Mangochi Airport; min delay = 0; max delay = 0;average delay = 0
 13163	name = Malakal, South Sudan: Malakal Airport; min delay = 0; max delay = 0;average delay = 0
 13165	name = Manchester, United Kingdom: Manchester Airport; min delay = 0; max delay = 0;average delay = 0
@@ -1543,7 +1543,7 @@
 13198	name = Kansas City, MO: Kansas City International; min delay = 0; max delay = 236;average delay = 11
 13200	name = McCook, NE: McCook Ben Nelson Regional; min delay = 0; max delay = 0;average delay = 0
 13202	name = Monte Carlo, Monaco: Monaco Heloport; min delay = 0; max delay = 0;average delay = 0
-13204	name = Orlando, FL: Orlando International; min delay = 0; max delay = 306;average delay = 11
+13204	name = Orlando, FL: Orlando International; min delay = 0; max delay = 306;average delay = 12
 13206	name = Melchor de Mencos, Guatemala: Melchor de Mencos Airport; min delay = 0; max delay = 0;average delay = 0
 13208	name = Muscat, Oman: Muscat International; min delay = 0; max delay = 0;average delay = 0
 13211	name = Mason City, IA: Mason City Municipal; min delay = 0; max delay = 0;average delay = 0
@@ -1573,7 +1573,7 @@
 13259	name = Mesquite, NV: Mesquite Airport; min delay = 0; max delay = 0;average delay = 0
 13260	name = Marshfield, WI: Marshfield Municipal; min delay = 0; max delay = 0;average delay = 0
 13262	name = Milford Sound, New Zealand: Milford Sound Airport; min delay = 0; max delay = 0;average delay = 0
-13264	name = Medford, OR: Rogue Valley International - Medford; min delay = 0; max delay = 84;average delay = 9
+13264	name = Medford, OR: Rogue Valley International - Medford; min delay = 0; max delay = 84;average delay = 10
 13266	name = Fort Worth, TX: Mangham Field; min delay = 0; max delay = 0;average delay = 0
 13268	name = Melfa, VA: Accomack County; min delay = 0; max delay = 0;average delay = 0
 13271	name = Michigan City, IN: Michigan City Municipal-Phillips Field; min delay = 0; max delay = 0;average delay = 0
@@ -1592,7 +1592,7 @@
 13297	name = Mojave, CA: Mojave Airport; min delay = 0; max delay = 0;average delay = 0
 13299	name = Mildenhall, United Kingdom: Mildenhall Airport; min delay = 0; max delay = 0;average delay = 0
 13301	name = Holland, MI: West Michigan Regional; min delay = 0; max delay = 0;average delay = 0
-13303	name = Miami, FL: Miami International; min delay = 0; max delay = 237;average delay = 12
+13303	name = Miami, FL: Miami International; min delay = 0; max delay = 237;average delay = 13
 13305	name = Minneapolis, MN: Crystal; min delay = 0; max delay = 0;average delay = 0
 13307	name = Muncie/Anderson/Newcastle, IN: Delaware County Regional; min delay = 0; max delay = 0;average delay = 0
 13309	name = Mili, Marshall Islands: Mili Airport; min delay = 0; max delay = 0;average delay = 0
@@ -1656,7 +1656,7 @@
 13426	name = Molde, Norway: Aro; min delay = 0; max delay = 0;average delay = 0
 13428	name = Mount Cook, New Zealand: Mount Cook Airport; min delay = 0; max delay = 0;average delay = 0
 13431	name = Morristown, TN: Moore-Murrell; min delay = 0; max delay = 0;average delay = 0
-13433	name = Minot, ND: Minot International; min delay = 0; max delay = 61;average delay = 9
+13433	name = Minot, ND: Minot International; min delay = 0; max delay = 61;average delay = 10
 13435	name = Moscow, Russia: Moscow Metropolitan Area; min delay = 0; max delay = 0;average delay = 0
 13437	name = Monterrey, Colombia: Monterrey Airport; min delay = 0; max delay = 0;average delay = 0
 13439	name = Miami, FL: Watson Island International; min delay = 0; max delay = 0;average delay = 0
@@ -1686,7 +1686,7 @@
 13488	name = Minsk, Belarus: Minsk 2; min delay = 0; max delay = 0;average delay = 0
 13491	name = Maastricht, Netherlands: Maastricht Airport; min delay = 0; max delay = 0;average delay = 0
 13493	name = Monticello, NY: Sullivan County International; min delay = 0; max delay = 0;average delay = 0
-13495	name = New Orleans, LA: Louis Armstrong New Orleans International; min delay = 0; max delay = 199;average delay = 8
+13495	name = New Orleans, LA: Louis Armstrong New Orleans International; min delay = 0; max delay = 199;average delay = 9
 13497	name = Colstrip, MT: Colstrip Airport; min delay = 0; max delay = 0;average delay = 0
 13499	name = Mt. Sandford, Australia: Mount Sanford Station; min delay = 0; max delay = 0;average delay = 0
 13501	name = Marathon, FL: The Florida Keys Marathon; min delay = 0; max delay = 0;average delay = 0
@@ -1876,7 +1876,7 @@
 13884	name = Oneonta, NY: Oneonta Municipal; min delay = 0; max delay = 0;average delay = 0
 13886	name = O'Neill, NE: The O'Neill Municipal-John L. Baker Field; min delay = 0; max delay = 0;average delay = 0
 13888	name = Onion Bay, AK: Onion Bay Airport; min delay = 0; max delay = 0;average delay = 0
-13891	name = ; min delay = 0; max delay = 97;average delay = 8
+13891	name = Ontario, CA: Ontario International; min delay = 0; max delay = 97;average delay = 8
 13893	name = Cobol, AK: Cobol Alaska/Scaled/; min delay = 0; max delay = 0;average delay = 0
 13895	name = Gold Coast, Australia: Gold Coast Airport; min delay = 0; max delay = 0;average delay = 0
 13899	name = Ophir, AK: Ophir Airport; min delay = 0; max delay = 0;average delay = 0
@@ -1893,7 +1893,7 @@
 13925	name = Grants Pass, OR: Grants Pass Airport; min delay = 0; max delay = 0;average delay = 0
 13927	name = Florence, OR: Florence Municipal; min delay = 0; max delay = 0;average delay = 0
 13929	name = Orocue, Colombia: Orocue Airport; min delay = 0; max delay = 0;average delay = 0
-13930	name = Chicago, IL: Chicago O'Hare International; min delay = 0; max delay = 529;average delay = 21
+13930	name = Chicago, IL: Chicago O'Hare International; min delay = 0; max delay = 529;average delay = 22
 13932	name = Paramaribo, Suriname: Zorg en Hoop; min delay = 0; max delay = 0;average delay = 0
 13934	name = Port Lions, AK: Port Lions Airport; min delay = 0; max delay = 0;average delay = 0
 13936	name = Orlando, FL: Executive; min delay = 0; max delay = 0;average delay = 0
@@ -1978,7 +1978,7 @@
 14102	name = Point Hope, AK: Point Hope Airport; min delay = 0; max delay = 0;average delay = 0
 14104	name = Phitsanulok, Thailand: Phitsanulok Airport; min delay = 0; max delay = 0;average delay = 0
 14106	name = Phalaborwa, South Africa: Kruger Park Gateway; min delay = 0; max delay = 0;average delay = 0
-14108	name = Peoria, IL: General Downing - Peoria International; min delay = 0; max delay = 217;average delay = 25
+14108	name = Peoria, IL: General Downing - Peoria International; min delay = 0; max delay = 217;average delay = 27
 14111	name = Nassau/Paradise Island, The Bahamas: Nassau-Paradise Island; min delay = 0; max delay = 0;average delay = 0
 14113	name = Pocatello, ID: Pocatello Regional; min delay = 0; max delay = 5;average delay = 1
 14115	name = Glasgow/Prestwick, United Kingdom: Prestwick; min delay = 0; max delay = 0;average delay = 0
@@ -2048,7 +2048,7 @@
 14247	name = Paris, TX: Cox Field; min delay = 0; max delay = 0;average delay = 0
 14249	name = Prineville, OR: Prineville Airport; min delay = 0; max delay = 0;average delay = 0
 14250	name = Pisa, Italy: Pisa Airport; min delay = 0; max delay = 0;average delay = 0
-14252	name = Pasco/Kennewick/Richland, WA: Tri Cities; min delay = 0; max delay = 115;average delay = 25
+14252	name = Pasco/Kennewick/Richland, WA: Tri Cities; min delay = 0; max delay = 115;average delay = 27
 14254	name = Ponce, PR: Mercedita; min delay = 0; max delay = 0;average delay = 0
 14256	name = Petersburg, AK: Petersburg James A Johnson; min delay = 0; max delay = 19;average delay = 4
 14258	name = Dublin, VA: New River Valley; min delay = 0; max delay = 0;average delay = 0
@@ -2147,7 +2147,7 @@
 14483	name = Rio Curato, Argentina: Rio Cuarto; min delay = 0; max delay = 0;average delay = 0
 14485	name = Red Dog, AK: Red Dog Airport; min delay = 0; max delay = 0;average delay = 0
 14487	name = Redding, CA: Redding Municipal; min delay = 0; max delay = 134;average delay = 21
-14489	name = Bend/Redmond, OR: Roberts Field; min delay = 0; max delay = 131;average delay = 22
+14489	name = Bend/Redmond, OR: Roberts Field; min delay = 0; max delay = 131;average delay = 23
 14490	name = Red River, ND: Grand Forks AFB; min delay = 0; max delay = 0;average delay = 0
 14492	name = Raleigh/Durham, NC: Raleigh-Durham International; min delay = 0; max delay = 165;average delay = 12
 14494	name = Rodez, France: Rodez Aveyron; min delay = 0; max delay = 0;average delay = 0
@@ -2163,7 +2163,7 @@
 14515	name = Tuamoto Islands, French Polynesia: Rangiroa; min delay = 0; max delay = 0;average delay = 0
 14517	name = Yangon, Burma: Yangon International; min delay = 0; max delay = 0;average delay = 0
 14519	name = Reims, France: Champagne; min delay = 0; max delay = 0;average delay = 0
-14520	name = ; min delay = 0; max delay = 49;average delay = 9
+14520	name = Rhinelander, WI: Rhinelander/Oneida County; min delay = 0; max delay = 49;average delay = 9
 14522	name = Santa Maria, Brazil: Santa Maria Airport; min delay = 0; max delay = 0;average delay = 0
 14524	name = Richmond, VA: Richmond International; min delay = 0; max delay = 175;average delay = 10
 14526	name = Rice Lake, WI: Rice Lake Airport; min delay = 0; max delay = 0;average delay = 0
@@ -2238,19 +2238,19 @@
 14669	name = Kalispell, MT: Kalispell City; min delay = 0; max delay = 0;average delay = 0
 14670	name = Saratoga, WY: Shively Field; min delay = 0; max delay = 0;average delay = 0
 14672	name = Sacramento, CA: Sacramento Executive; min delay = 0; max delay = 0;average delay = 0
-14674	name = Santa Fe, NM: Santa Fe Municipal; min delay = 0; max delay = 36;average delay = 10
+14674	name = Santa Fe, NM: Santa Fe Municipal; min delay = 0; max delay = 36;average delay = 14
 14676	name = Sana'a, Yemen: Sana'a International; min delay = 0; max delay = 0;average delay = 0
 14678	name = Salamo, Papua New Guinea: Salamo Airport; min delay = 0; max delay = 0;average delay = 0
 14681	name = San Pedro Sula, Honduras: Ramon Villeda Morales International; min delay = 0; max delay = 0;average delay = 0
 14683	name = San Antonio, TX: San Antonio International; min delay = 0; max delay = 391;average delay = 15
-14685	name = Savannah, GA: Savannah/Hilton Head International; min delay = 0; max delay = 201;average delay = 11
+14685	name = Savannah, GA: Savannah/Hilton Head International; min delay = 0; max delay = 201;average delay = 12
 14687	name = Sambu, Panama: Sambu Airport; min delay = 0; max delay = 0;average delay = 0
 14689	name = Santa Barbara, CA: Santa Barbara Municipal; min delay = 0; max delay = 152;average delay = 16
 14690	name = Selbang, Papua New Guinea: Selbang Airport; min delay = 0; max delay = 0;average delay = 0
 14692	name = Saint Barthelemy, Saint Barthelemy: Saint Barthelemy Airport; min delay = 0; max delay = 0;average delay = 0
 14694	name = Santa Ana, Bolivia: Santa Ana del Yacuma; min delay = 0; max delay = 0;average delay = 0
 14696	name = South Bend, IN: South Bend International; min delay = 0; max delay = 245;average delay = 31
-14698	name = San Luis Obispo, CA: San Luis County Regional; min delay = 0; max delay = 123;average delay = 7
+14698	name = San Luis Obispo, CA: San Luis County Regional; min delay = 0; max delay = 123;average delay = 8
 14700	name = San Bernardino, CA: Tri-City; min delay = 0; max delay = 0;average delay = 0
 14702	name = South Boston, VA: William M Tuck; min delay = 0; max delay = 0;average delay = 0
 14704	name = Salisbury, MD: Salisbury-Ocean City/Wicomico Regional; min delay = 0; max delay = 0;average delay = 0
@@ -2378,7 +2378,7 @@
 14955	name = Saipan, TT: Francisco C. Ada Saipan International; min delay = 0; max delay = 0;average delay = 0
 14957	name = Menongue, Angola: Menongue Airport; min delay = 0; max delay = 0;average delay = 0
 14959	name = San Pedro, Belize: San Pedro Airport; min delay = 0; max delay = 0;average delay = 0
-14960	name = Wichita Falls, TX: Sheppard AFB/Wichita Falls Municipal; min delay = 0; max delay = 200;average delay = 27
+14960	name = Wichita Falls, TX: Sheppard AFB/Wichita Falls Municipal; min delay = 0; max delay = 200;average delay = 30
 14962	name = Spencer, IA: Spencer Municipal; min delay = 0; max delay = 0;average delay = 0
 14964	name = Springdale, AR: Springdale Municipal; min delay = 0; max delay = 0;average delay = 0
 14966	name = Sterling/Rockfalls, IL: Whiteside County-Jos H. Bittorf Field; min delay = 0; max delay = 0;average delay = 0
@@ -2402,7 +2402,7 @@
 15002	name = Santa Teresita, Argentina: Santa Teresita Airport; min delay = 0; max delay = 0;average delay = 0
 15004	name = Samsun, Turkey: Samsun Airport; min delay = 0; max delay = 0;average delay = 0
 15006	name = Stauning, Denmark: Stauning Airport; min delay = 0; max delay = 0;average delay = 0
-15008	name = ; min delay = 0; max delay = 76;average delay = 25
+15008	name = St. Cloud, MN: St. Cloud Regional; min delay = 0; max delay = 76;average delay = 25
 15011	name = Starkville, MS: George M. Bryan; min delay = 0; max delay = 0;average delay = 0
 15013	name = Santiago, Dominican Republic: Cibao International; min delay = 0; max delay = 0;average delay = 0
 15015	name = Sterling, CO: Sterling Municipal; min delay = 0; max delay = 0;average delay = 0
@@ -2422,7 +2422,7 @@
 15042	name = Sunriver, OR: Sunriver Airport; min delay = 0; max delay = 0;average delay = 0
 15044	name = Sumbawanga, Tanzania: Sumbawanga Airport; min delay = 0; max delay = 0;average delay = 0
 15046	name = Suva, Fiji: Nausori International; min delay = 0; max delay = 0;average delay = 0
-15048	name = ; min delay = 0; max delay = 18;average delay = 6
+15048	name = Sioux City, IA: Sioux Gateway/Col. Bud Day Field; min delay = 0; max delay = 18;average delay = 6
 15051	name = Silver City/Hurley, NM: Grant County; min delay = 0; max delay = 0;average delay = 0
 15053	name = Stavanger, Norway: Sola; min delay = 0; max delay = 0;average delay = 0
 15055	name = Svolvaer, Norway: Helle; min delay = 0; max delay = 0;average delay = 0
@@ -2576,7 +2576,7 @@
 15365	name = Tours, France: Tours Val de Loire; min delay = 0; max delay = 0;average delay = 0
 15367	name = Tullahoma, TN: Arnold AFB; min delay = 0; max delay = 0;average delay = 0
 15369	name = Turbat, Pakistan: Turbat International; min delay = 0; max delay = 0;average delay = 0
-15370	name = Tulsa, OK: Tulsa International; min delay = 0; max delay = 140;average delay = 10
+15370	name = Tulsa, OK: Tulsa International; min delay = 0; max delay = 140;average delay = 11
 15372	name = Tunis, Tunisia: Carthage; min delay = 0; max delay = 0;average delay = 0
 15374	name = Tupelo, MS: Tupelo Regional; min delay = 0; max delay = 0;average delay = 0
 15376	name = Tucson, AZ: Tucson International; min delay = 0; max delay = 167;average delay = 13
