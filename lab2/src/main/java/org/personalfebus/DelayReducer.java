@@ -27,6 +27,11 @@ public class DelayReducer extends Reducer<Text, Text, Text, Text> {
 				airportName = delayOrNameStr;
 			} else {
 				int current_delay = 0;
+				for (int j = 0; j < delayOrNameStr.length(); j++) {
+					int digit = (int)delayOrNameStr.charAt(j) - 48;
+					if (digit < 0) break;
+					current_delay = current_delay * 10 + digit;
+				}
 				if (first_iter) {
 					max_delay = current_delay;
 					min_delay = current_delay;
