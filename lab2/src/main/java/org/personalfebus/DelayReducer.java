@@ -19,7 +19,8 @@ public class DelayReducer extends Reducer<Text, Text, Text, Text> {
 		boolean first_iter = true;
 
 		while(iter.hasNext()){
-			IntWritable delay = (IntWritable)iter.next();
+			Text delay = (Text)iter.next();
+			delay.
 			int current_delay = delay.get();
 			if (first_iter) {
 				max_delay = current_delay;
