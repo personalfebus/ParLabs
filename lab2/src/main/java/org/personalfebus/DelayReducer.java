@@ -44,6 +44,9 @@ public class DelayReducer extends Reducer<Text, Text, Text, Text> {
 				count++;
 			}
 		}
+		if (first_iter) {
+			
+		}
 		int average_delay = sum_delay / count;
 		StringBuilder answerBuilder = new StringBuilder();
 		answerBuilder.append("name = ").append(airportName).append("; min delay = ").append(min_delay).append("; max delay = ")
