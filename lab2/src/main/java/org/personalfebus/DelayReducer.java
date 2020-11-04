@@ -18,11 +18,12 @@ public class DelayReducer extends Reducer<Text, Text, Text, Text> {
 		int min_delay = 0;
 		int sum_delay = 0;
 		boolean first_iter = true;
+		String kk = key.toString();
 
 		while(iter.hasNext()){
 			Text delayOrName = (Text)iter.next();
 			String delayOrNameStr = delayOrName.toString();
-			if (key.equals("10333")) System.out.println("===" + delayOrNameStr + "===");
+			if (kk.equals("10333")) System.out.println("===" + delayOrNameStr + "===");
 			int firstLetterCode = (int)delayOrName.charAt(0);
 			if (((firstLetterCode > 64) && (firstLetterCode < 91)) || (firstLetterCode == 34)){
 				airportName = delayOrNameStr;
