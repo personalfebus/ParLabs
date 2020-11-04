@@ -28,6 +28,6 @@ public class DelayMapper extends Mapper<LongWritable, Text, Text, Text> {
 //			if (digit < 0) break;
 //			number = number * 10 + digit;
 //		}
-		context.write(new Text(words[14]), new IntWritable(number));
+		context.write(new Text(words[14]), new Text(words[18]));
 	}
 }
