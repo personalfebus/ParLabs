@@ -44,7 +44,6 @@ public class DelayReducer extends Reducer<Text, Text, Text, Text> {
 				count++;
 			}
 		}
-		int average_delay = 0;
 		if (!first_iter) {
 
 		}
