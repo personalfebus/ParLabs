@@ -26,7 +26,7 @@ public class DelayReducer extends Reducer<Text, Text, Text, Text> {
 			//if (kk.equals("10333")) System.out.println("===" + delayOrNameStr + "===");
 			int firstLetterCode = (int)delayOrName.charAt(0);
 			if (((firstLetterCode > 64) && (firstLetterCode < 91)) || (firstLetterCode == 34)){
-				//if (kk.equals("10333")) System.out.println("@@@" + delayOrNameStr + "@@@");
+				if (kk.equals("10333")) System.out.println("@@@" + delayOrNameStr + "@@@");
 				airportName = delayOrNameStr;
 			} else {
 				int current_delay = 0;
