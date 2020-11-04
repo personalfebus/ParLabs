@@ -13,7 +13,7 @@ public class DelayMapper extends Mapper<LongWritable, Text, Text, Text> {
 		String line = value.toString();
 
 		String[] words = line.split(",");
-		if (words[0].equals("\"YEAR\"") || words[0].equals("YEAR") || words[0].equals("")) return;
+		if (words[0].equals("\"YEAR\"") || words[0].equals("YEAR")) return;
 //		int number = 0;
 //		for (int j = 0; j < words[18].length(); j++) {
 //			int digit = (int)words[18].charAt(j) - 48;
