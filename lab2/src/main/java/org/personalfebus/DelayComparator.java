@@ -11,10 +11,6 @@ public class DelayComparator extends WritableComparator {
 
     @Override
     public int compare(WritableComparable a, WritableComparable b) {
-        Text tmp1 = (Text)a;
-        Text tmp2 = (Text)b;
-        System.out.println(tmp1.toString());
-//        return a.compareTo(b);
-        return tmp1.toString().compareTo(tmp2.toString());
+        return a.compareTo(b);
     }
 }
