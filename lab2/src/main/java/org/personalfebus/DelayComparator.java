@@ -4,9 +4,9 @@ import org.apache.hadoop.io.RawComparator;
 import org.apache.hadoop.io.WritableComparable;
 import org.apache.hadoop.io.WritableComparator;
 
-public class DelayComparator implements WritableComparator {
+public class DelayComparator extends WritableComparator {
     @Override
     public int compare(WritableComparable a, WritableComparable b) {
-        return super.compare(a, b);
+        return compare(a, b);
     }
 }
