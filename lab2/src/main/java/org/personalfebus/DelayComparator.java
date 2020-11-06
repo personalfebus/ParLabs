@@ -1,4 +1,4 @@
 package org.personalfebus;
 
-public class DelayComparator {
+public class DelayComparator implements RawComparator{
 }
