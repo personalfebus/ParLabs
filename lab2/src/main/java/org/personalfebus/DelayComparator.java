@@ -1,2 +1,4 @@
-package org.personalfebus;public class DelayComparator {
+package org.personalfebus;
+
+public class DelayComparator {
 }
