@@ -23,7 +23,7 @@ public class DelayReducer extends Reducer<Text, Text, Text, Text> {
 			int firstLetterCode = (int)delayOrName.charAt(0);
 			if (((firstLetterCode > 64) && (firstLetterCode < 91)) || (firstLetterCode == 34)){
 				String keyString = key.toString();
-				if (keyString.compareTo("10333") > 0) {
+				if (keyString.compareTo("10333") < 0) {
 					System.out.println(count);
 				}
 				airportName = delayOrNameStr;
