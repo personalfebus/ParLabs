@@ -1,4 +1,6 @@
 package org.personalfebus;
 
-public class DelayComparator implements RawComparator{
+import org.apache.hadoop.io.RawComparator;
+
+public class DelayComparator implements RawComparator {
 }
