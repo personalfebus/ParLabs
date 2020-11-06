@@ -10,7 +10,6 @@ public class DelayComparator extends WritableComparator {
         String aString = a.toString();
         String bString = b.toString();
 //        a.compareTo(b);
-        (-1) * aString.compareTo(bString);
-        return
+        return (-1) * aString.compareTo(bString);
     }
 }
