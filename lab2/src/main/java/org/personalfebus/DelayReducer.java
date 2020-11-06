@@ -26,30 +26,30 @@ public class DelayReducer extends Reducer<Text, Text, Text, Text> {
 				//if (count > 0) System.out.println(keyString);
 				airportName = delayOrNameStr;
 			} else {
-				int current_delay = 0;
+				int currentDelay = 0;
 				for (int j = 0; j < delayOrNameStr.length(); j++) {
 					int digit = (int)delayOrNameStr.charAt(j) - 48;
 					if (digit < 0) break;
-					current_delay = current_delay * 10 + digit;
+					currentDelay = currentDelay * 10 + digit;
 				}
 				if (firstIter) {
-					maxDelay = current_delay;
-					minDelay = current_delay;
+					maxDelay = currentDelay;
+					minDelay = currentDelay;
 					firstIter = false;
 				} else {
-					if (current_delay < minDelay) minDelay = current_delay;
-					if (current_delay > maxDelay) maxDelay = current_delay;
+					if (currentDelay < minDelay) minDelay = currentDelay;
+					if (currentDelay > maxDelay) maxDelay = currentDelay;
 				}
-				sumDelay += current_delay;
+				sumDelay += currentDelay;
 				count++;
 			}
 		}
-		int average_delay = 0;
+		int averageDelay = 0;
 		if (!firstIter) {
-			average_delay = sumDelay / count;
+			averageDelay = sumDelay / count;
 			StringBuilder answerBuilder = new StringBuilder();
 			answerBuilder.append("name = ").append(airportName).append("; min delay = ").append(minDelay).append("; max delay = ")
-					.append(maxDelay).append(";average delay = ").append(average_delay);
+					.append(maxDelay).append(";average delay = ").append(averageDelay);
 			context.write(key, new Text(answerBuilder.toString()));
 		}
 	}
