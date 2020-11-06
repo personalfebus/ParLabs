@@ -13,6 +13,7 @@ public class DelayComparator extends WritableComparator {
     public int compare(WritableComparable a, WritableComparable b) {
         Text tmp1 = (Text)a;
         Text tmp2 = (Text)b;
-        return a.compareTo(b);
+//        return a.compareTo(b);
+        return tmp1.toString().compareTo(tmp2.toString());
     }
 }
