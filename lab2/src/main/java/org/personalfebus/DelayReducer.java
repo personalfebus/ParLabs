@@ -22,6 +22,12 @@ public class DelayReducer extends Reducer<Text, Text, Text, Text> {
 			String delayOrNameStr = delayOrName.toString();
 			int firstLetterCode = (int)delayOrName.charAt(0);
 			if (((firstLetterCode > 64) && (firstLetterCode < 91)) || (firstLetterCode == 34)){
+				String keyString = key.toString();
+				if (keyString.equals("10333") || keyString.equals("10334") || keyString.equals("10335") ||
+						keyString.equals("10336") || keyString.equals("10337") || keyString.equals("10338") ||
+						keyString.equals("10339") || keyString.equals("10340") || keyString.equals("10341")) {
+					System.out.println(count);
+				}
 				airportName = delayOrNameStr;
 			} else {
 				int current_delay = 0;
