@@ -19,8 +19,6 @@ public class DelayManagerApp {
 		job.setJobName("Delay Manager");
 		MultipleInputs.addInputPath(job, new Path(args[0]), TextInputFormat.class, DelayMapper.class);
 		MultipleInputs.addInputPath(job, new Path(args[1]), TextInputFormat.class, AirportMapper.class);
-		//FileInputFormat.addInputPath(job, new Path(args[0]));
-//		FileOutputFormat.setOutputPath(job, new Path(args[1]));
 		FileOutputFormat.setOutputPath(job, new Path(args[2]));
 		job.setGroupingComparatorClass(DelayComparator.class);
 		job.setReducerClass(DelayReducer.class);
