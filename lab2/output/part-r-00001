@@ -2,7 +2,7 @@
 10140	name = Albuquerque, NM: Albuquerque International Sunport; min delay = 0; max delay = 126;average delay = 8
 10146	name = Albany, GA: Southwest Georgia Regional; min delay = 0; max delay = 34;average delay = 12
 10155	name = Waco, TX: Waco Regional; min delay = 0; max delay = 74;average delay = 13
-10157	name = Arcata/Eureka, CA: Arcata; min delay = 0; max delay = 96;average delay = 11
+10157	name = 0.00; min delay = 0; max delay = 2416629;average delay = 142166
 10333	name = Alpena, MI: Alpena County Regional; min delay = 0; max delay = 0;average delay = 0
 10397	name = Atlanta, GA: Hartsfield-Jackson Atlanta International; min delay = 0; max delay = 653;average delay = 10
 10423	name = Austin, TX: Austin - Bergstrom International; min delay = 0; max delay = 340;average delay = 13
@@ -14,7 +14,7 @@
 10685	name = Bloomington/Normal, IL: Central Illinois Regional; min delay = 0; max delay = 241;average delay = 27
 10713	name = Boise, ID: Boise Air Terminal; min delay = 0; max delay = 122;average delay = 15
 10728	name = Beaumont/Port Arthur, TX: Jack Brooks Regional; min delay = 0; max delay = 36;average delay = 17
-10731	name = Brunswick, GA: Brunswick Golden Isles; min delay = 0; max delay = 187;average delay = 23
+10731	name = 187.00; min delay = -1759020027; max delay = 1;average delay = -219877503
 10739	name = Brainerd, MN: Brainerd Lakes Regional; min delay = 0; max delay = 6;average delay = 1
 10779	name = Butte, MT: Bert Mooney; min delay = 0; max delay = 12;average delay = 3
 10821	name = Baltimore, MD: Baltimore/Washington International Thurgood Marshall; min delay = 0; max delay = 475;average delay = 12
@@ -41,7 +41,7 @@
 11637	name = Fargo, ND: Hector International; min delay = 0; max delay = 127;average delay = 15
 11648	name = Kalispell, MT: Glacier Park International; min delay = 0; max delay = 77;average delay = 17
 11695	name = Flagstaff, AZ: Flagstaff Pulliam; min delay = 0; max delay = 112;average delay = 16
-11697	name = Fort Lauderdale, FL: Fort Lauderdale-Hollywood International; min delay = 0; max delay = 269;average delay = 10
+11697	name = 0.00; min delay = 0; max delay = 29028;average delay = 53
 11721	name = Flint, MI: Bishop International; min delay = 0; max delay = 171;average delay = 8
 11778	name = Fort Smith, AR: Fort Smith Regional; min delay = 0; max delay = 93;average delay = 8
 11884	name = Spokane, WA: Spokane International; min delay = 0; max delay = 117;average delay = 8
@@ -70,10 +70,10 @@
 12889	name = Las Vegas, NV: McCarran International; min delay = 0; max delay = 251;average delay = 9
 12892	name = Los Angeles, CA: Los Angeles International; min delay = 0; max delay = 462;average delay = 11
 12896	name = Lubbock, TX: Lubbock Preston Smith International; min delay = 0; max delay = 81;average delay = 12
-12898	name = Latrobe, PA: Arnold Palmer Regional; min delay = 0; max delay = 94;average delay = 13
+12898	name = 0.00; min delay = 0; max delay = 33652853;average delay = 3739219
 12915	name = Lake Charles, LA: Lake Charles Regional; min delay = 0; max delay = 43;average delay = 7
 12951	name = Lafayette, LA: Lafayette Regional Paul Fournet Field; min delay = 0; max delay = 92;average delay = 10
-12953	name = New York, NY: LaGuardia; min delay = 0; max delay = 331;average delay = 18
+12953	name = 0.00; min delay = 0; max delay = 3601;average delay = 22
 12982	name = Lihue, HI: Lihue Airport; min delay = 0; max delay = 195;average delay = 9
 13127	name = Lewiston, ID: Lewiston Nez Perce County; min delay = 0; max delay = 0;average delay = 0
 13158	name = Midland/Odessa, TX: Midland International; min delay = 0; max delay = 153;average delay = 10
@@ -92,33 +92,33 @@
 13796	name = Oakland, CA: Metropolitan Oakland International; min delay = 0; max delay = 176;average delay = 9
 13851	name = Oklahoma City, OK: Will Rogers World; min delay = 0; max delay = 150;average delay = 15
 13871	name = Omaha, NE: Eppley Airfield; min delay = 0; max delay = 140;average delay = 10
-13873	name = Nome, AK: Nome Airport; min delay = 0; max delay = 14;average delay = 7
+13873	name = 14.00; min delay = 0; max delay = 36963;average delay = 12323
 13891	name = Ontario, CA: Ontario International; min delay = 0; max delay = 97;average delay = 8
 13930	name = Chicago, IL: Chicago O'Hare International; min delay = 0; max delay = 529;average delay = 22
 13970	name = Kotzebue, AK: Ralph Wien Memorial; min delay = 0; max delay = 0;average delay = 0
 14025	name = Plattsburgh, NY: Plattsburgh International; min delay = 9; max delay = 32;average delay = 18
-14027	name = West Palm Beach/Palm Beach, FL: Palm Beach International; min delay = 0; max delay = 141;average delay = 11
+14027	name = 48.00; min delay = 0; max delay = 45038;average delay = 200
 14098	name = Newport News/Williamsburg, VA: Newport News/Williamsburg International; min delay = 0; max delay = 16;average delay = 5
-14100	name = Philadelphia, PA: Philadelphia International; min delay = 0; max delay = 336;average delay = 13
+14100	name = 0.00; min delay = 0; max delay = 1027076779;average delay = 1843957
 14108	name = Peoria, IL: General Downing - Peoria International; min delay = 0; max delay = 217;average delay = 27
 14113	name = Pocatello, ID: Pocatello Regional; min delay = 0; max delay = 5;average delay = 1
 14122	name = Pittsburgh, PA: Pittsburgh International; min delay = 0; max delay = 368;average delay = 12
 14193	name = Pensacola, FL: Pensacola International; min delay = 0; max delay = 176;average delay = 10
 14252	name = Pasco/Kennewick/Richland, WA: Tri Cities; min delay = 0; max delay = 115;average delay = 27
-14254	name = Ponce, PR: Mercedita; min delay = 0; max delay = 0;average delay = 0
+14254	name = 0.00; min delay = 0; max delay = 389763;average delay = 55680
 14256	name = Petersburg, AK: Petersburg James A Johnson; min delay = 0; max delay = 19;average delay = 4
 14487	name = Redding, CA: Redding Municipal; min delay = 0; max delay = 134;average delay = 21
-14489	name = Bend/Redmond, OR: Roberts Field; min delay = 0; max delay = 131;average delay = 23
+14489	name = 8.00; min delay = 0; max delay = 23972;average delay = 1621
 14492	name = Raleigh/Durham, NC: Raleigh-Durham International; min delay = 0; max delay = 165;average delay = 12
 14520	name = Rhinelander, WI: Rhinelander/Oneida County; min delay = 0; max delay = 49;average delay = 9
 14524	name = Richmond, VA: Richmond International; min delay = 0; max delay = 175;average delay = 10
 14588	name = Roswell, NM: Roswell International Air Center; min delay = 0; max delay = 10;average delay = 1
 14674	name = Santa Fe, NM: Santa Fe Municipal; min delay = 0; max delay = 36;average delay = 14
 14683	name = San Antonio, TX: San Antonio International; min delay = 0; max delay = 391;average delay = 15
-14685	name = Savannah, GA: Savannah/Hilton Head International; min delay = 0; max delay = 201;average delay = 12
+14685	name = 0.00; min delay = 0; max delay = 406558746;average delay = 7259989
 14689	name = Santa Barbara, CA: Santa Barbara Municipal; min delay = 0; max delay = 152;average delay = 16
 14696	name = South Bend, IN: South Bend International; min delay = 0; max delay = 245;average delay = 31
-14698	name = San Luis Obispo, CA: San Luis County Regional; min delay = 0; max delay = 123;average delay = 8
+14698	name = 49.00; min delay = 0; max delay = 4052;average delay = 108
 14711	name = State College, PA: University Park; min delay = 0; max delay = 33;average delay = 9
 14771	name = San Francisco, CA: San Francisco International; min delay = 0; max delay = 556;average delay = 15
 14814	name = Shreveport, LA: Shreveport Regional; min delay = 0; max delay = 63;average delay = 7
@@ -138,6 +138,5 @@
 15389	name = Twin Falls, ID: Joslin Field - Magic Valley Regional; min delay = 1; max delay = 32;average delay = 12
 15411	name = Tyler, TX: Tyler Pounds Regional; min delay = 0; max delay = 149;average delay = 25
 15497	name = St. Augustine, FL: Northeast Florida Regional; min delay = 0; max delay = 0;average delay = 0
-15527	name = ; min delay = 47; max delay = 47;average delay = 47
 15624	name = Valparaiso, FL: Northwest Florida Regional; min delay = 0; max delay = 79;average delay = 5
 16218	name = Yuma, AZ: Yuma MCAS/Yuma International; min delay = 0; max delay = 24;average delay = 6
