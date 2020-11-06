@@ -20,7 +20,7 @@ public class DelayManagerApp {
 		MultipleInputs.addInputPath(job, new Path(args[0]), TextInputFormat.class, DelayMapper.class);
 		MultipleInputs.addInputPath(job, new Path(args[1]), TextInputFormat.class, AirportMapper.class);
 		FileOutputFormat.setOutputPath(job, new Path(args[2]));
-		//job.setGroupingComparatorClass(DelayComparator.class);
+		job.setGroupingComparatorClass(DelayComparator.class);
 		job.setReducerClass(DelayReducer.class);
 
 		job.setOutputKeyClass(Text.class);
