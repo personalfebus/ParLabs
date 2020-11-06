@@ -22,7 +22,7 @@ public class DelayManagerApp {
 		//FileInputFormat.addInputPath(job, new Path(args[0]));
 //		FileOutputFormat.setOutputPath(job, new Path(args[1]));
 		FileOutputFormat.setOutputPath(job, new Path(args[2]));
-		job.setGroupingComparatorClass(MyComparator.class);
+		job.setGroupingComparatorClass(DelayComparator.class);
 		job.setReducerClass(DelayReducer.class);
 
 		job.setOutputKeyClass(Text.class);
