@@ -8,6 +8,7 @@ public class DelayComparator extends WritableComparator {
     DelayComparator() {
         super(Text.class, true);
     }
+    
     @Override
     public int compare(WritableComparable a, WritableComparable b) {
         return a.compareTo(b);
