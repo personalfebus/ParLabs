@@ -6,7 +6,7 @@ import org.apache.hadoop.io.WritableComparator;
 
 public class DelayComparator extends WritableComparator {
     DelayComparator() {
-        super(Text.class, );
+        super(Text.class, true);
     }
     @Override
     public int compare(WritableComparable a, WritableComparable b) {
