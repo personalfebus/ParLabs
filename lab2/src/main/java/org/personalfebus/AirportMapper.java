@@ -6,7 +6,7 @@ import org.apache.hadoop.mapreduce.Mapper;
 import java.io.IOException;
 
 public class AirportMapper extends Mapper<LongWritable, Text, Text, Text> {
-    public static final String COMMADELIMETER = ",";
+    public static final String COMMA_DELIMETER = ",";
     public static final String HEADER = "Code,Description";
 
     @Override
@@ -14,7 +14,7 @@ public class AirportMapper extends Mapper<LongWritable, Text, Text, Text> {
             InterruptedException {
         String line = value.toString();
         if (line.equals(HEADER)) return;
-        int commaPosition = line.indexOf(COMMADELIMETER);
+        int commaPosition = line.indexOf(COMMA_DELIMETER);
         String code = line.substring(1, commaPosition - 1);
         String name = line.substring(commaPosition + 2, line.length() - 1);
         context.write(new Text(code), new Text(name));
