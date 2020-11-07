@@ -20,6 +20,10 @@ public class DelayReducer extends Reducer<Text, Text, Text, Text> {
 		return currentDelay;
 	}
 
+	public StringBuilder constructAnswer(){
+		
+	}
+
 	@Override
 	protected void reduce(Text key, Iterable<Text> values, Context context) throws
 			IOException, InterruptedException {
