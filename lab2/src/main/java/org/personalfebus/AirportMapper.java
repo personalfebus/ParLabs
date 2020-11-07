@@ -13,6 +13,10 @@ public class AirportMapper extends Mapper<LongWritable, Text, Text, Text> {
         return line.substring(0, commaPosition - 1);
     }
 
+    public String getName(String line, int commaPosition) {
+        
+    }
+
     @Override
     protected void map(LongWritable key, Text value, Context context) throws IOException,
             InterruptedException {
