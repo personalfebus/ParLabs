@@ -6,6 +6,20 @@ import java.io.IOException;
 import java.util.Iterator;
 
 public class DelayReducer extends Reducer<Text, Text, Text, Text> {
+	public boolean isName(int code) {
+		return (code > 64) && (code < 91);
+	}
+
+	public int stringToNum(String delayStr){
+		int currentDelay = 0;
+		for (int j = 0; j < delayStr.length(); j++) {
+			int digit = (int)delayStr.charAt(j) - 48;
+			if (digit < 0) break;
+			currentDelay = currentDelay * 10 + digit;
+		}
+		return currentDelay;
+	}
+
 	@Override
 	protected void reduce(Text key, Iterable<Text> values, Context context) throws
 			IOException, InterruptedException {
@@ -21,15 +35,10 @@ public class DelayReducer extends Reducer<Text, Text, Text, Text> {
 			Text delayOrName = (Text)iter.next();
 			String delayOrNameStr = delayOrName.toString();
 			int firstLetterCode = (int)delayOrName.charAt(0);
-			if (((firstLetterCode > 64) && (firstLetterCode < 91)) || (firstLetterCode == 34)){
+			if (isName(firstLetterCode)){
 				airportName = delayOrNameStr;
 			} else {
-				int currentDelay = 0;
-				for (int j = 0; j < delayOrNameStr.length(); j++) {
-					int digit = (int)delayOrNameStr.charAt(j) - 48;
-					if (digit < 0) break;
-					currentDelay = currentDelay * 10 + digit;
-				}
+				int currentDelay = stringToNum(delayOrNameStr);
 				if (firstIter) {
 					maxDelay = currentDelay;
 					minDelay = currentDelay;
@@ -46,8 +55,8 @@ public class DelayReducer extends Reducer<Text, Text, Text, Text> {
 		if (!firstIter) {
 			averageDelay = sumDelay / count;
 			StringBuilder answerBuilder = new StringBuilder();
-			answerBuilder.append("name = ").append(airportName).append("; min delay = ").append(minDelay).append("; max delay = ")
-					.append(maxDelay).append(";average delay = ").append(averageDelay);
+			answerBuilder.append("Name = ").append(airportName).append("; Min delay = ").append(minDelay).append("; Max delay = ")
+					.append(maxDelay).append("; Average delay = ").append(averageDelay);
 			context.write(key, new Text(answerBuilder.toString()));
 		}
 	}

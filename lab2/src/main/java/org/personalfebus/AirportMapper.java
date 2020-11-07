@@ -6,12 +6,15 @@ import org.apache.hadoop.mapreduce.Mapper;
 import java.io.IOException;
 
 public class AirportMapper extends Mapper<LongWritable, Text, Text, Text> {
+    public static final String COMMADELIMETER = ",";
+    public static final String HEADER = "Code,Description";
+
     @Override
     protected void map(LongWritable key, Text value, Context context) throws IOException,
             InterruptedException {
         String line = value.toString();
-        if (line.equals("Code,Description")) return;
-        int commaPosition = line.indexOf(",");
+        if (line.equals(HEADER)) return;
+        int commaPosition = line.indexOf(COMMADELIMETER);
         String code = line.substring(1, commaPosition - 1);
         String name = line.substring(commaPosition + 2, line.length() - 1);
         context.write(new Text(code), new Text(name));
