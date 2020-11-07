@@ -16,7 +16,7 @@ public class AirportMapper extends Mapper<LongWritable, Text, Text, Text> {
         if (line.equals(HEADER)) return;
         line= line.replace("\"", "");
         int commaPosition = line.indexOf(COMMA_DELIMETER);
-        String code = line.substring(1, commaPosition - 1);
+        String code = line.substring(commaPosition - 1);
         String name = line.substring(commaPosition + 2, line.length() - 1);
         context.write(new Text(code), new Text(name));
     }
