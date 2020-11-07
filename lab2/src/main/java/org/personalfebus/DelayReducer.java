@@ -20,8 +20,8 @@ public class DelayReducer extends Reducer<Text, Text, Text, Text> {
 		return currentDelay;
 	}
 
-	public StringBuilder constructAnswer(){
-		
+	public StringBuilder constructAnswer(int minDelay, int maxDelay, int averageDelay){
+
 	}
 
 	@Override
