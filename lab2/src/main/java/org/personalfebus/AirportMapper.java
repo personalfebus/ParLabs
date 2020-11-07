@@ -10,7 +10,7 @@ public class AirportMapper extends Mapper<LongWritable, Text, Text, Text> {
     public static final String HEADER = "Code,Description";
 
     public String getCode(String line, int commaPosition) {
-
+        return line.substring(0, commaPosition - 1);
     }
 
     @Override
@@ -20,7 +20,7 @@ public class AirportMapper extends Mapper<LongWritable, Text, Text, Text> {
         if (line.equals(HEADER)) return;
         line= line.replace("\"", "");
         int commaPosition = line.indexOf(COMMA_DELIMETER);
-        String code = line.substring(0, commaPosition - 1);
+        String code =
         String name = line.substring(commaPosition + 1);
         context.write(new Text(code), new Text(name));
     }
