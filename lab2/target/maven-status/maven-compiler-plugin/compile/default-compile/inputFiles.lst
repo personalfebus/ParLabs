@@ -1,3 +1,5 @@
 /home/personalfebus/ParLabs/lab2/src/main/java/org/personalfebus/DelayManagerApp.java
 /home/personalfebus/ParLabs/lab2/src/main/java/org/personalfebus/DelayMapper.java
 /home/personalfebus/ParLabs/lab2/src/main/java/org/personalfebus/DelayReducer.java
+/home/personalfebus/ParLabs/lab2/src/main/java/org/personalfebus/AirportMapper.java
+/home/personalfebus/ParLabs/lab2/src/main/java/org/personalfebus/DelayComparator.java
