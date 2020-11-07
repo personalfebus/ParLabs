@@ -21,7 +21,7 @@ public class DelayReducer extends Reducer<Text, Text, Text, Text> {
 	}
 
 	public StringBuilder constructAnswer(int minDelay, int maxDelay, int averageDelay){
-
+		
 	}
 
 	@Override
