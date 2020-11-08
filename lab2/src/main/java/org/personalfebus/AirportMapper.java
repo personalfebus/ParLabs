@@ -21,7 +21,9 @@ public class AirportMapper extends Mapper<LongWritable, Text, Text, Text> {
     protected void map(LongWritable key, Text value, Context context) throws IOException,
             InterruptedException {
         String line = value.toString();
-        if (line.equals(HEADER)) return;
+        if (line.equals(HEADER)) {
+            return;
+        }
         line= line.replace("\"", "");
         int commaPosition = line.indexOf(COMMA_DELIMETER);
         String code = getCode(line, commaPosition);
