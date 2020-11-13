@@ -17,7 +17,7 @@ public class DelayMapper extends Mapper<LongWritable, Text, Text, Text> {
 		String line = value.toString();
 
 		String[] words = line.split(COMMA_DELIMETER);
-		if (words[0].equals(HEAD) || words[18].isEmpty()) return;
+		if (words[0].equals(HEAD) || words[DELAY_POSITION].isEmpty()) return;
 		context.write(new Text(words[AIRPORT_ID_POSITION]), new Text(words[DELAY_POSITION]));
 	}
 }
