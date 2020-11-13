@@ -21,7 +21,7 @@ public class AirportMapper extends Mapper<LongWritable, Text, Text, Text> {
         if (line.equals(HEADER)) {
             return;
         }
-        line = line.replace("\"", "");
+        line = deleteAllQuotes(line);
         int commaPosition = line.indexOf(COMMA_DELIMETER);
         String code = line.substring(0, commaPosition - 1);
         String name = line.substring(commaPosition + 1);
