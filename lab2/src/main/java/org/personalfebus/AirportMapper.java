@@ -9,9 +9,13 @@ public class AirportMapper extends Mapper<LongWritable, Text, Text, Text> {
     public static final String COMMA_DELIMETER = ",";
     public static final String HEADER = "Code,Description";
 
-    public String deleteAllQuotes(String line){
+    public String deleteAllQuotes(String line) {
         line = line.replace("\"", "");
         return line;
+    }
+
+    public void getContextFromString(String line) {
+
     }
 
     @Override
