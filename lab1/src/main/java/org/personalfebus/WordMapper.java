@@ -13,7 +13,7 @@ public class WordMapper extends Mapper<LongWritable, Text, Text, IntWritable> {
 		String line = value.toString();
 		line = line.toLowerCase();
 		StringBuilder tmp = new StringBuilder(line);
-		
+
 		for (int i = 0; i < tmp.length(); i++) {
 			int num = (int)tmp.charAt(i);
 			if (((num != 32)  && (num < 97)) || ((num > 122) && (num < 1072)) || ((num > 1103) && (num != 1105))){
