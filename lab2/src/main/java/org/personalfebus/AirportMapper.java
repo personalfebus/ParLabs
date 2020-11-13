@@ -9,6 +9,7 @@ public class AirportMapper extends Mapper<LongWritable, Text, Text, Text> {
     public static final String COMMA_DELIMETER = ",";
     public static final String HEADER = "Code,Description";
 
+    public String
     @Override
     protected void map(LongWritable key, Text value, Context context) throws IOException,
             InterruptedException {
@@ -16,7 +17,7 @@ public class AirportMapper extends Mapper<LongWritable, Text, Text, Text> {
         if (line.equals(HEADER)) {
             return;
         }
-        line= line.replace("\"", "");
+        line = line.replace("\"", "");
         int commaPosition = line.indexOf(COMMA_DELIMETER);
         String code = line.substring(0, commaPosition - 1);
         String name = line.substring(commaPosition + 1);
