@@ -9,7 +9,10 @@ public class AirportMapper extends Mapper<LongWritable, Text, Text, Text> {
     public static final String COMMA_DELIMETER = ",";
     public static final String HEADER = "Code,Description";
 
-    public String
+    public String deleteAllQuotes(){
+
+    }
+    
     @Override
     protected void map(LongWritable key, Text value, Context context) throws IOException,
             InterruptedException {
