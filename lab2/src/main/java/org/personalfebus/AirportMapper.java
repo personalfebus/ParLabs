@@ -14,10 +14,6 @@ public class AirportMapper extends Mapper<LongWritable, Text, Text, Text> {
         return line;
     }
 
-    public void getContextFromString(String line) {
-
-    }
-
     @Override
     protected void map(LongWritable key, Text value, Context context) throws IOException,
             InterruptedException {
@@ -25,7 +21,7 @@ public class AirportMapper extends Mapper<LongWritable, Text, Text, Text> {
         if (line.equals(HEADER)) {
             return;
         }
-        
+
         line = deleteAllQuotes(line);
         int commaPosition = line.indexOf(COMMA_DELIMETER);
         String code = line.substring(0, commaPosition - 1);
