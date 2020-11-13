@@ -15,7 +15,6 @@ public class DelayMapper extends Mapper<LongWritable, Text, Text, Text> {
 	protected void map(LongWritable key, Text value, Context context) throws IOException,
 	InterruptedException {
 		String line = value.toString();
-
 		String[] words = line.split(COMMA_DELIMETER);
 		if (words[0].equals(HEAD) || words[DELAY_POSITION].isEmpty()) return;
 		context.write(new Text(words[AIRPORT_ID_POSITION]), new Text(words[DELAY_POSITION]));
