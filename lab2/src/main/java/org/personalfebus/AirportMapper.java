@@ -28,8 +28,8 @@ public class AirportMapper extends Mapper<LongWritable, Text, Text, Text> {
         int aaa = 0;
         if (aaa < 10) {
             System.out.println("@@@@@@@@@@@");
-            System.out.println(code);
-            System.out.println(name);
+            System.out.println("@" + code + "@");
+            System.out.println("@" + name + "@");
             System.out.println("@@@@@@@@@@@");
             aaa++;
         }
