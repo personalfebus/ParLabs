@@ -15,7 +15,7 @@ public class Airports {
 		JavaSparkContext sc = new JavaSparkContext(conf);
 		JavaRDD<String> airportId = sc.textFile("AIRPORT_ID");
 		JavaRDD<String> ontimeSample = sc.textFile("ONTIME_SAMPLE");
-		JavaRDD<String> nameToId = airportId.flatMap()
+		JavaRDD<String> nameToId = airportId.flatMap(s -> )
 //		airportId.mapToPair(s -> new Tuple2<>);
 		System.out.println("HELLO");
 	}
