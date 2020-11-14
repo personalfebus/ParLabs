@@ -3,8 +3,8 @@ package org.personalfebus;
 import java.io.Serializable;
 
 public class Airport implements Serializable {
-    long id;
-    String name;
+    private long id;
+    private String name;
 
     public Airport(long airportId) {
         id = airportId;
