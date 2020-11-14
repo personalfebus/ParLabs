@@ -23,7 +23,7 @@ public class AirportMapper extends Mapper<LongWritable, Text, Text, Text> {
 
         line = deleteAllQuotes(line);
         int commaPosition = line.indexOf(COMMA_DELIMETER);
-        String code = line.substring(0, commaPosition - 1);
+        String code = line.substring(0, commaPosition);
         String name = line.substring(commaPosition + 1);
         int aaa = 0;
         if (aaa < 10) {
