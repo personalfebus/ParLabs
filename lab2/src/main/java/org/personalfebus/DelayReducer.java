@@ -21,7 +21,9 @@ public class DelayReducer extends Reducer<Text, Text, Text, Text> {
 	}
 
 	public String buildAnswer(String airportName, int minDelay, int maxDelay, int averageDelay) {
-		
+		StringBuilder answerBuilder = new StringBuilder();
+		answerBuilder.append("Name = ").append(airportName).append("; Min delay = ").append(minDelay).append("; Max delay = ")
+				.append(maxDelay).append("; Average delay = ").append(averageDelay);
 		return ""
 	}
 	@Override
