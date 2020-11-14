@@ -20,6 +20,10 @@ public class DelayReducer extends Reducer<Text, Text, Text, Text> {
 		return currentDelay;
 	}
 
+	public String buildAnswer(String airportName, int minDelay, int maxDelay, int averageDelay) {
+		
+		return ""
+	}
 	@Override
 	protected void reduce(Text key, Iterable<Text> values, Context context) throws
 			IOException, InterruptedException {
@@ -54,9 +58,7 @@ public class DelayReducer extends Reducer<Text, Text, Text, Text> {
 		int averageDelay = 0;
 		if (!firstIter) {
 			averageDelay = sumDelay / count;
-			StringBuilder answerBuilder = new StringBuilder();
-			answerBuilder.append("Name = ").append(airportName).append("; Min delay = ").append(minDelay).append("; Max delay = ")
-					.append(maxDelay).append("; Average delay = ").append(averageDelay);
+
 			context.write(key, new Text(answerBuilder.toString()));
 		}
 	}
