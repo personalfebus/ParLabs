@@ -7,6 +7,6 @@ public class Airport implements Serializable {
     String name;
 
     public Airport(long airportId) {
-        
+        id = airportId;
     }
 }
