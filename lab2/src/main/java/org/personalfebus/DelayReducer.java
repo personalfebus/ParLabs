@@ -40,7 +40,7 @@ public class DelayReducer extends Reducer<Text, Text, Text, Text> {
 			String delayOrNameStr = delayOrName.toString();
 			String strt = key.toString();
 			if (strt.equals("10136")){
-				
+				System.out.println(delayOrNameStr);
 			}
 			int firstLetterCode = (int)delayOrName.charAt(0);
 			if (isName(firstLetterCode)){
