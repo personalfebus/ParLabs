@@ -3,6 +3,7 @@ package org.personalfebus;
 import org.apache.spark.SparkConf;
 import org.apache.spark.api.java.JavaRDD;
 import org.apache.spark.api.java.JavaSparkContext;
+import scala.Tuple2;
 
 public class Airports {
 	public static void main(String[] args) throws Exception {
@@ -14,7 +15,7 @@ public class Airports {
 		JavaSparkContext sc = new JavaSparkContext(conf);
 		JavaRDD<String> airportId = sc.textFile("AIRPORT_ID");
 		JavaRDD<String> ontimeSample = sc.textFile("ONTIME_SAMPLE");
-		airportId.mapToPair(s -> New Tuple2<>);
+		airportId.mapToPair(s -> new Tuple2<>);
 		System.out.println("HELLO");
 	}
 }
