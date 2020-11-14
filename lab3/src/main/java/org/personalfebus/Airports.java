@@ -22,7 +22,7 @@ public class Airports {
 				Arrays.stream(s.replace("\"", "").split(",")).iterator()).filter(s -> {
 			return !s.equals("Code") && !s.equals("Description");
 		});
-		JavaPairRDD<String, Long> 
+		JavaPairRDD<String, Long> nameToId = splittedAirportId.mapToPair()
 //		airportId.mapToPair(s -> new Tuple2<>);
 		System.out.println("HELLO");
 	}
