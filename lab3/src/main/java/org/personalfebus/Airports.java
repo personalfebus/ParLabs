@@ -1,6 +1,7 @@
 package org.personalfebus;
 
 import org.apache.spark.SparkConf;
+import org.apache.spark.api.java.JavaPairRDD;
 import org.apache.spark.api.java.JavaRDD;
 import org.apache.spark.api.java.JavaSparkContext;
 import scala.Tuple2;
@@ -21,7 +22,7 @@ public class Airports {
 				Arrays.stream(s.replace("\"", "").split(",")).iterator()).filter(s -> {
 			return !s.equals("Code") && !s.equals("Description");
 		});
-		
+		JavaPairRDD<String, Long> 
 //		airportId.mapToPair(s -> new Tuple2<>);
 		System.out.println("HELLO");
 	}
