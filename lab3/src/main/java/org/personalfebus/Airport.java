@@ -1,2 +1,4 @@
-package org.personalfebus;public class Airport {
+package org.personalfebus;
+
+public class Airport {
 }
