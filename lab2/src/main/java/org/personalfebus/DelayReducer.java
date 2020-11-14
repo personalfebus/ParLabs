@@ -24,7 +24,7 @@ public class DelayReducer extends Reducer<Text, Text, Text, Text> {
 		StringBuilder answerBuilder = new StringBuilder();
 		answerBuilder.append("Name = ").append(airportName).append("; Min delay = ").append(minDelay).append("; Max delay = ")
 				.append(maxDelay).append("; Average delay = ").append(averageDelay);
-		return ""
+		return answerBuilder.toString();
 	}
 	@Override
 	protected void reduce(Text key, Iterable<Text> values, Context context) throws
