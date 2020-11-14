@@ -9,4 +9,8 @@ public class Airport implements Serializable {
     public Airport(long airportId) {
         id = airportId;
     }
+
+    public void setName(String name) {
+        this.name = name;
+    }
 }
