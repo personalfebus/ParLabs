@@ -20,10 +20,6 @@ public class DelayReducer extends Reducer<Text, Text, Text, Text> {
 		return currentDelay;
 	}
 
-	public String buildAnswer(String airportName, int minDelay, int maxDelay, int averageDelay) {
-		return "";
-	}
-
 	@Override
 	protected void reduce(Text key, Iterable<Text> values, Context context) throws
 			IOException, InterruptedException {
@@ -38,11 +34,6 @@ public class DelayReducer extends Reducer<Text, Text, Text, Text> {
 		while(iter.hasNext()){
 			Text delayOrName = (Text)iter.next();
 			String delayOrNameStr = delayOrName.toString();
-			String strt = key.toString();
-			if (strt.equals("10136")){
-				System.out.println("@@@@@@@@@@@@@");
-				System.out.println(delayOrNameStr);
-			}
 			int firstLetterCode = (int)delayOrName.charAt(0);
 			if (isName(firstLetterCode)){
 				airportName = delayOrNameStr;
