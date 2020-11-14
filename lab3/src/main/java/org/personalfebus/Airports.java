@@ -23,9 +23,7 @@ public class Airports {
 //			return !s.equals("Code") && !s.equals("Description");
 //		});
 		JavaRDD<String> splittedAirportId = airportId.flatMap(s ->
-				Arrays.stream(s.replace("\"", "").split(",")).iterator()).filter(s -> {
-			return !s.equals("Code") && !s.equals("Description");
-		});
+				s.replace("\"", ""));
 		//JavaPairRDD<String, Long> nameToId = splittedAirportId.mapToPair(s -> new Tuple2<String, Long>(s, 1L));
 
 //		airportId.mapToPair(s -> new Tuple2<>);
