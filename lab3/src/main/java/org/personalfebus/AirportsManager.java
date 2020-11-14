@@ -8,7 +8,7 @@ import scala.Tuple2;
 
 import java.util.Arrays;
 
-public class Airports {
+public class AirportsManager {
 	public static void main(String[] args) throws Exception {
 		if (args.length != 3) {
 			System.err.println("Usage: Airports <input path> <output path>");
