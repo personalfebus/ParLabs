@@ -23,6 +23,7 @@ public class DelayReducer extends Reducer<Text, Text, Text, Text> {
 	public String buildAnswer(String airportName, int minDelay, int maxDelay, int averageDelay) {
 		return "";
 	}
+
 	@Override
 	protected void reduce(Text key, Iterable<Text> values, Context context) throws
 			IOException, InterruptedException {
