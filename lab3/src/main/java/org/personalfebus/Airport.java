@@ -1,4 +1,7 @@
 package org.personalfebus;
 
-public class Airport {
+import java.io.Serializable;
+
+public class Airport implements Serializable {
+    
 }
