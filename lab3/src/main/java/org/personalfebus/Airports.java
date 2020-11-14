@@ -11,7 +11,7 @@ public class Airports {
 		}
 		SparkConf conf = new SparkConf().setAppName("lab5");
 		JavaSparkContext sc = new JavaSparkContext(conf);
-		JavaSparkContext.
+		JavaSparkContext.textFile();
 		System.out.println("HELLO");
 	}
 }
