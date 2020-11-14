@@ -1,171 +1,170 @@
-10136	Name = ; Min delay = 0; Max delay = 76; Average delay = 8
-10141	Name = ; Min delay = 0; Max delay = 22; Average delay = 5
-10158	Name = ; Min delay = 0; Max delay = 147; Average delay = 24
-10165	Name = ; Min delay = 0; Max delay = 0; Average delay = 0
-10170	Name = ; Min delay = 0; Max delay = 76; Average delay = 43
-10185	Name = ; Min delay = 0; Max delay = 55; Average delay = 5
-10208	Name = ; Min delay = 0; Max delay = 246; Average delay = 13
-10257	Name = ; Min delay = 0; Max delay = 241; Average delay = 15
-10268	Name = ; Min delay = 2; Max delay = 223; Average delay = 78
-10279	Name = ; Min delay = 0; Max delay = 95; Average delay = 13
-10299	Name = ; Min delay = 0; Max delay = 375; Average delay = 10
-10372	Name = ; Min delay = 0; Max delay = 136; Average delay = 21
-10408	Name = ; Min delay = 0; Max delay = 146; Average delay = 16
-10431	Name = ; Min delay = 0; Max delay = 152; Average delay = 13
-10529	Name = ; Min delay = 0; Max delay = 293; Average delay = 15
-10561	Name = ; Min delay = 0; Max delay = 141; Average delay = 22
-10620	Name = ; Min delay = 0; Max delay = 58; Average delay = 11
-10631	Name = ; Min delay = 0; Max delay = 4; Average delay = 1
-10666	Name = ; Min delay = 0; Max delay = 20; Average delay = 4
-10693	Name = ; Min delay = 0; Max delay = 391; Average delay = 12
-10721	Name = ; Min delay = 0; Max delay = 292; Average delay = 14
-10732	Name = ; Min delay = 0; Max delay = 109; Average delay = 10
-10747	Name = ; Min delay = 0; Max delay = 51; Average delay = 7
-10754	Name = ; Min delay = 0; Max delay = 306; Average delay = 40
-10781	Name = ; Min delay = 0; Max delay = 200; Average delay = 17
-10785	Name = ; Min delay = 0; Max delay = 144; Average delay = 23
-10792	Name = ; Min delay = 0; Max delay = 128; Average delay = 10
-10800	Name = ; Min delay = 0; Max delay = 192; Average delay = 11
-10868	Name = ; Min delay = 0; Max delay = 119; Average delay = 15
-10918	Name = ; Min delay = 0; Max delay = 15; Average delay = 3
-10930	Name = ; Min delay = 0; Max delay = 138; Average delay = 34
-10990	Name = ; Min delay = 0; Max delay = 173; Average delay = 46
-10994	Name = ; Min delay = 0; Max delay = 198; Average delay = 8
-11003	Name = ; Min delay = 0; Max delay = 206; Average delay = 25
-11041	Name = ; Min delay = 0; Max delay = 24; Average delay = 4
-11049	Name = ; Min delay = 0; Max delay = 40; Average delay = 8
-11067	Name = ; Min delay = 0; Max delay = 129; Average delay = 28
-11076	Name = ; Min delay = 0; Max delay = 69; Average delay = 26
-11092	Name = ; Min delay = 0; Max delay = 0; Average delay = 0
-11111	Name = ; Min delay = 0; Max delay = 380; Average delay = 42
-11122	Name = ; Min delay = 0; Max delay = 98; Average delay = 7
-11140	Name = ; Min delay = 0; Max delay = 89; Average delay = 11
-11146	Name = ; Min delay = 0; Max delay = 20; Average delay = 6
-11193	Name = ; Min delay = 0; Max delay = 179; Average delay = 15
-11203	Name = ; Min delay = 0; Max delay = 150; Average delay = 27
-11252	Name = ; Min delay = 0; Max delay = 49; Average delay = 7
-11267	Name = ; Min delay = 0; Max delay = 218; Average delay = 11
-11274	Name = ; Min delay = 0; Max delay = 83; Average delay = 16
-11278	Name = ; Min delay = 0; Max delay = 396; Average delay = 12
-11292	Name = ; Min delay = 0; Max delay = 420; Average delay = 15
-11298	Name = ; Min delay = 0; Max delay = 1201; Average delay = 17
-11308	Name = ; Min delay = 0; Max delay = 91; Average delay = 20
-11315	Name = ; Min delay = 0; Max delay = 175; Average delay = 20
-11337	Name = ; Min delay = 0; Max delay = 177; Average delay = 26
-11423	Name = ; Min delay = 0; Max delay = 167; Average delay = 18
-11447	Name = ; Min delay = 0; Max delay = 114; Average delay = 31
-11481	Name = ; Min delay = 0; Max delay = 31; Average delay = 3
-11537	Name = ; Min delay = 0; Max delay = 64; Average delay = 17
-11540	Name = ; Min delay = 0; Max delay = 140; Average delay = 12
-11577	Name = ; Min delay = 0; Max delay = 70; Average delay = 11
-11603	Name = ; Min delay = 0; Max delay = 94; Average delay = 14
-11612	Name = ; Min delay = 0; Max delay = 101; Average delay = 15
-11618	Name = ; Min delay = 0; Max delay = 557; Average delay = 16
-11630	Name = ; Min delay = 0; Max delay = 38; Average delay = 3
-11638	Name = ; Min delay = 0; Max delay = 82; Average delay = 12
-11641	Name = ; Min delay = 0; Max delay = 41; Average delay = 4
-11775	Name = ; Min delay = 0; Max delay = 165; Average delay = 22
-11823	Name = ; Min delay = 0; Max delay = 129; Average delay = 15
-11865	Name = ; Min delay = 0; Max delay = 56; Average delay = 12
-11867	Name = ; Min delay = 0; Max delay = 22; Average delay = 3
-11898	Name = ; Min delay = 0; Max delay = 7; Average delay = 2
-11953	Name = ; Min delay = 0; Max delay = 86; Average delay = 7
-11973	Name = ; Min delay = 0; Max delay = 113; Average delay = 10
-11977	Name = ; Min delay = 0; Max delay = 113; Average delay = 14
-11980	Name = ; Min delay = 0; Max delay = 38; Average delay = 9
-11982	Name = ; Min delay = 0; Max delay = 148; Average delay = 11
-11986	Name = ; Min delay = 0; Max delay = 313; Average delay = 19
-11995	Name = ; Min delay = 0; Max delay = 307; Average delay = 16
-12129	Name = ; Min delay = 0; Max delay = 51; Average delay = 11
-12156	Name = ; Min delay = 0; Max delay = 28; Average delay = 2
-12206	Name = ; Min delay = 0; Max delay = 53; Average delay = 7
-12217	Name = ; Min delay = 0; Max delay = 159; Average delay = 19
-12255	Name = ; Min delay = 0; Max delay = 15; Average delay = 5
-12264	Name = ; Min delay = 0; Max delay = 256; Average delay = 12
-12266	Name = ; Min delay = 0; Max delay = 464; Average delay = 14
-12280	Name = ; Min delay = 0; Max delay = 103; Average delay = 21
-12323	Name = ; Min delay = 0; Max delay = 95; Average delay = 7
-12343	Name = ; Min delay = 0; Max delay = 33; Average delay = 5
-12389	Name = ; Min delay = 0; Max delay = 89; Average delay = 19
-12402	Name = ; Min delay = 0; Max delay = 44; Average delay = 3
-12448	Name = ; Min delay = 0; Max delay = 97; Average delay = 11
-12451	Name = ; Min delay = 0; Max delay = 142; Average delay = 10
-12523	Name = ; Min delay = 0; Max delay = 51; Average delay = 2
-12758	Name = ; Min delay = 0; Max delay = 148; Average delay = 7
-12819	Name = ; Min delay = 0; Max delay = 43; Average delay = 6
-12884	Name = ; Min delay = 0; Max delay = 47; Average delay = 12
-12888	Name = ; Min delay = 0; Max delay = 161; Average delay = 30
-12891	Name = ; Min delay = 0; Max delay = 45; Average delay = 11
-12945	Name = ; Min delay = 0; Max delay = 136; Average delay = 14
-12954	Name = ; Min delay = 0; Max delay = 121; Average delay = 8
-12992	Name = ; Min delay = 0; Max delay = 205; Average delay = 19
-13029	Name = ; Min delay = 0; Max delay = 123; Average delay = 14
-13061	Name = ; Min delay = 0; Max delay = 172; Average delay = 18
-13076	Name = ; Min delay = 0; Max delay = 68; Average delay = 24
-13184	Name = ; Min delay = 0; Max delay = 81; Average delay = 20
-13230	Name = ; Min delay = 0; Max delay = 124; Average delay = 19
-13232	Name = ; Min delay = 0; Max delay = 206; Average delay = 10
-13241	Name = ; Min delay = 0; Max delay = 246; Average delay = 29
-13256	Name = ; Min delay = 0; Max delay = 142; Average delay = 23
-13290	Name = ; Min delay = 0; Max delay = 111; Average delay = 13
-13296	Name = ; Min delay = 0; Max delay = 110; Average delay = 14
-13342	Name = ; Min delay = 0; Max delay = 215; Average delay = 8
-13344	Name = ; Min delay = 0; Max delay = 81; Average delay = 23
-13360	Name = ; Min delay = 0; Max delay = 9; Average delay = 1
-13377	Name = ; Min delay = 0; Max delay = 161; Average delay = 23
-13388	Name = ; Min delay = 0; Max delay = 27; Average delay = 6
-13476	Name = ; Min delay = 0; Max delay = 186; Average delay = 16
-13485	Name = ; Min delay = 0; Max delay = 251; Average delay = 20
-13487	Name = ; Min delay = 0; Max delay = 371; Average delay = 10
-13502	Name = ; Min delay = 0; Max delay = 137; Average delay = 14
-13577	Name = ; Min delay = 0; Max delay = 104; Average delay = 14
-13795	Name = ; Min delay = 0; Max delay = 33; Average delay = 5
-13830	Name = ; Min delay = 0; Max delay = 272; Average delay = 8
-13931	Name = ; Min delay = 0; Max delay = 166; Average delay = 12
-13933	Name = ; Min delay = 0; Max delay = 0; Average delay = 0
-13964	Name = ; Min delay = 30; Max delay = 30; Average delay = 30
-14006	Name = ; Min delay = 0; Max delay = 15; Average delay = 2
-14057	Name = ; Min delay = 0; Max delay = 185; Average delay = 9
-14107	Name = ; Min delay = 0; Max delay = 498; Average delay = 10
-14109	Name = ; Min delay = 0; Max delay = 14; Average delay = 2
-14150	Name = ; Min delay = 0; Max delay = 5; Average delay = 1
-14222	Name = ; Min delay = 0; Max delay = 0; Average delay = 0
-14262	Name = ; Min delay = 0; Max delay = 170; Average delay = 13
-14288	Name = ; Min delay = 0; Max delay = 59; Average delay = 13
-14307	Name = ; Min delay = 0; Max delay = 95; Average delay = 12
-14321	Name = ; Min delay = 0; Max delay = 97; Average delay = 10
-14457	Name = ; Min delay = 0; Max delay = 108; Average delay = 13
-14543	Name = ; Min delay = 0; Max delay = 138; Average delay = 11
-14570	Name = ; Min delay = 0; Max delay = 149; Average delay = 10
-14574	Name = ; Min delay = 0; Max delay = 109; Average delay = 12
-14576	Name = ; Min delay = 0; Max delay = 163; Average delay = 16
-14633	Name = ; Min delay = 0; Max delay = 179; Average delay = 23
-14635	Name = ; Min delay = 0; Max delay = 484; Average delay = 12
-14679	Name = ; Min delay = 0; Max delay = 267; Average delay = 7
-14709	Name = ; Min delay = 0; Max delay = 12; Average delay = 2
-14730	Name = ; Min delay = 0; Max delay = 113; Average delay = 10
-14747	Name = ; Min delay = 0; Max delay = 531; Average delay = 11
-14783	Name = ; Min delay = 0; Max delay = 223; Average delay = 20
-14794	Name = ; Min delay = 0; Max delay = 27; Average delay = 3
-14828	Name = ; Min delay = 0; Max delay = 81; Average delay = 13
-14831	Name = ; Min delay = 0; Max delay = 206; Average delay = 10
-14842	Name = ; Min delay = 0; Max delay = 35; Average delay = 6
-14893	Name = ; Min delay = 0; Max delay = 135; Average delay = 10
-14905	Name = ; Min delay = 0; Max delay = 22; Average delay = 4
-14952	Name = ; Min delay = 0; Max delay = 51; Average delay = 9
-15016	Name = ; Min delay = 0; Max delay = 383; Average delay = 13
-15027	Name = ; Min delay = 0; Max delay = 12; Average delay = 1
-15041	Name = ; Min delay = 0; Max delay = 33; Average delay = 9
-15070	Name = ; Min delay = 0; Max delay = 189; Average delay = 33
-15096	Name = ; Min delay = 0; Max delay = 110; Average delay = 17
-15249	Name = ; Min delay = 0; Max delay = 55; Average delay = 5
-15304	Name = ; Min delay = 0; Max delay = 513; Average delay = 12
-15380	Name = ; Min delay = 0; Max delay = 223; Average delay = 52
-15401	Name = ; Min delay = 0; Max delay = 12; Average delay = 1
-15412	Name = ; Min delay = 0; Max delay = 239; Average delay = 18
-1552	Name = Fitchburg, MA: Fitchburg Municipal; Min delay = 47; Max delay = 47; Average delay = 47
-15582	Name = ; Min delay = 0; Max delay = 19; Average delay = 4
-15607	Name = ; Min delay = 0; Max delay = 50; Average delay = 8
-15841	Name = ; Min delay = 0; Max delay = 31; Average delay = 10
-15919	Name = ; Min delay = 0; Max delay = 119; Average delay = 16
-15991	Name = ; Min delay = 0; Max delay = 41; Average delay = 7
+10136	Name = Abilene, TX: Abilene Regional; Min delay = 0; Max delay = 76; Average delay = 8
+10141	Name = Aberdeen, SD: Aberdeen Regional; Min delay = 0; Max delay = 22; Average delay = 5
+10158	Name = Atlantic City, NJ: Atlantic City International; Min delay = 0; Max delay = 147; Average delay = 24
+10165	Name = Adak Island, AK: Adak; Min delay = 0; Max delay = 0; Average delay = 0
+10170	Name = Kodiak, AK: Kodiak Airport; Min delay = 0; Max delay = 76; Average delay = 43
+10185	Name = Alexandria, LA: Alexandria International; Min delay = 0; Max delay = 55; Average delay = 5
+10208	Name = Augusta, GA: Augusta Regional at Bush Field; Min delay = 0; Max delay = 246; Average delay = 13
+10257	Name = Albany, NY: Albany International; Min delay = 0; Max delay = 241; Average delay = 15
+10268	Name = Waterloo, IA: Waterloo Regional; Min delay = 2; Max delay = 223; Average delay = 78
+10279	Name = Amarillo, TX: Rick Husband Amarillo International; Min delay = 0; Max delay = 95; Average delay = 13
+10299	Name = Anchorage, AK: Ted Stevens Anchorage International; Min delay = 0; Max delay = 375; Average delay = 10
+10372	Name = Aspen, CO: Aspen Pitkin County Sardy Field; Min delay = 0; Max delay = 136; Average delay = 21
+10408	Name = Appleton, WI: Outagamie County Regional; Min delay = 0; Max delay = 146; Average delay = 16
+10431	Name = Asheville, NC: Asheville Regional; Min delay = 0; Max delay = 152; Average delay = 13
+10529	Name = Hartford, CT: Bradley International; Min delay = 0; Max delay = 293; Average delay = 15
+10561	Name = Bakersfield, CA: Meadows Field; Min delay = 0; Max delay = 141; Average delay = 22
+10620	Name = Billings, MT: Billings Logan International; Min delay = 0; Max delay = 58; Average delay = 11
+10631	Name = Bemidji, MN: Bemidji Regional; Min delay = 0; Max delay = 4; Average delay = 1
+10666	Name = Bellingham, WA: Bellingham International; Min delay = 0; Max delay = 20; Average delay = 4
+10693	Name = Nashville, TN: Nashville International; Min delay = 0; Max delay = 391; Average delay = 12
+10721	Name = Boston, MA: Logan International; Min delay = 0; Max delay = 292; Average delay = 14
+10732	Name = Aguadilla, PR: Rafael Hernandez; Min delay = 0; Max delay = 109; Average delay = 10
+10747	Name = Brownsville, TX: Brownsville South Padre Island International; Min delay = 0; Max delay = 51; Average delay = 7
+10754	Name = Barrow, AK: Wiley Post/Will Rogers Memorial; Min delay = 0; Max delay = 306; Average delay = 40
+10781	Name = Baton Rouge, LA: Baton Rouge Metropolitan/Ryan Field; Min delay = 0; Max delay = 200; Average delay = 17
+10785	Name = Burlington, VT: Burlington International; Min delay = 0; Max delay = 144; Average delay = 23
+10792	Name = Buffalo, NY: Buffalo Niagara International; Min delay = 0; Max delay = 128; Average delay = 10
+10800	Name = Burbank, CA: Bob Hope; Min delay = 0; Max delay = 192; Average delay = 11
+10868	Name = Columbia, SC: Columbia Metropolitan; Min delay = 0; Max delay = 119; Average delay = 15
+10918	Name = Cedar City, UT: Cedar City Regional; Min delay = 0; Max delay = 15; Average delay = 3
+10930	Name = Crescent City, CA: Jack McNamara Field; Min delay = 0; Max delay = 138; Average delay = 34
+10990	Name = Charlottesville, VA: Charlottesville Albemarle; Min delay = 0; Max delay = 173; Average delay = 46
+10994	Name = Charleston, SC: Charleston AFB/International; Min delay = 0; Max delay = 198; Average delay = 8
+11003	Name = Cedar Rapids/Iowa City, IA: The Eastern Iowa; Min delay = 0; Max delay = 206; Average delay = 25
+11041	Name = Carlsbad, CA: McClellan-Palomar; Min delay = 0; Max delay = 24; Average delay = 4
+11049	Name = College Station/Bryan, TX: Easterwood Field; Min delay = 0; Max delay = 40; Average delay = 8
+11067	Name = Champaign/Urbana, IL: University of Illinois/Willard; Min delay = 0; Max delay = 129; Average delay = 28
+11076	Name = Hancock/Houghton, MI: Houghton County Memorial; Min delay = 0; Max delay = 69; Average delay = 26
+11092	Name = Moab, UT: Canyonlands Field; Min delay = 0; Max delay = 0; Average delay = 0
+11111	Name = Columbia, MO: Columbia Regional; Min delay = 0; Max delay = 380; Average delay = 42
+11122	Name = Casper, WY: Casper/Natrona County International; Min delay = 0; Max delay = 98; Average delay = 7
+11140	Name = Corpus Christi, TX: Corpus Christi International; Min delay = 0; Max delay = 89; Average delay = 11
+11146	Name = Charleston/Dunbar, WV: Yeager; Min delay = 0; Max delay = 20; Average delay = 6
+11193	Name = Cincinnati, OH: Cincinnati/Northern Kentucky International; Min delay = 0; Max delay = 179; Average delay = 15
+11203	Name = Mosinee, WI: Central Wisconsin; Min delay = 0; Max delay = 150; Average delay = 27
+11252	Name = Daytona Beach, FL: Daytona Beach International; Min delay = 0; Max delay = 49; Average delay = 7
+11267	Name = Dayton, OH: James M Cox/Dayton International; Min delay = 0; Max delay = 218; Average delay = 11
+11274	Name = Dubuque, IA: Dubuque Regional; Min delay = 0; Max delay = 83; Average delay = 16
+11278	Name = Washington, DC: Ronald Reagan Washington National; Min delay = 0; Max delay = 396; Average delay = 12
+11292	Name = Denver, CO: Denver International; Min delay = 0; Max delay = 420; Average delay = 15
+11298	Name = Dallas/Fort Worth, TX: Dallas/Fort Worth International; Min delay = 0; Max delay = 1201; Average delay = 17
+11308	Name = Dothan, AL: Dothan Regional; Min delay = 0; Max delay = 91; Average delay = 20
+11315	Name = Dickinson, ND: Dickinson - Theodore Roosevelt Regional; Min delay = 0; Max delay = 175; Average delay = 20
+11337	Name = Duluth, MN: Duluth International; Min delay = 0; Max delay = 177; Average delay = 26
+11423	Name = Des Moines, IA: Des Moines International; Min delay = 0; Max delay = 167; Average delay = 18
+11447	Name = Devils Lake, ND: Devils Lake Regional; Min delay = 0; Max delay = 114; Average delay = 31
+11481	Name = Panama City, FL: Northwest Florida Beaches International; Min delay = 0; Max delay = 31; Average delay = 3
+11537	Name = Elmira/Corning, NY: Elmira/Corning Regional; Min delay = 0; Max delay = 64; Average delay = 17
+11540	Name = El Paso, TX: El Paso International; Min delay = 0; Max delay = 140; Average delay = 12
+11577	Name = Erie, PA: Erie International/Tom Ridge Field; Min delay = 0; Max delay = 70; Average delay = 11
+11603	Name = Eugene, OR: Mahlon Sweet Field; Min delay = 0; Max delay = 94; Average delay = 14
+11612	Name = Evansville, IN: Evansville Regional; Min delay = 0; Max delay = 101; Average delay = 15
+11618	Name = Newark, NJ: Newark Liberty International; Min delay = 0; Max delay = 557; Average delay = 16
+11630	Name = Fairbanks, AK: Fairbanks International; Min delay = 0; Max delay = 38; Average delay = 3
+11638	Name = Fresno, CA: Fresno Yosemite International; Min delay = 0; Max delay = 82; Average delay = 12
+11641	Name = Fayetteville, NC: Fayetteville Regional/Grannis Field; Min delay = 0; Max delay = 41; Average delay = 4
+11775	Name = Sioux Falls, SD: Joe Foss Field; Min delay = 0; Max delay = 165; Average delay = 22
+11823	Name = Fort Wayne, IN: Fort Wayne International; Min delay = 0; Max delay = 129; Average delay = 15
+11865	Name = Gillette, WY: Gillette Campbell County; Min delay = 0; Max delay = 56; Average delay = 12
+11867	Name = Garden City, KS: Garden City Regional; Min delay = 0; Max delay = 22; Average delay = 3
+11898	Name = Grand Forks, ND: Grand Forks International; Min delay = 0; Max delay = 7; Average delay = 2
+11953	Name = Gainesville, FL: Gainesville Regional; Min delay = 0; Max delay = 86; Average delay = 7
+11973	Name = Gulfport/Biloxi, MS: Gulfport-Biloxi International; Min delay = 0; Max delay = 113; Average delay = 10
+11977	Name = Green Bay, WI: Austin Straubel International; Min delay = 0; Max delay = 113; Average delay = 14
+11980	Name = Grand Island, NE: Central Nebraska Regional; Min delay = 0; Max delay = 38; Average delay = 9
+11982	Name = Killeen, TX: Robert Gray AAF; Min delay = 0; Max delay = 148; Average delay = 11
+11986	Name = Grand Rapids, MI: Gerald R. Ford International; Min delay = 0; Max delay = 313; Average delay = 19
+11995	Name = Greensboro/High Point, NC: Piedmont Triad International; Min delay = 0; Max delay = 307; Average delay = 16
+12129	Name = Hibbing, MN: Range Regional; Min delay = 0; Max delay = 51; Average delay = 11
+12156	Name = Helena, MT: Helena Regional; Min delay = 0; Max delay = 28; Average delay = 2
+12206	Name = Harlingen/San Benito, TX: Valley International; Min delay = 0; Max delay = 53; Average delay = 7
+12217	Name = Huntsville, AL: Huntsville International-Carl T Jones Field; Min delay = 0; Max delay = 159; Average delay = 19
+12255	Name = Hays, KS: Hays Regional; Min delay = 0; Max delay = 15; Average delay = 5
+12264	Name = Washington, DC: Washington Dulles International; Min delay = 0; Max delay = 256; Average delay = 12
+12266	Name = Houston, TX: George Bush Intercontinental/Houston; Min delay = 0; Max delay = 464; Average delay = 14
+12280	Name = Idaho Falls, ID: Idaho Falls Regional; Min delay = 0; Max delay = 103; Average delay = 21
+12323	Name = Wilmington, NC: Wilmington International; Min delay = 0; Max delay = 95; Average delay = 7
+12343	Name = International Falls, MN: Falls International Einarson Field; Min delay = 0; Max delay = 33; Average delay = 5
+12389	Name = Williston, ND: Sloulin Field International; Min delay = 0; Max delay = 89; Average delay = 19
+12402	Name = Hilo, HI: Hilo International; Min delay = 0; Max delay = 44; Average delay = 3
+12448	Name = Jackson/Vicksburg, MS: Jackson Medgar Wiley Evers International; Min delay = 0; Max delay = 97; Average delay = 11
+12451	Name = Jacksonville, FL: Jacksonville International; Min delay = 0; Max delay = 142; Average delay = 10
+12523	Name = Juneau, AK: Juneau International; Min delay = 0; Max delay = 51; Average delay = 2
+12758	Name = Kona, HI: Kona International Airport at Keahole; Min delay = 0; Max delay = 148; Average delay = 7
+12819	Name = Ketchikan, AK: Ketchikan International; Min delay = 0; Max delay = 43; Average delay = 6
+12884	Name = Lansing, MI: Capital Region International; Min delay = 0; Max delay = 47; Average delay = 12
+12888	Name = Laramie, WY: Laramie Regional; Min delay = 0; Max delay = 161; Average delay = 30
+12891	Name = Lawton/Fort Sill, OK: Lawton-Fort Sill Regional; Min delay = 0; Max delay = 45; Average delay = 11
+12945	Name = Lexington, KY: Blue Grass; Min delay = 0; Max delay = 136; Average delay = 14
+12954	Name = Long Beach, CA: Long Beach Airport; Min delay = 0; Max delay = 121; Average delay = 8
+12992	Name = Little Rock, AR: Bill and Hillary Clinton Nat Adams Field; Min delay = 0; Max delay = 205; Average delay = 19
+13029	Name = Lincoln, NE: Lincoln Airport; Min delay = 0; Max delay = 123; Average delay = 14
+13061	Name = Laredo, TX: Laredo International; Min delay = 0; Max delay = 172; Average delay = 18
+13076	Name = La Crosse, WI: La Crosse Regional; Min delay = 0; Max delay = 68; Average delay = 24
+13184	Name = Saginaw/Bay City/Midland, MI: MBS International; Min delay = 0; Max delay = 81; Average delay = 20
+13230	Name = Harrisburg, PA: Harrisburg International; Min delay = 0; Max delay = 124; Average delay = 19
+13232	Name = Chicago, IL: Chicago Midway International; Min delay = 0; Max delay = 206; Average delay = 10
+13241	Name = Meridian, MS: Key Field; Min delay = 0; Max delay = 246; Average delay = 29
+13256	Name = Mission/McAllen/Edinburg, TX: McAllen Miller International; Min delay = 0; Max delay = 142; Average delay = 23
+13290	Name = Manhattan/Ft. Riley, KS: Manhattan Regional; Min delay = 0; Max delay = 111; Average delay = 13
+13296	Name = Manchester, NH: Manchester-Boston Regional; Min delay = 0; Max delay = 110; Average delay = 14
+13342	Name = Milwaukee, WI: General Mitchell International; Min delay = 0; Max delay = 215; Average delay = 8
+13344	Name = Muskegon, MI: Muskegon County; Min delay = 0; Max delay = 81; Average delay = 23
+13360	Name = Melbourne, FL: Melbourne International; Min delay = 0; Max delay = 9; Average delay = 1
+13377	Name = Monroe, LA: Monroe Regional; Min delay = 0; Max delay = 161; Average delay = 23
+13388	Name = Mammoth Lakes, CA: Mammoth Lakes Airport; Min delay = 0; Max delay = 27; Average delay = 6
+13476	Name = Monterey, CA: Monterey Regional; Min delay = 0; Max delay = 186; Average delay = 16
+13485	Name = Madison, WI: Dane County Regional-Truax Field; Min delay = 0; Max delay = 251; Average delay = 20
+13487	Name = Minneapolis, MN: Minneapolis-St Paul International; Min delay = 0; Max delay = 371; Average delay = 10
+13502	Name = Montrose/Delta, CO: Montrose Regional; Min delay = 0; Max delay = 137; Average delay = 14
+13577	Name = Myrtle Beach, SC: Myrtle Beach International; Min delay = 0; Max delay = 104; Average delay = 14
+13795	Name = Jacksonville/Camp Lejeune, NC: Albert J Ellis; Min delay = 0; Max delay = 33; Average delay = 5
+13830	Name = Kahului, HI: Kahului Airport; Min delay = 0; Max delay = 272; Average delay = 8
+13931	Name = Norfolk, VA: Norfolk International; Min delay = 0; Max delay = 166; Average delay = 12
+13933	Name = Worcester, MA: Worcester Regional; Min delay = 0; Max delay = 0; Average delay = 0
+13964	Name = North Bend/Coos Bay, OR: Southwest Oregon Regional; Min delay = 30; Max delay = 30; Average delay = 30
+14006	Name = Paducah, KY: Barkley Regional; Min delay = 0; Max delay = 15; Average delay = 2
+14057	Name = Portland, OR: Portland International; Min delay = 0; Max delay = 185; Average delay = 9
+14107	Name = Phoenix, AZ: Phoenix Sky Harbor International; Min delay = 0; Max delay = 498; Average delay = 10
+14109	Name = Hattiesburg/Laurel, MS: Hattiesburg-Laurel Regional; Min delay = 0; Max delay = 14; Average delay = 2
+14150	Name = Pellston, MI: Pellston Regional Airport of Emmet County; Min delay = 0; Max delay = 5; Average delay = 1
+14222	Name = Pago Pago, TT: Pago Pago International; Min delay = 0; Max delay = 0; Average delay = 0
+14262	Name = Palm Springs, CA: Palm Springs International; Min delay = 0; Max delay = 170; Average delay = 13
+14288	Name = Pueblo, CO: Pueblo Memorial; Min delay = 0; Max delay = 59; Average delay = 13
+14307	Name = Providence, RI: Theodore Francis Green State; Min delay = 0; Max delay = 95; Average delay = 12
+14321	Name = Portland, ME: Portland International Jetport; Min delay = 0; Max delay = 97; Average delay = 10
+14457	Name = Rapid City, SD: Rapid City Regional; Min delay = 0; Max delay = 108; Average delay = 13
+14543	Name = Rock Springs, WY: Rock Springs Sweetwater County; Min delay = 0; Max delay = 138; Average delay = 11
+14570	Name = Reno, NV: Reno/Tahoe International; Min delay = 0; Max delay = 149; Average delay = 10
+14574	Name = Roanoke, VA: Roanoke Regional/Woodrum Field; Min delay = 0; Max delay = 109; Average delay = 12
+14576	Name = Rochester, NY: Greater Rochester International; Min delay = 0; Max delay = 163; Average delay = 16
+14633	Name = Rochester, MN: Rochester International; Min delay = 0; Max delay = 179; Average delay = 23
+14635	Name = Fort Myers, FL: Southwest Florida International; Min delay = 0; Max delay = 484; Average delay = 12
+14679	Name = San Diego, CA: San Diego International; Min delay = 0; Max delay = 267; Average delay = 7
+14709	Name = Deadhorse, AK: Deadhorse Airport; Min delay = 0; Max delay = 12; Average delay = 2
+14730	Name = Louisville, KY: Louisville International-Standiford Field; Min delay = 0; Max delay = 113; Average delay = 10
+14747	Name = Seattle, WA: Seattle/Tacoma International; Min delay = 0; Max delay = 531; Average delay = 11
+14783	Name = Springfield, MO: Springfield-Branson National; Min delay = 0; Max delay = 223; Average delay = 20
+14794	Name = St. George, UT: St George Municipal; Min delay = 0; Max delay = 27; Average delay = 3
+14828	Name = Sitka, AK: Sitka Rocky Gutierrez; Min delay = 0; Max delay = 81; Average delay = 13
+14831	Name = San Jose, CA: Norman Y. Mineta San Jose International; Min delay = 0; Max delay = 206; Average delay = 10
+14842	Name = San Angelo, TX: San Angelo Regional/Mathis Field; Min delay = 0; Max delay = 35; Average delay = 6
+14893	Name = Sacramento, CA: Sacramento International; Min delay = 0; Max delay = 135; Average delay = 10
+14905	Name = Santa Maria, CA: Santa Maria Public/Capt. G. Allan Hancock Field; Min delay = 0; Max delay = 22; Average delay = 4
+14952	Name = Springfield, IL: Abraham Lincoln Capital; Min delay = 0; Max delay = 51; Average delay = 9
+15016	Name = St. Louis, MO: Lambert-St. Louis International; Min delay = 0; Max delay = 383; Average delay = 13
+15027	Name = Christiansted, VI: Henry E. Rohlsen; Min delay = 0; Max delay = 12; Average delay = 1
+15041	Name = Sun Valley/Hailey/Ketchum, ID: Friedman Memorial; Min delay = 0; Max delay = 33; Average delay = 9
+15070	Name = Newburgh/Poughkeepsie, NY: Stewart International; Min delay = 0; Max delay = 189; Average delay = 33
+15096	Name = Syracuse, NY: Syracuse Hancock International; Min delay = 0; Max delay = 110; Average delay = 17
+15249	Name = Tallahassee, FL: Tallahassee International; Min delay = 0; Max delay = 55; Average delay = 5
+15304	Name = Tampa, FL: Tampa International; Min delay = 0; Max delay = 513; Average delay = 12
+15380	Name = Traverse City, MI: Cherry Capital; Min delay = 0; Max delay = 223; Average delay = 52
+15401	Name = Texarkana, AR: Texarkana Regional-Webb Field; Min delay = 0; Max delay = 12; Average delay = 1
+15412	Name = Knoxville, TN: McGhee Tyson; Min delay = 0; Max delay = 239; Average delay = 18
+15582	Name = Vernal, UT: Vernal Regional; Min delay = 0; Max delay = 19; Average delay = 4
+15607	Name = Valdosta, GA: Valdosta Regional; Min delay = 0; Max delay = 50; Average delay = 8
+15841	Name = Wrangell, AK: Wrangell Airport; Min delay = 0; Max delay = 31; Average delay = 10
+15919	Name = Fayetteville, AR: Northwest Arkansas Regional; Min delay = 0; Max delay = 119; Average delay = 16
+15991	Name = Yakutat, AK: Yakutat Airport; Min delay = 0; Max delay = 41; Average delay = 7
