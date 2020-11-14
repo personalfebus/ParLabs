@@ -10,8 +10,7 @@ public class AirportMapper extends Mapper<LongWritable, Text, Text, Text> {
     public static final String HEADER = "Code,Description";
 
     public String deleteAllQuotes(String line) {
-        line = line.replace("\"", "");
-        return line;
+        return line.replace("\"", "");
     }
 
     @Override
