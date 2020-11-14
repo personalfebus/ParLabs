@@ -26,6 +26,7 @@ public class DelayReducer extends Reducer<Text, Text, Text, Text> {
 				.append(maxDelay).append("; Average delay = ").append(averageDelay);
 		return answerBuilder.toString();
 	}
+	
 	@Override
 	protected void reduce(Text key, Iterable<Text> values, Context context) throws
 			IOException, InterruptedException {
