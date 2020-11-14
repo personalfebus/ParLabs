@@ -5,6 +5,8 @@ import org.apache.spark.api.java.JavaRDD;
 import org.apache.spark.api.java.JavaSparkContext;
 import scala.Tuple2;
 
+import java.util.Arrays;
+
 public class Airports {
 	public static void main(String[] args) throws Exception {
 		if (args.length != 3) {
@@ -15,7 +17,7 @@ public class Airports {
 		JavaSparkContext sc = new JavaSparkContext(conf);
 		JavaRDD<String> airportId = sc.textFile("AIRPORT_ID");
 		JavaRDD<String> ontimeSample = sc.textFile("ONTIME_SAMPLE");
-		JavaRDD<String> nameToId = airportId.flatMap(s -> )
+		JavaRDD<String> nameToId = airportId.flatMap(s -> Arrays.toStrea)
 //		airportId.mapToPair(s -> new Tuple2<>);
 		System.out.println("HELLO");
 	}
