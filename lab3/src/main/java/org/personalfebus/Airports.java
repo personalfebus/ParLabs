@@ -18,7 +18,7 @@ public class Airports {
 		JavaSparkContext sc = new JavaSparkContext(conf);
 		JavaRDD<String> airportId = sc.textFile("AIRPORT_ID");
 		JavaRDD<String> ontimeSample = sc.textFile("ONTIME_SAMPLE");
-		
+
 //		JavaRDD<String> splittedAirportId = airportId.flatMap(s ->
 //				Arrays.stream(s.replace("\"", "").split(",")).iterator()).filter(s -> {
 //			return !s.equals("Code") && !s.equals("Description");
