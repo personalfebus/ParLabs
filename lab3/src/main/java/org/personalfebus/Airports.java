@@ -18,7 +18,7 @@ public class Airports {
 		JavaRDD<String> airportId = sc.textFile("AIRPORT_ID");
 		JavaRDD<String> ontimeSample = sc.textFile("ONTIME_SAMPLE");
 		JavaRDD<String> nameToId = airportId.flatMap(s ->
-				Arrays.stream(s.replace("\"", "").split(",")).iterator());
+				Arrays.stream(s.replace("\"", "").split(",")).iterator()).filter(s -> );
 //		airportId.mapToPair(s -> new Tuple2<>);
 		System.out.println("HELLO");
 	}
