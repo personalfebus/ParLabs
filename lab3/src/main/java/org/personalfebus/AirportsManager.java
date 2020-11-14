@@ -19,7 +19,7 @@ public class AirportsManager {
 		JavaRDD<String> airportId = sc.textFile("AIRPORT_ID");
 		JavaRDD<String> ontimeSample = sc.textFile("ONTIME_SAMPLE");
 
-		JavaRDD<Airport> sdfsdgd = airportId.flatMap()
+		JavaRDD<Airport> sdfsdgd = airportId.flatMap(s -> );
 
 //		JavaRDD<String> splittedAirportId = airportId.flatMap(s ->
 //				Arrays.stream(s.replace("\"", "").split(",")).iterator()).filter(s -> {
