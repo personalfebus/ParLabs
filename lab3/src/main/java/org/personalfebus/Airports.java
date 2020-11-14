@@ -18,11 +18,15 @@ public class Airports {
 		JavaSparkContext sc = new JavaSparkContext(conf);
 		JavaRDD<String> airportId = sc.textFile("AIRPORT_ID");
 		JavaRDD<String> ontimeSample = sc.textFile("ONTIME_SAMPLE");
+//		JavaRDD<String> splittedAirportId = airportId.flatMap(s ->
+//				Arrays.stream(s.replace("\"", "").split(",")).iterator()).filter(s -> {
+//			return !s.equals("Code") && !s.equals("Description");
+//		});
 		JavaRDD<String> splittedAirportId = airportId.flatMap(s ->
 				Arrays.stream(s.replace("\"", "").split(",")).iterator()).filter(s -> {
 			return !s.equals("Code") && !s.equals("Description");
 		});
-		JavaPairRDD<String, Long> nameToId = splittedAirportId.mapToPair(s -> new Tuple2<String, Long>(s, 1L));
+		//JavaPairRDD<String, Long> nameToId = splittedAirportId.mapToPair(s -> new Tuple2<String, Long>(s, 1L));
 
 //		airportId.mapToPair(s -> new Tuple2<>);
 		System.out.println("HELLO");
