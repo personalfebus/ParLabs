@@ -60,8 +60,7 @@ public class DelayReducer extends Reducer<Text, Text, Text, Text> {
 		int averageDelay = 0;
 		if (!firstIter) {
 			averageDelay = sumDelay / count;
-
-			context.write(key, new Text(answerBuilder.toString()));
+			context.write(key, new Text(buildAnswer(airportName, minDelay, maxDelay, averageDelay)));
 		}
 	}
 }
