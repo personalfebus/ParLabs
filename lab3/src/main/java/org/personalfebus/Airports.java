@@ -1,6 +1,7 @@
 package org.personalfebus;
 
 import org.apache.spark.SparkConf;
+import org.apache.spark.api.java.JavaRDD;
 import org.apache.spark.api.java.JavaSparkContext;
 
 public class Airports {
@@ -11,7 +12,8 @@ public class Airports {
 		}
 		SparkConf conf = new SparkConf().setAppName("lab5");
 		JavaSparkContext sc = new JavaSparkContext(conf);
-		val text = sc.textFile("AIRPORT_ID");
+		JavaRDD text = sc.textFile("AIRPORT_ID");
+		
 		System.out.println("HELLO");
 	}
 }
