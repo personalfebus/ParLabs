@@ -13,7 +13,7 @@ public class Airports {
 		SparkConf conf = new SparkConf().setAppName("lab5");
 		JavaSparkContext sc = new JavaSparkContext(conf);
 		JavaRDD<String> airportId = sc.textFile("AIRPORT_ID");
-
+		JavaRDD<String> a = sc.textFile("ONTIME_SAMPLE");
 		System.out.println("HELLO");
 	}
 }
