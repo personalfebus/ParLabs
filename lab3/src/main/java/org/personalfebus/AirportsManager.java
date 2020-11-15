@@ -56,7 +56,7 @@ public class AirportsManager {
 				int digit = (int) code.charAt(i) - 48;
 				numId = numId * 10 + digit;
 			}
-			return new Tuple2<>(numId, name);
+			return new Tuple2<>(stringToNum(code), name);
 		});
 		Map<Long, String> idToNameMap = idToNameRDD.collectAsMap();
 
@@ -66,7 +66,7 @@ public class AirportsManager {
 
 			Long originId = stringToNum(words[ORIGIN_AIRPORT_ID_POSITION]);
 			Long destinationId = stringToNum(words[DEST_AIRPORT_ID_POSITION]);
-			
+
 		});
 
 //		JavaRDD<Airport> airports = airportId.flatMap(s -> {
