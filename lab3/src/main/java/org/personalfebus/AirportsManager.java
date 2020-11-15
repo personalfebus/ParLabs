@@ -51,11 +51,6 @@ public class AirportsManager {
 			int commaPosition = corrected.indexOf(",");
 			String code = corrected.substring(0, commaPosition);
 			String name = corrected.substring(commaPosition + 1);
-			long numId = 0;
-			for (int i = 0; i < code.length(); i++) {
-				int digit = (int) code.charAt(i) - 48;
-				numId = numId * 10 + digit;
-			}
 			return new Tuple2<>(stringToNum(code), name);
 		});
 		Map<Long, String> idToNameMap = idToNameRDD.collectAsMap();
