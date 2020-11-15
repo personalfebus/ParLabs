@@ -29,15 +29,16 @@ public class AirportsManager {
 
 		JavaPairRDD<Long, String> idToNameRDD = airportId.mapToPair(s -> s.replace());
 		Map<Long, String> idToNameMap = idToNameRDD.collectAsMap(s -> {
-					String corrected = s.replace("\"", "");
-					int commaPosition = corrected.indexOf(",");
-					String code = corrected.substring(0, commaPosition);
-					String name = corrected.substring(commaPosition + 1);
-					long numId = 0;
-					for (int i = 0; i < code.length(); i++) {
-						int digit = (int)code.charAt(i) - 48;
-						numId = numId * 10 + digit;
-					});
+			String corrected = s.replace("\"", "");
+			int commaPosition = corrected.indexOf(",");
+			String code = corrected.substring(0, commaPosition);
+			String name = corrected.substring(commaPosition + 1);
+			long numId = 0;
+			for (int i = 0; i < code.length(); i++) {
+				int digit = (int) code.charAt(i) - 48;
+				numId = numId * 10 + digit;
+			}
+		});
 
 //		JavaRDD<Airport> airports = airportId.flatMap(s -> {
 //					String corrected = s.replace("\"", "");
