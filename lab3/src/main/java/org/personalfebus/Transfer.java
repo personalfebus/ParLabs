@@ -2,7 +2,7 @@ package org.personalfebus;
 
 import java.io.Serializable;
 
-public class Airport implements Serializable {
+public class Transfer implements Serializable {
     private long id;
     private String name;
 
