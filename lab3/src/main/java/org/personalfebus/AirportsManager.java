@@ -17,8 +17,8 @@ public class AirportsManager {
 	public static final int DELAY_POSITION = 18;
 	public static final int CANCELLED_POSITION = 19;
 
-	public static int stringToNum(String delayStr){
-		int currentDelay = 0;
+	public static long stringToNum(String delayStr){
+		long currentDelay = 0;
 		for (int j = 0; j < delayStr.length(); j++) {
 			int digit = (int)delayStr.charAt(j) - 48;
 			if (digit < 0) break;
@@ -52,7 +52,7 @@ public class AirportsManager {
 
 			Long originId = stringToNum(words[ORIGIN_AIRPORT_ID_POSITION]);
 			Long destinationId = stringToNum(words[DEST_AIRPORT_ID_POSITION]);
-			
+
 			return new Tuple2<>(numId, name);
 		});
 		Map<Long, String> idToNameMap = idToNameRDD.collectAsMap();
