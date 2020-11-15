@@ -9,6 +9,9 @@ import scala.Tuple2;
 import java.util.Arrays;
 
 public class AirportsManager {
+	public static final int AIRPORT_ID_POSITION = 14;
+	public static final int DELAY_POSITION = 18;
+
 	public static void main(String[] args) throws Exception {
 		if (args.length != 3) {
 			System.err.println("Usage: Airports <input path> <output path>");
