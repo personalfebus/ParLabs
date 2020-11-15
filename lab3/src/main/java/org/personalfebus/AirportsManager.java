@@ -59,6 +59,11 @@ public class AirportsManager {
 
 		JavaPairRDD<Tuple2<Long, Long>, String> chunk = ontimeSample.mapToPair(s -> {
 			String corrected = s.replace("\"", "");
+			String[] words = corrected.split(",");
+
+			Long originId = stringToNum(words[ORIGIN_AIRPORT_ID_POSITION]);
+			Long destinationId = stringToNum(words[DEST_AIRPORT_ID_POSITION]);
+
 		});
 
 //		JavaRDD<Airport> airports = airportId.flatMap(s -> {
