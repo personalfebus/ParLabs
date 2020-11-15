@@ -24,6 +24,9 @@ public class AirportsManager {
 					int commaPosition = corrected.indexOf(",");
 					String code = corrected.substring(0, commaPosition);
 					String name = corrected.substring(commaPosition + 1);
+					for (int i = 0; i < code.length(); i++) {
+						
+					}
 					Airport airport = new Airport(21312);
 					airport.setName(name);
 					return Arrays.asList(airport).iterator();
