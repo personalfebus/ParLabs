@@ -63,7 +63,7 @@ public class AirportsManager {
 			Long destinationId = stringToNum(words[DEST_AIRPORT_ID_POSITION]);
 			Tuple2<Long, Long> origAndDestId = new Tuple2<>(originId, destinationId);
 			Transfer transfer = new Transfer(originId, destinationId);
-			
+			Long delay = stringToNum(words[DELAY_POSITION]);
 		});
 
 		System.out.println("HELLO");
