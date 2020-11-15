@@ -43,7 +43,7 @@ public class AirportsManager {
 		Map<Long, String> idToNameMap = idToNameRDD.collectAsMap();
 
 		JavaPairRDD<Tuple2<Long, Long>, String> chunk = ontimeSample.mapToPair(s -> {
-			
+			String corrected = s.replace("\"", "");
 		});
 
 //		JavaRDD<Airport> airports = airportId.flatMap(s -> {
