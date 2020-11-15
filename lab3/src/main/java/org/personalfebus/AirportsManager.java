@@ -37,7 +37,7 @@ public class AirportsManager {
 					Airport airport = new Airport(numId);
 					airport.setName(name);
 					return Arrays.asList(airport).iterator();
-				}).collectAsMap;
+				});
 
 
 //		JavaRDD<String> splittedAirportId = airportId.flatMap(s ->
