@@ -48,11 +48,14 @@ public class AirportsManager {
 			return true;
 		}).mapToPair(s -> {
 			String corrected = s.replace("\"", "");
-			String[] words = corrected.split(",");
-
-			Long originId = stringToNum(words[ORIGIN_AIRPORT_ID_POSITION]);
-			Long destinationId = stringToNum(words[DEST_AIRPORT_ID_POSITION]);
-
+			int commaPosition = corrected.indexOf(",");
+			String code = corrected.substring(0, commaPosition);
+			String name = corrected.substring(commaPosition + 1);
+			long numId = 0;
+			for (int i = 0; i < code.length(); i++) {
+				int digit = (int) code.charAt(i) - 48;
+				numId = numId * 10 + digit;
+			}
 			return new Tuple2<>(numId, name);
 		});
 		Map<Long, String> idToNameMap = idToNameRDD.collectAsMap();
