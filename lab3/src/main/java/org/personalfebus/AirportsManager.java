@@ -9,6 +9,7 @@ import scala.Tuple2;
 import scala.collection.Map;
 
 import java.util.Arrays;
+import java.util.HashMap;
 
 public class AirportsManager {
 	public static final int ORIGIN_AIRPORT_ID_POSITION = 11;
@@ -28,7 +29,8 @@ public class AirportsManager {
 
 		JavaRDD<String> airportId1 = sc.textFile("AIRPORT_ID");
 
-		JavaPairRDD<String, Long> arerewr = airportId1.mapToPair(s -> new Tuple2<>(s, 1L));
+		JavaPairRDD<Long, String> arerewr = airportId1.mapToPair(s -> new Tuple2<>(s, 1L));
+		Map<Long, String> idToNameMap = arerewr.collectAsMap();
 
 		JavaRDD<Airport> airports = airportId.flatMap(s -> {
 					String corrected = s.replace("\"", "");
