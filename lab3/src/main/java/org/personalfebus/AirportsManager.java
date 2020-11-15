@@ -29,7 +29,7 @@ public class AirportsManager {
 
 		JavaRDD<String> airportId1 = sc.textFile("AIRPORT_ID");
 
-		JavaPairRDD<Long, String> arerewr = airportId1.mapToPair(s -> new Tuple2<>(s, 1L));
+		JavaPairRDD<Long, String> arerewr = airportId1.mapToPair(s -> );
 		Map<Long, String> idToNameMap = arerewr.collectAsMap();
 
 		JavaRDD<Airport> airports = airportId.flatMap(s -> {
