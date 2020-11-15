@@ -55,7 +55,15 @@ public class AirportsManager {
 		});
 		Map<Long, String> idToNameMap = idToNameRDD.collectAsMap();
 
-		JavaPairRDD<Tuple2<Long, Long>, Transfer> chunk = ontimeSample.mapToPair(s -> {
+		JavaPairRDD<Tuple2<Long, Long>, Transfer> chunk = ontimeSample.filter(s -> {
+			if (s.charAt(0) == 'C') {
+				System.out.println("@@@@@");
+				System.out.println(s);
+				System.out.println("@@@@@");
+				return false;
+			}
+			return true;
+		}).mapToPair(s -> {
 			String corrected = s.replace("\"", "");
 			String[] words = corrected.split(",");
 
