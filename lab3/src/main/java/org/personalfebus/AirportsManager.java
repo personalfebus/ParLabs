@@ -41,6 +41,8 @@ public class AirportsManager {
 		});
 		Map<Long, String> idToNameMap = idToNameRDD.collectAsMap();
 
+		
+
 //		JavaRDD<Airport> airports = airportId.flatMap(s -> {
 //					String corrected = s.replace("\"", "");
 //					int commaPosition = corrected.indexOf(",");
