@@ -28,7 +28,7 @@ public class AirportsManager {
 		JavaRDD<String> ontimeSample = sc.textFile("ONTIME_SAMPLE");
 
 		JavaPairRDD<Long, String> idToNameRDD = airportId.mapToPair(s -> );
-		Map<Long, String> idToNameMap = arerewr.collectAsMap();
+		Map<Long, String> idToNameMap = idToNameRDD.collectAsMap();
 
 //		JavaRDD<Airport> airports = airportId.flatMap(s -> {
 //					String corrected = s.replace("\"", "");
