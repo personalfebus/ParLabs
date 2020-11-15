@@ -9,6 +9,7 @@ import scala.Tuple2;
 
 import java.util.Arrays;
 import java.util.HashMap;
+import java.util.Map;
 
 public class AirportsManager {
 	public static final int ORIGIN_AIRPORT_ID_POSITION = 11;
