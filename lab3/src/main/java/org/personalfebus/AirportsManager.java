@@ -39,7 +39,7 @@ public class AirportsManager {
 		}).mapToPair(s -> {
 			String corrected = s.replace("\"", "");
 			String[] words = corrected.split(",");
-			
+
 			long numId = 0;
 			for (int i = 0; i < code.length(); i++) {
 				int digit = (int) code.charAt(i) - 48;
