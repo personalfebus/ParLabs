@@ -27,8 +27,7 @@ public class AirportsManager {
 		JavaRDD<String> airportId = sc.textFile("AIRPORT_ID");
 		JavaRDD<String> ontimeSample = sc.textFile("ONTIME_SAMPLE");
 
-		JavaPairRDD<Long, String> idToNameRDD = airportId.mapToPair(s -> s.replace());
-		Map<Long, String> idToNameMap = idToNameRDD.collectAsMap(s -> {
+		JavaPairRDD<Long, String> idToNameRDD = airportId.mapToPair(s -> {
 			String corrected = s.replace("\"", "");
 			int commaPosition = corrected.indexOf(",");
 			String code = corrected.substring(0, commaPosition);
@@ -39,6 +38,7 @@ public class AirportsManager {
 				numId = numId * 10 + digit;
 			}
 		});
+		Map<Long, String> idToNameMap = idToNameRDD.collectAsMap();
 
 //		JavaRDD<Airport> airports = airportId.flatMap(s -> {
 //					String corrected = s.replace("\"", "");
