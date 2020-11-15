@@ -3,10 +3,11 @@ package org.personalfebus;
 import java.io.Serializable;
 
 public class Transfer implements Serializable {
-    private long id;
+    private long originId;
+    private long destinationId;
     private String name;
 
-    public Transfer(long airportId) {
+    public Transfer(long origId, long destId) {
         id = airportId;
     }
 
