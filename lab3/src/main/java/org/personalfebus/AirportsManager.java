@@ -29,7 +29,7 @@ public class AirportsManager {
 						int digit = (int)code.charAt(i) - 48;
 						numId = numId * 10 + digit;
 					}
-					Airport airport = new Airport(21312);
+					Airport airport = new Airport(numId);
 					airport.setName(name);
 					return Arrays.asList(airport).iterator();
 				});
