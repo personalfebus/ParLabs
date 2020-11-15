@@ -26,6 +26,8 @@ public class AirportsManager {
 		JavaRDD<String> airportId = sc.textFile("AIRPORT_ID");
 		JavaRDD<String> ontimeSample = sc.textFile("ONTIME_SAMPLE");
 
+		JavaRDD<String> airportId = sc.textFile("AIRPORT_ID");
+
 		JavaRDD<Airport> airports = airportId.flatMap(s -> {
 					String corrected = s.replace("\"", "");
 					int commaPosition = corrected.indexOf(",");
