@@ -5,10 +5,12 @@ import java.io.Serializable;
 public class Transfer implements Serializable {
     private long originId;
     private long destinationId;
-    private String name;
+    private boolean isCancelled;
+    private long delay;
 
     public Transfer(long origId, long destId) {
-        id = airportId;
+        originId = origId;
+        destinationId = destId;
     }
 
     public void setName(String name) {
