@@ -21,10 +21,6 @@ public class Transfer implements Serializable {
         isCancelled = cancelled;
     }
 
-    public long getId() {
-        return id;
-    }
-
     public long getDelay() {
         return delay;
     }
