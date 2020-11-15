@@ -13,8 +13,12 @@ public class Transfer implements Serializable {
         destinationId = destId;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setDelay(long d) {
+        delay = d;
+    }
+
+    public void setCancelled(boolean cancelled) {
+        isCancelled = cancelled;
     }
 
     public long getId() {
