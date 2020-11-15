@@ -27,6 +27,7 @@ public class AirportsManager {
 					long numId = 0;
 					for (int i = 0; i < code.length(); i++) {
 						int digit = (int)code.charAt(i) - 48;
+						numId = numId * 10 + digit;
 					}
 					Airport airport = new Airport(21312);
 					airport.setName(name);
