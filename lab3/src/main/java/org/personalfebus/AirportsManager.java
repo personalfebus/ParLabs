@@ -35,7 +35,7 @@ public class AirportsManager {
 				System.out.println("@@@@@");
 				return false;
 			}
-			return !;
+			return true;
 		}).mapToPair(s -> {
 			String corrected = s.replace("\"", "");
 			int commaPosition = corrected.indexOf(",");
