@@ -23,7 +23,7 @@ public class AirportsManager {
 		JavaSparkContext sc = new JavaSparkContext(conf);
 		JavaRDD<String> airportId = sc.textFile("AIRPORT_ID");
 		JavaRDD<String> ontimeSample = sc.textFile("ONTIME_SAMPLE");
-
+		airportId.collectAsMap();
 		JavaRDD<Airport> airports = airportId.flatMap(s -> {
 					String corrected = s.replace("\"", "");
 					int commaPosition = corrected.indexOf(",");
@@ -34,7 +34,7 @@ public class AirportsManager {
 						int digit = (int)code.charAt(i) - 48;
 						numId = numId * 10 + digit;
 					}
-					
+
 					Airport airport = new Airport(numId);
 					airport.setName(name);
 					return Arrays.asList(airport).iterator();
