@@ -20,8 +20,14 @@ public class AirportsManager {
 		JavaRDD<String> ontimeSample = sc.textFile("ONTIME_SAMPLE");
 
 		JavaRDD<Airport> sdfsdgd = airportId.flatMap(s -> {
-			
-		});
+					String corrected = s.replace("\"", "");
+					int commaPosition = corrected.indexOf(",");
+					String code = corrected.substring(0, commaPosition);
+					String name = corrected.substring(commaPosition + 1);
+					Airport airport = new Airport(21312);
+					airport.setName(name);
+					return Arrays.asList(airport).iterator();
+				});
 
 //		JavaRDD<String> splittedAirportId = airportId.flatMap(s ->
 //				Arrays.stream(s.replace("\"", "").split(",")).iterator()).filter(s -> {
