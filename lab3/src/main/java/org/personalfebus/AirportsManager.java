@@ -10,8 +10,8 @@ import java.util.Arrays;
 
 public class AirportsManager {
 	public static final int AIRPORT_ID_POSITION = 14;
-	public static final int CANCELLED_POSITION = 19;
 	public static final int DELAY_POSITION = 18;
+	public static final int CANCELLED_POSITION = 19;
 
 	public static void main(String[] args) throws Exception {
 		if (args.length != 3) {
