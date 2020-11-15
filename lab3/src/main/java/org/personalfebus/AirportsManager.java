@@ -66,7 +66,7 @@ public class AirportsManager {
 
 			Long originId = stringToNum(words[ORIGIN_AIRPORT_ID_POSITION]);
 			Long destinationId = stringToNum(words[DEST_AIRPORT_ID_POSITION]);
-
+			
 		});
 
 //		JavaRDD<Airport> airports = airportId.flatMap(s -> {
