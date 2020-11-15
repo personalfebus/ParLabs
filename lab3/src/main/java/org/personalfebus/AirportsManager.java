@@ -28,7 +28,15 @@ public class AirportsManager {
 		JavaRDD<String> airportId = sc.textFile("AIRPORT_ID");
 		JavaRDD<String> ontimeSample = sc.textFile("ONTIME_SAMPLE");
 
-		JavaPairRDD<Long, String> idToNameRDD = airportId.filter(s -> !(s.charAt(0) == 'C')).mapToPair(s -> {
+		JavaPairRDD<Long, String> idToNameRDD = airportId.filter(s -> {
+			if (s.charAt(0) == 'C') {
+				System.out.println("@@@@@");
+				System.out.println(s);
+				System.out.println("@@@@@");
+				return false;
+			}
+			return !;
+		}).mapToPair(s -> {
 			String corrected = s.replace("\"", "");
 			int commaPosition = corrected.indexOf(",");
 			String code = corrected.substring(0, commaPosition);
