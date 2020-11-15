@@ -22,6 +22,7 @@ public class AirportsManager {
 			System.err.println("Usage: Airports <input path> <output path>");
 			System.exit(-1);
 		}
+		
 		SparkConf conf = new SparkConf().setAppName("lab3");
 		JavaSparkContext sc = new JavaSparkContext(conf);
 		JavaRDD<String> airportId = sc.textFile("AIRPORT_ID");
@@ -41,7 +42,7 @@ public class AirportsManager {
 		});
 		Map<Long, String> idToNameMap = idToNameRDD.collectAsMap();
 
-		
+
 
 //		JavaRDD<Airport> airports = airportId.flatMap(s -> {
 //					String corrected = s.replace("\"", "");
