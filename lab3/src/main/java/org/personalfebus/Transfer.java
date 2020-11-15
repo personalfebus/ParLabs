@@ -6,7 +6,7 @@ public class Transfer implements Serializable {
     private long id;
     private String name;
 
-    public Airport(long airportId) {
+    public Transfer(long airportId) {
         id = airportId;
     }
 
