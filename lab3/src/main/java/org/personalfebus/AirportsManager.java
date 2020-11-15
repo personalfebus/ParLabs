@@ -18,13 +18,13 @@ public class AirportsManager {
 	public static final int CANCELLED_POSITION = 19;
 
 	public static long stringToNum(String Str){
-		long currentNum = 0;
+		long number = 0;
 		for (int j = 0; j < Str.length(); j++) {
 			int digit = (int)Str.charAt(j) - 48;
 			if (digit < 0) break;
-			currentNum = currentNum * 10 + digit;
+			number = number * 10 + digit;
 		}
-		return currentNum;
+		return number;
 	}
 
 	public static void main(String[] args) throws Exception {
