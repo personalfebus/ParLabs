@@ -9,7 +9,7 @@ import scala.Tuple2;
 import java.util.Arrays;
 
 public class AirportsManager {
-	public static final int ORIGIN_AIRPORT_ID_POSITION = 14;
+	public static final int ORIGIN_AIRPORT_ID_POSITION = 11;
 	public static final int DEST_AIRPORT_ID_POSITION = 14;
 	public static final int DELAY_POSITION = 18;
 	public static final int CANCELLED_POSITION = 19;
