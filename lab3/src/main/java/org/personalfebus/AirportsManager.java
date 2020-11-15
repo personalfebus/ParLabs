@@ -29,7 +29,7 @@ public class AirportsManager {
 		JavaRDD<String> ontimeSample = sc.textFile("ONTIME_SAMPLE");
 
 		JavaPairRDD<Long, String> idToNameRDD = airportId.filter(s -> {
-			
+			return !(s.charAt(0) == 'C');
 		}).mapToPair(s -> {
 			String corrected = s.replace("\"", "");
 			int commaPosition = corrected.indexOf(",");
