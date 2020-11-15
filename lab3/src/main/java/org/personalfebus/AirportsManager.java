@@ -4,7 +4,7 @@ import org.apache.spark.SparkConf;
 import org.apache.spark.api.java.JavaPairRDD;
 import org.apache.spark.api.java.JavaRDD;
 import org.apache.spark.api.java.JavaSparkContext;
-import org.apache.spark.rdd.*;
+import org.apache.spark.rdd.util.*;
 import scala.Tuple2;
 
 import java.util.Arrays;
@@ -24,7 +24,7 @@ public class AirportsManager {
 		JavaSparkContext sc = new JavaSparkContext(conf);
 		JavaRDD<String> airportId = sc.textFile("AIRPORT_ID");
 		JavaRDD<String> ontimeSample = sc.textFile("ONTIME_SAMPLE");
-		airportId.collectAsMap();
+		airportId
 		JavaRDD<Airport> airports = airportId.flatMap(s -> {
 					String corrected = s.replace("\"", "");
 					int commaPosition = corrected.indexOf(",");
