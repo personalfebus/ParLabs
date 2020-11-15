@@ -28,7 +28,7 @@ public class AirportsManager {
 
 		JavaRDD<String> airportId1 = sc.textFile("AIRPORT_ID");
 
-		JavaRDD<String, Long> arerewr = airportId1.mapToPair(s -> new Tuple2<>(s, s));
+		JavaRDD<String, Long> arerewr = airportId1.mapToPair(s -> new Tuple2<>(s, 1L));
 
 		JavaRDD<Airport> airports = airportId.flatMap(s -> {
 					String corrected = s.replace("\"", "");
