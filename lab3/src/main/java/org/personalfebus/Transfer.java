@@ -25,7 +25,19 @@ public class Transfer implements Serializable {
         return id;
     }
 
-    public String getName() {
-        return name;
+    public long getDelay() {
+        return delay;
+    }
+
+    public long getDestinationId() {
+        return destinationId;
+    }
+
+    public long getOriginId() {
+        return originId;
+    }
+
+    public boolean isCancelled() {
+        return isCancelled;
     }
 }
