@@ -26,7 +26,7 @@ public class AirportsManager {
 					String name = corrected.substring(commaPosition + 1);
 					long numId = 0;
 					for (int i = 0; i < code.length(); i++) {
-
+						int digit = (int)code.charAt(i) - 48;
 					}
 					Airport airport = new Airport(21312);
 					airport.setName(name);
