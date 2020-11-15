@@ -27,26 +27,24 @@ public class AirportsManager {
 		JavaRDD<String> airportId = sc.textFile("AIRPORT_ID");
 		JavaRDD<String> ontimeSample = sc.textFile("ONTIME_SAMPLE");
 
-		JavaRDD<String> airportId1 = sc.textFile("AIRPORT_ID");
-
-		JavaPairRDD<Long, String> arerewr = airportId1.mapToPair(s -> );
+		JavaPairRDD<Long, String> arerewr = airportId.mapToPair(s -> );
 		Map<Long, String> idToNameMap = arerewr.collectAsMap();
 
-		JavaRDD<Airport> airports = airportId.flatMap(s -> {
-					String corrected = s.replace("\"", "");
-					int commaPosition = corrected.indexOf(",");
-					String code = corrected.substring(0, commaPosition);
-					String name = corrected.substring(commaPosition + 1);
-					long numId = 0;
-					for (int i = 0; i < code.length(); i++) {
-						int digit = (int)code.charAt(i) - 48;
-						numId = numId * 10 + digit;
-					}
-
-					Airport airport = new Airport(numId);
-					airport.setName(name);
-					return Arrays.asList(airport).iterator();
-				});
+//		JavaRDD<Airport> airports = airportId.flatMap(s -> {
+//					String corrected = s.replace("\"", "");
+//					int commaPosition = corrected.indexOf(",");
+//					String code = corrected.substring(0, commaPosition);
+//					String name = corrected.substring(commaPosition + 1);
+//					long numId = 0;
+//					for (int i = 0; i < code.length(); i++) {
+//						int digit = (int)code.charAt(i) - 48;
+//						numId = numId * 10 + digit;
+//					}
+//
+//					Airport airport = new Airport(numId);
+//					airport.setName(name);
+//					return Arrays.asList(airport).iterator();
+//				});
 
 
 //		JavaRDD<String> splittedAirportId = airportId.flatMap(s ->
