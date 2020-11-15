@@ -42,7 +42,7 @@ public class AirportsManager {
 		});
 		Map<Long, String> idToNameMap = idToNameRDD.collectAsMap();
 
-		JavaPairRDD<>
+		JavaPairRDD<<Long, Long>, String> sfdsf;
 
 //		JavaRDD<Airport> airports = airportId.flatMap(s -> {
 //					String corrected = s.replace("\"", "");
