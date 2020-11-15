@@ -52,6 +52,7 @@ public class AirportsManager {
 
 			Long originId = stringToNum(words[ORIGIN_AIRPORT_ID_POSITION]);
 			Long destinationId = stringToNum(words[DEST_AIRPORT_ID_POSITION]);
+			
 			return new Tuple2<>(numId, name);
 		});
 		Map<Long, String> idToNameMap = idToNameRDD.collectAsMap();
