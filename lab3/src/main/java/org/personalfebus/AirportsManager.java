@@ -33,6 +33,7 @@ public class AirportsManager {
 					airport.setName(name);
 					return Arrays.asList(airport).iterator();
 				});
+		
 
 //		JavaRDD<String> splittedAirportId = airportId.flatMap(s ->
 //				Arrays.stream(s.replace("\"", "").split(",")).iterator()).filter(s -> {
