@@ -28,7 +28,9 @@ public class AirportsManager {
 		JavaRDD<String> airportId = sc.textFile("AIRPORT_ID");
 		JavaRDD<String> ontimeSample = sc.textFile("ONTIME_SAMPLE");
 
-		JavaPairRDD<Long, String> idToNameRDD = airportId.mapToPair(s -> {
+		JavaPairRDD<Long, String> idToNameRDD = airportId.filter(s -> {
+			
+		}).mapToPair(s -> {
 			String corrected = s.replace("\"", "");
 			int commaPosition = corrected.indexOf(",");
 			String code = corrected.substring(0, commaPosition);
