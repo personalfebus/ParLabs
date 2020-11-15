@@ -55,7 +55,7 @@ public class AirportsManager {
 		});
 		Map<Long, String> idToNameMap = idToNameRDD.collectAsMap();
 
-		JavaPairRDD<Tuple2<Long, Long>, String> chunk = ontimeSample.mapToPair(s -> {
+		JavaPairRDD<Tuple2<Long, Long>, Transfer> chunk = ontimeSample.mapToPair(s -> {
 			String corrected = s.replace("\"", "");
 			String[] words = corrected.split(",");
 
@@ -66,6 +66,7 @@ public class AirportsManager {
 			Long cancelCode = stringToNum(words[CANCELLED_POSITION]);
 			if (cancelCode == 0) transfer.setDelay(stringToNum(words[DELAY_POSITION]));
 			transfer.setCancelled(cancelCode != 0);
+			return new Tuple2<>(origAndDestId, transfer);
 		});
 
 		System.out.println("HELLO");
