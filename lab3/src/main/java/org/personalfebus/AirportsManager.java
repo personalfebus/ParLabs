@@ -37,6 +37,7 @@ public class AirportsManager {
 				int digit = (int) code.charAt(i) - 48;
 				numId = numId * 10 + digit;
 			}
+			return new Tuple2<>(numId, name);
 		});
 		Map<Long, String> idToNameMap = idToNameRDD.collectAsMap();
 
