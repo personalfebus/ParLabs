@@ -65,6 +65,7 @@ public class AirportsManager {
 			Transfer transfer = new Transfer(originId, destinationId);
 			Long cancelCode = stringToNum(words[CANCELLED_POSITION]);
 			if (cancelCode == 0) transfer.setDelay(stringToNum(words[DELAY_POSITION]));
+			transfer.setCancelled(cancelCode == 0);
 		});
 
 		System.out.println("HELLO");
