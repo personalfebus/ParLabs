@@ -27,7 +27,7 @@ public class AirportsManager {
 		JavaRDD<String> airportId = sc.textFile("AIRPORT_ID");
 		JavaRDD<String> ontimeSample = sc.textFile("ONTIME_SAMPLE");
 
-		JavaPairRDD<Long, String> arerewr = airportId.mapToPair(s -> );
+		JavaPairRDD<Long, String> idToNameRDD = airportId.mapToPair(s -> );
 		Map<Long, String> idToNameMap = arerewr.collectAsMap();
 
 //		JavaRDD<Airport> airports = airportId.flatMap(s -> {
