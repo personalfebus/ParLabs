@@ -17,14 +17,14 @@ public class AirportsManager {
 	public static final int DELAY_POSITION = 18;
 	public static final int CANCELLED_POSITION = 19;
 
-	public static long stringToNum(String delayStr){
-		long currentDelay = 0;
-		for (int j = 0; j < delayStr.length(); j++) {
-			int digit = (int)delayStr.charAt(j) - 48;
+	public static long stringToNum(String Str){
+		long currentNum = 0;
+		for (int j = 0; j < Str.length(); j++) {
+			int digit = (int)Str.charAt(j) - 48;
 			if (digit < 0) break;
-			currentDelay = currentDelay * 10 + digit;
+			currentNum = currentNum * 10 + digit;
 		}
-		return currentDelay;
+		return currentNum;
 	}
 
 	public static void main(String[] args) throws Exception {
