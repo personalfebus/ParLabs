@@ -38,9 +38,8 @@ public class AirportsManager {
 			return true;
 		}).mapToPair(s -> {
 			String corrected = s.replace("\"", "");
-			int commaPosition = corrected.indexOf(",");
-			String code = corrected.substring(0, commaPosition);
-			String name = corrected.substring(commaPosition + 1);
+			String[] words = corrected.split(",");
+			
 			long numId = 0;
 			for (int i = 0; i < code.length(); i++) {
 				int digit = (int) code.charAt(i) - 48;
