@@ -35,8 +35,8 @@ public class AirportsManager {
 
 		SparkConf conf = new SparkConf().setAppName("lab3");
 		JavaSparkContext sc = new JavaSparkContext(conf);
-		JavaRDD<String> airportId = sc.textFile("AIRPORT_ID");
-		JavaRDD<String> ontimeSample = sc.textFile("ONTIME_SAMPLE");
+		JavaRDD<String> airportId = sc.textFile("AIRPORT_ID.cvs");
+		JavaRDD<String> ontimeSample = sc.textFile("ONTIME_SAMPLE.cvs");
 
 		JavaPairRDD<Long, String> idToNameRDD = airportId.filter(s -> {
 			if (s.charAt(0) == 'C') {
