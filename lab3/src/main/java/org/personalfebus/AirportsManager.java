@@ -81,7 +81,7 @@ public class AirportsManager {
 		});
 
 //		final Broadcast<Map<Long, String>> airportsBroadcasted = sc.broadcast(idToNameMap);
-		System.out.println(chunk.f.collect());
+		System.out.println(chunk.collect());
 		System.out.println("HELLO");
 	}
 }
