@@ -80,7 +80,7 @@ public class AirportsManager {
 			return new Tuple2<>(origAndDestId, transfer);
 		});
 
-		final Broadcast<Map<Long, String>> airportsBroadcasted = sc.broadcast(idToNameMap);
+//		final Broadcast<Map<Long, String>> airportsBroadcasted = sc.broadcast(idToNameMap);
 		System.out.println("HELLO");
 	}
 }
