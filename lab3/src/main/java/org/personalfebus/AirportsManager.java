@@ -59,7 +59,7 @@ public class AirportsManager {
 		Map<Long, String> idToNameMap = idToNameRDD.collectAsMap();
 
 		JavaPairRDD<Tuple2<Long, Long>, Transfer> chunk = ontimeSample.filter(s -> {
-			return  (s.charAt(0) != '\"');
+			return  s.charAt(0) != '\"';
 		}).mapToPair(s -> {
 			String corrected = s.replace("\"", "");
 			String[] words = corrected.split(",");
