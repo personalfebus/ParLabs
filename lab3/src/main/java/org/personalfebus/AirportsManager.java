@@ -4,6 +4,7 @@ import org.apache.spark.SparkConf;
 import org.apache.spark.api.java.JavaPairRDD;
 import org.apache.spark.api.java.JavaRDD;
 import org.apache.spark.api.java.JavaSparkContext;
+import org.apache.spark.broadcast.Broadcast;
 import org.apache.spark.rdd.PairRDDFunctions.*;
 import scala.Tuple2;
 
@@ -79,7 +80,7 @@ public class AirportsManager {
 			return new Tuple2<>(origAndDestId, transfer);
 		});
 
-		final Broadcast<Map<String, Transfer>> airportsBroadcasted = sc.broadcast();
+		final Broadcast<Map<Long, String>> airportsBroadcasted = sc.broadcast(idToNameMap);
 		System.out.println("HELLO");
 	}
 }
