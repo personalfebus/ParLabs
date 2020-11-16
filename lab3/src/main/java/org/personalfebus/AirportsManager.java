@@ -79,6 +79,8 @@ public class AirportsManager {
 			return new Tuple2<>(origAndDestId, transfer);
 		});
 
+		final Broadcast<Map<String, Transfer>> airportsBroadcasted =
+				sc.broadcast(stringAirportDataMap);
 		System.out.println("HELLO");
 	}
 }
