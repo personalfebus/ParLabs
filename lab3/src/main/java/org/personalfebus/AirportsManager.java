@@ -39,6 +39,12 @@ public class AirportsManager {
 		JavaRDD<String> ontimeSample = sc.textFile("ONTIME_SAMPLE.csv");
 
 		JavaPairRDD<Long, String> idToNameRDD = airportId.filter(s -> {
+			int acxv = (int)s.charAt(0);
+			if (acxv > 44) {
+				System.out.println("@@@@@");
+				System.out.println(s);
+				System.out.println("@@@@@");
+			}
 			if (s.charAt(0) == 'C') {
 				System.out.println("@@@@@");
 				System.out.println(s);
