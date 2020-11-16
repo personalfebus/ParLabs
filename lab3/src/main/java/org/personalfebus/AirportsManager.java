@@ -65,7 +65,7 @@ public class AirportsManager {
 		});
 		chunk.reduceByKey((transfer, transfer2) -> {
 			
-		})
+		});
 //		final Broadcast<Map<Long, String>> airportsBroadcasted = sc.broadcast(idToNameMap);
 		System.out.println(chunk.collect());
 		System.out.println("HELLO");
