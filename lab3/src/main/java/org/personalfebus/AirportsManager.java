@@ -70,7 +70,7 @@ public class AirportsManager {
 		});
 		final Broadcast<Map<Long, String>> airportsBroadcasted = sc.broadcast(idToNameMap);
 		chunk2.map(info -> {
-
+			Map<Long, String> airportNames = airportsBroadcasted.value();
 			return info;
 		});
 
