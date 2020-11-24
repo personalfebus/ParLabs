@@ -77,6 +77,7 @@ public class AirportsManager {
 			info._2.setNames(airportNames.get(origId), airportNames.get(destId));
 			return info._2;
 		}).collect();
+
 		
 		System.out.println(chunk.collect());
 		System.out.println("HELLO");
