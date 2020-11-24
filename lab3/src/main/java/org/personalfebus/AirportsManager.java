@@ -10,6 +10,7 @@ import scala.Tuple2;
 
 import java.util.Arrays;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 public class AirportsManager {
@@ -69,13 +70,13 @@ public class AirportsManager {
 			return transfer;
 		});
 		final Broadcast<Map<Long, String>> airportsBroadcasted = sc.broadcast(idToNameMap);
-		chunk2.map(info -> {
+		List<Transfer> chunk3 = chunk2.map(info -> {
 			Map<Long, String> airportNames = airportsBroadcasted.value();
 			long origId = info._2.getOriginId();
 			long destId = info._2.getDestinationId();
 			info._2.setNames(airportNames.get(origId), airportNames.get(destId));
 			return info._2;
-		});
+		}).collect();
 
 
 		System.out.println(chunk.collect());
