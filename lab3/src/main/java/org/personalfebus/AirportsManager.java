@@ -8,6 +8,8 @@ import org.apache.spark.broadcast.Broadcast;
 import org.apache.spark.rdd.PairRDDFunctions.*;
 import scala.Tuple2;
 
+import java.io.FileOutputStream;
+import java.io.PrintStream;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
@@ -78,7 +80,9 @@ public class AirportsManager {
 			return info._2;
 		}).collect();
 
-		
+		PrintStream out = new PrintStream(new FileOutputStream("output.txt"));
+		System.setOut(out);
+
 		System.out.println(chunk.collect());
 		System.out.println("HELLO");
 	}
