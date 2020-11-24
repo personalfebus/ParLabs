@@ -42,4 +42,8 @@ public class Transfer implements Serializable {
     public boolean isCancelled() {
         return isCancelled;
     }
+
+    public void addFlight(long delay, long sumFlights, long sumCancelled) {
+        
+    }
 }
