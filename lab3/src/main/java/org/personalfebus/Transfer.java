@@ -44,6 +44,14 @@ public class Transfer implements Serializable {
         return isCancelled;
     }
 
+    public long getNumberOfCancelledOrDelayed() {
+        return numberOfCancelledOrDelayed;
+    }
+
+    public long getNumberOfFlights() {
+        return numberOfFlights;
+    }
+
     public void addFlight(long delay, long sumFlights, long sumCancelled) {
         numberOfFlights += sumFlights;
         numberOfCancelledOrDelayed = sumCancelled;
