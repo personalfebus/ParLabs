@@ -6,7 +6,7 @@ public class Transfer implements Serializable {
     private long originId;
     private long destinationId;
     private boolean isCancelled;
-    private long delay;
+    private long maxDelay;
 
     private long numberOfFlights;
     private long numberOfCancelled;
@@ -17,7 +17,7 @@ public class Transfer implements Serializable {
     }
 
     public void setDelay(long d) {
-        delay = d;
+        maxDelay = d;
     }
 
     public void setCancelled(boolean cancelled) {
