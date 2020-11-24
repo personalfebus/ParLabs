@@ -87,7 +87,7 @@ public class AirportsManager {
 			Transfer transfer = iterator.next();
 			System.out.println("===================");
 			System.out.println("From: " + transfer.originName + ";");
-
+			System.out.println("To: " + transfer.destinationName + ";");
 		}
 		System.out.println("HELLO");
 	}
