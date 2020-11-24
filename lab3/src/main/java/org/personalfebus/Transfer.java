@@ -45,6 +45,8 @@ public class Transfer implements Serializable {
     }
 
     public void addFlight(long delay, long sumFlights, long sumCancelled) {
-        
+        numberOfFlights += sumFlights;
+        numberOfCancelledOrDelayed = sumCancelled;
+        if (delay > maxDelay) maxDelay = delay;
     }
 }
