@@ -28,7 +28,7 @@ public class Transfer implements Serializable {
 
     public void setCancelled(boolean cancelled) {
         isCancelled = cancelled;
-        if (isCancelled)numberOfCancelledOrDelayed = 1;
+        if (isCancelled) numberOfCancelledOrDelayed = 1;
     }
 
     public long getDelay() {
