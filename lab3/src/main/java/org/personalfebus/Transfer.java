@@ -14,6 +14,7 @@ public class Transfer implements Serializable {
     public Transfer(long origId, long destId) {
         originId = origId;
         destinationId = destId;
+        numberOfFlights = 1;
     }
 
     public void setDelay(long d) {
