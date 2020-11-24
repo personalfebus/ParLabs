@@ -45,6 +45,6 @@ public class Transfer implements Serializable {
     }
 
     public void addFlight(long delay, long sumFlights, long sumCancelled) {
-
+        
     }
 }
