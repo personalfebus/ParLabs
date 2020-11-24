@@ -71,6 +71,8 @@ public class AirportsManager {
 		final Broadcast<Map<Long, String>> airportsBroadcasted = sc.broadcast(idToNameMap);
 		chunk2.map(info -> {
 			Map<Long, String> airportNames = airportsBroadcasted.value();
+			long origId = info._2.getOriginId();
+			long destId = info._2.getDestinationId();
 			return info;
 		});
 
