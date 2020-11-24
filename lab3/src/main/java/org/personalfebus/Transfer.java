@@ -23,12 +23,12 @@ public class Transfer implements Serializable {
 
     public void setDelay(long d) {
         maxDelay = d;
-        if (maxDelay > 0) numberOfCancelledOrDelayed = 1;
+        if (d > 0) numberOfCancelledOrDelayed = 1;
     }
 
     public void setCancelled(boolean cancelled) {
         isCancelled = cancelled;
-        if (isCancelled) numberOfCancelledOrDelayed = 1;
+        if (cancelled) numberOfCancelledOrDelayed = 1;
     }
 
     public long getDelay() {
