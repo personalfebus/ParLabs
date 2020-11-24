@@ -94,7 +94,7 @@ public class AirportsManager {
 //			percent *= 100;
 //			System.out.println("Percent of delayed or cancelled flights: " + percent + ";");
 			System.out.println("NumberOfCancelledOrDelayed: " + transfer.getDelay() + ";");
-			System.out.println("Maximum Delay: " + transfer.getDelay() + ";");
+			System.out.println("getNumberOfFlights: " + transfer.getDelay() + ";");
 		}
 		System.out.println("HELLO");
 	}
