@@ -83,7 +83,9 @@ public class AirportsManager {
 		PrintStream out = new PrintStream(new FileOutputStream("output.txt"));
 		System.setOut(out);
 
-		System.out.println(chunk.collect());
+		for (int i = 0; chunk3.size(); i++) {
+			
+		}
 		System.out.println("HELLO");
 	}
 }
