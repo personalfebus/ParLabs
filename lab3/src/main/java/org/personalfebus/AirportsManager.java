@@ -71,7 +71,7 @@ public class AirportsManager {
 
 		final Broadcast<Map<Long, String>> airportsBroadcasted = sc.broadcast(idToNameMap);
 
-		List<Transfer> chunk3 = groupedTransfers.map(info -> {
+		List<Transfer> listOfTransfers = groupedTransfers.map(info -> {
 			Map<Long, String> airportNames = airportsBroadcasted.value();
 			long origId = info._2.getOriginId();
 			long destId = info._2.getDestinationId();
@@ -83,7 +83,7 @@ public class AirportsManager {
 		PrintStream out = new PrintStream(new FileOutputStream("output.txt"));
 		System.setOut(out);
 
-		Iterator<Transfer> iterator = chunk3.iterator();
+		Iterator<Transfer> iterator = listOfTransfers.iterator();
 		while (iterator.hasNext()) {
 			Transfer transfer = iterator.next();
 			System.out.println("===================");
