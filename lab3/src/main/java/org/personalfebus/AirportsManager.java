@@ -63,12 +63,13 @@ public class AirportsManager {
 			transfer.setCancelled(cancelCode != 0);
 			return new Tuple2<>(origAndDestId, transfer);
 		});
-		chunk.reduceByKey((transfer, transfer2) -> {
+
+		JavaPairRDD<Tuple2<Long, Long>, Transfer> chunk2 = chunk.reduceByKey((transfer, transfer2) -> {
 			transfer.addFlight(transfer2.getDelay(), transfer2.getNumberOfFlights(), transfer2.getNumberOfCancelledOrDelayed());
 			return transfer;
 		});
 		final Broadcast<Map<Long, String>> airportsBroadcasted = sc.broadcast(idToNameMap);
-		
+
 		System.out.println(chunk.collect());
 		System.out.println("HELLO");
 	}
