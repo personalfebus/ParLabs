@@ -64,14 +64,14 @@ public class AirportsManager {
 			return new Tuple2<>(origAndDestId, transfer);
 		});
 
-		JavaPairRDD<Tuple2<Long, Long>, Transfer> chunk2 = allTransfers.reduceByKey((transfer, transfer2) -> {
+		JavaPairRDD<Tuple2<Long, Long>, Transfer> groupedTransfers = allTransfers.reduceByKey((transfer, transfer2) -> {
 			transfer.addFlight(transfer2.getDelay(), transfer2.getNumberOfFlights(), transfer2.getNumberOfCancelledOrDelayed());
 			return transfer;
 		});
 
 		final Broadcast<Map<Long, String>> airportsBroadcasted = sc.broadcast(idToNameMap);
 
-		List<Transfer> chunk3 = chunk2.map(info -> {
+		List<Transfer> chunk3 = groupedTransfers.map(info -> {
 			Map<Long, String> airportNames = airportsBroadcasted.value();
 			long origId = info._2.getOriginId();
 			long destId = info._2.getDestinationId();
