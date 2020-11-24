@@ -10,6 +10,7 @@ public class Transfer implements Serializable {
 
     private long numberOfFlights;
     private long numberOfCancelled;
+    private long summary
 
     public Transfer(long origId, long destId) {
         originId = origId;
