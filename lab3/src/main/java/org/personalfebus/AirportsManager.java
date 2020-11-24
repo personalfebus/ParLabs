@@ -64,7 +64,8 @@ public class AirportsManager {
 			return new Tuple2<>(origAndDestId, transfer);
 		});
 		chunk.reduceByKey((transfer, transfer2) -> {
-			transfer.addFlight(transfer2.getDelay(), );
+			transfer.addFlight(transfer2.getDelay(), transfer2.getNumberOfFlights(), transfer2.getNumberOfCancelledOrDelayed());
+			return transfer;
 		});
 //		final Broadcast<Map<Long, String>> airportsBroadcasted = sc.broadcast(idToNameMap);
 		System.out.println(chunk.collect());
