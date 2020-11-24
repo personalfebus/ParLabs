@@ -71,7 +71,9 @@ public class AirportsManager {
 			transfer.addFlight(transfer2.getDelay(), transfer2.getNumberOfFlights(), transfer2.getNumberOfCancelledOrDelayed());
 			return transfer;
 		});
+
 		final Broadcast<Map<Long, String>> airportsBroadcasted = sc.broadcast(idToNameMap);
+
 		List<Transfer> chunk3 = chunk2.map(info -> {
 			Map<Long, String> airportNames = airportsBroadcasted.value();
 			long origId = info._2.getOriginId();
@@ -84,7 +86,8 @@ public class AirportsManager {
 		System.setOut(out);
 
 		for (int i = 0; i < chunk3.size(); i++) {
-			
+			System.out.println("===================");
+			System.out.println(chunk3);
 		}
 		System.out.println("HELLO");
 	}
