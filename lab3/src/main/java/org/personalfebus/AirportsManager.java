@@ -73,7 +73,7 @@ public class AirportsManager {
 			info._2.setNames(airportNames.get(origId), airportNames.get(destId));
 			return info._2;
 		}).collect();
-		System.out.println("HELLO");
+		//System.out.println("HELLO");
 
 		PrintStream out = new PrintStream(new FileOutputStream("output.txt"));
 		System.setOut(out);
@@ -91,6 +91,6 @@ public class AirportsManager {
 			//System.out.println("NumberOfCancelledOrDelayed: " + transfer.getNumberOfCancelledOrDelayed() + ";");
 			//System.out.println("getNumberOfFlights: " + transfer.getNumberOfFlights() + ";");
 		}
-		System.out.println("HELLO");
+		//System.out.println("HELLO");
 	}
 }
