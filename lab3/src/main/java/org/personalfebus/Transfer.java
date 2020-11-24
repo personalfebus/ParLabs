@@ -8,6 +8,9 @@ public class Transfer implements Serializable {
     private boolean isCancelled;
     private long delay;
 
+    private long numberOfFlights;
+    private long numberOfCancelled;
+
     public Transfer(long origId, long destId) {
         originId = origId;
         destinationId = destId;
