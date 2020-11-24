@@ -29,11 +29,6 @@ public class AirportsManager {
 	}
 
 	public static void main(String[] args) throws Exception {
-//		if (args.length != 3) {
-//			System.err.println("Usage: Airports <input path> <output path>");
-//			System.exit(-1);
-//		}
-
 		SparkConf conf = new SparkConf().setAppName("lab3");
 		JavaSparkContext sc = new JavaSparkContext(conf);
 		JavaRDD<String> airportId = sc.textFile("AIRPORT_ID.csv");
