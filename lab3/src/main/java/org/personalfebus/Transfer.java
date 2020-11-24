@@ -13,7 +13,7 @@ public class Transfer implements Serializable {
 
     public String originName;
     public String destinationName;
-    
+
     public Transfer(long origId, long destId) {
         originId = origId;
         destinationId = destId;
@@ -59,5 +59,10 @@ public class Transfer implements Serializable {
         numberOfFlights += sumFlights;
         numberOfCancelledOrDelayed = sumCancelled;
         if (delay > maxDelay) maxDelay = delay;
+    }
+
+    public void setNames(String originName, String destinationName) {
+        this.originName = originName;
+        this.destinationName = destinationName;
     }
 }
