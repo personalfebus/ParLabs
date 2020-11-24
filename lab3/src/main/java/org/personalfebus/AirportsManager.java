@@ -93,8 +93,8 @@ public class AirportsManager {
 //			float percent = (float)transfer.getNumberOfCancelledOrDelayed() / transfer.getNumberOfFlights();
 //			percent *= 100;
 //			System.out.println("Percent of delayed or cancelled flights: " + percent + ";");
-			System.out.println("NumberOfCancelledOrDelayed: " + transfer.getDelay() + ";");
-			System.out.println("getNumberOfFlights: " + transfer.getDelay() + ";");
+			System.out.println("NumberOfCancelledOrDelayed: " + transfer.getNumberOfCancelledOrDelayed() + ";");
+			System.out.println("getNumberOfFlights: " + transfer.getNumberOfFlights() + ";");
 		}
 		System.out.println("HELLO");
 	}
