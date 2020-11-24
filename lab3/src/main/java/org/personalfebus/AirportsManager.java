@@ -74,7 +74,7 @@ public class AirportsManager {
 			long origId = info._2.getOriginId();
 			long destId = info._2.getDestinationId();
 			info._2.setNames(airportNames.get(origId), airportNames.get(destId));
-			return info;
+			return info._2;
 		});
 
 
