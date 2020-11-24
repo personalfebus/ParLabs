@@ -9,7 +9,7 @@ public class Transfer implements Serializable {
     private long maxDelay;
 
     private long numberOfFlights;
-    private long numberOfCancelled;
+    private long numberOfCancelledOrDelayed;
 
     public Transfer(long origId, long destId) {
         originId = origId;
