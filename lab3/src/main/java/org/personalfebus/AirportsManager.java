@@ -90,11 +90,11 @@ public class AirportsManager {
 			System.out.println("From: " + transfer.originName + ";");
 			System.out.println("To: " + transfer.destinationName + ";");
 			System.out.println("Maximum Delay: " + transfer.getDelay() + ";");
-//			float percent = (float)transfer.getNumberOfCancelledOrDelayed() / transfer.getNumberOfFlights();
-//			percent *= 100;
-//			System.out.println("Percent of delayed or cancelled flights: " + percent + ";");
-			System.out.println("NumberOfCancelledOrDelayed: " + transfer.getNumberOfCancelledOrDelayed() + ";");
-			System.out.println("getNumberOfFlights: " + transfer.getNumberOfFlights() + ";");
+			float percent = (float)transfer.getNumberOfCancelledOrDelayed() / transfer.getNumberOfFlights();
+			percent *= 100;
+			System.out.println("Percent of delayed or cancelled flights: " + percent + ";");
+			//System.out.println("NumberOfCancelledOrDelayed: " + transfer.getNumberOfCancelledOrDelayed() + ";");
+			//System.out.println("getNumberOfFlights: " + transfer.getNumberOfFlights() + ";");
 		}
 		System.out.println("HELLO");
 	}
