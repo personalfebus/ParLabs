@@ -25,7 +25,7 @@ public class Transfer implements Serializable {
     }
 
     public long getDelay() {
-        return delay;
+        return maxDelay;
     }
 
     public long getDestinationId() {
