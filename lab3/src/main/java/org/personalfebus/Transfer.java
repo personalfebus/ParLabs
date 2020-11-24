@@ -15,6 +15,7 @@ public class Transfer implements Serializable {
         originId = origId;
         destinationId = destId;
         numberOfFlights = 1;
+        numberOfCancelledOrDelayed = 0;
     }
 
     public void setDelay(long d) {
@@ -44,6 +45,6 @@ public class Transfer implements Serializable {
     }
 
     public void addFlight(long delay, long sumFlights, long sumCancelled) {
-        
+
     }
 }
