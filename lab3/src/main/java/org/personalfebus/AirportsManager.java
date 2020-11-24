@@ -10,10 +10,7 @@ import scala.Tuple2;
 
 import java.io.FileOutputStream;
 import java.io.PrintStream;
-import java.util.Arrays;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 public class AirportsManager {
 	public static final int ORIGIN_AIRPORT_ID_POSITION = 11;
@@ -85,9 +82,12 @@ public class AirportsManager {
 		PrintStream out = new PrintStream(new FileOutputStream("output.txt"));
 		System.setOut(out);
 
-		for (int i = 0; i < chunk3.size(); i++) {
+		Iterator<Transfer> iterator = chunk3.iterator();
+		while (iterator.hasNext()) {
+			Transfer transfer = iterator.next();
 			System.out.println("===================");
-			System.out.println(chunk3);
+			System.out.println();
+
 		}
 		System.out.println("HELLO");
 	}
