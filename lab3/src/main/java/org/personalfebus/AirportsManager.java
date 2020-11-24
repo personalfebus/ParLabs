@@ -49,7 +49,7 @@ public class AirportsManager {
 		});
 		Map<Long, String> idToNameMap = idToNameRDD.collectAsMap();
 
-		JavaPairRDD<Tuple2<Long, Long>, Transfer> chunk = ontimeSample.filter(s -> s.charAt(0) != '\"')
+		JavaPairRDD<Tuple2<Long, Long>, Transfer> allTransfers = ontimeSample.filter(s -> s.charAt(0) != '\"')
 				.mapToPair(s -> {
 			String corrected = s.replace("\"", "");
 			String[] words = corrected.split(",");
@@ -64,7 +64,7 @@ public class AirportsManager {
 			return new Tuple2<>(origAndDestId, transfer);
 		});
 
-		JavaPairRDD<Tuple2<Long, Long>, Transfer> chunk2 = chunk.reduceByKey((transfer, transfer2) -> {
+		JavaPairRDD<Tuple2<Long, Long>, Transfer> chunk2 = allTransfers.reduceByKey((transfer, transfer2) -> {
 			transfer.addFlight(transfer2.getDelay(), transfer2.getNumberOfFlights(), transfer2.getNumberOfCancelledOrDelayed());
 			return transfer;
 		});
