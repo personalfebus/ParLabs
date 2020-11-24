@@ -11,6 +11,9 @@ public class Transfer implements Serializable {
     private long numberOfFlights;
     private long numberOfCancelledOrDelayed;
 
+    public String originName;
+    public String destinationName;
+    
     public Transfer(long origId, long destId) {
         originId = origId;
         destinationId = destId;
