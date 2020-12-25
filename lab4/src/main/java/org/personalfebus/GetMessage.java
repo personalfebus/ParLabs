@@ -8,7 +8,8 @@ public class GetMessage {
     private String testResult;
     private String parameters;
 
-    public GetMessage(int packageId) {
+    public GetMessage(int packageId, String jsScript, String functionName, String testName, String testResult,
+    String parameters) {
         this.packageId = packageId;
     }
 
