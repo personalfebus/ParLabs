@@ -10,4 +10,16 @@ public class StoreMessage {
         this.testName = testName;
         this.testResult = testResult;
     }
+
+    public int getPackageId() {
+        return packageId;
+    }
+
+    public String getTestName() {
+        return testName;
+    }
+
+    public boolean isTestResult() {
+        return testResult;
+    }
 }
