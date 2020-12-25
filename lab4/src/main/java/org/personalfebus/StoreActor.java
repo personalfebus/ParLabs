@@ -17,7 +17,7 @@ public class StoreActor extends AbstractActor {
                         store.put(m.getPackageId(), testToResult);
                     }
                     testToResult.put(m.getTestName(), m.getTestResult());
-                    System.out.println("receive message! "+m.toString());
+                    System.out.println("receive message: " + m.getPackageId() + ";" + m.getTestName() + ";" + m.getTestResult());
                 })
                 .match(GetMessage.class, req -> sender().tell(
 
