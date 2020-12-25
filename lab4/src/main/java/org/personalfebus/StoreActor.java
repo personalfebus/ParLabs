@@ -11,7 +11,7 @@ public class StoreActor extends AbstractActor {
     public Receive createReceive() {
         return ReceiveBuilder.create()
                 .match(TestMessage.class, m -> {
-                    Map<String, Boolean> mp = store.get(m.getTestName());
+                    Map<String, Boolean> mp = store.get(m.get);
                     System.out.println("receive message! "+m.toString());
                 })
                 .match(GetMessage.class, req -> sender().tell(
