@@ -5,15 +5,15 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class StoreActor extends AbstractActor {
-    private Map<Integer, Map<String, Boolean>> store = new HashMap<>();
+    private HashMap<Integer, Map<String, Boolean>> store = new HashMap<>();
 
     @Override
     public Receive createReceive() {
         return ReceiveBuilder.create()
                 .match(StoreMessage.class, m -> {
-                    Map<String, Boolean> testToResult = store.get(m.getPackageId());
+                    HashMap<String, Boolean> testToResult = store.get(m.getPackageId());
                     if (testToResult == null) {
-                        
+                        testToResult = new
                     }
                     System.out.println("receive message! "+m.toString());
                 })
