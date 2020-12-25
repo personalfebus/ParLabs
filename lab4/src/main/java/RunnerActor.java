@@ -8,7 +8,7 @@ public class RunnerActor extends AbstractActor {
     private HashMap<Integer, HashMap<String, Boolean>> store = new HashMap<>();
 
     @Override
-    public Receive createReceive() {
+    public AbstractActor.Receive createReceive() {
 
     };
 }
