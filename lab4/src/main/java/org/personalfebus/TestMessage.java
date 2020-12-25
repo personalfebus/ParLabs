@@ -1,18 +1,25 @@
 package org.personalfebus;
 
 public class TestMessage {
+    private int packageId;
+    private String jsScript;
+    private String functionName;
     private String testName;
-    private String expectedResult;
+    private String testResult;
     private String parameters;
 
-    public TestMessage(String testName, String expectedResult, String parameters) {
-        this.testName = testName;
-        this.expectedResult = expectedResult;
+    public TestMessage(int packageId, String jsScript, String functionName, String testName, String testResult,
+                      String parameters) {
+        this.packageId = packageId;
         this.parameters = parameters;
+        this.jsScript = jsScript;
+        this.functionName = functionName;
+        this.testName = testName;
+        this.testResult = testResult;
     }
 
-    public String getExpectedResult() {
-        return expectedResult;
+    public int getPackageId() {
+        return packageId;
     }
 
     public String getTestName() {
@@ -21,5 +28,17 @@ public class TestMessage {
 
     public String getParameters() {
         return parameters;
+    }
+
+    public String getFunctionName() {
+        return functionName;
+    }
+
+    public String getJsScript() {
+        return jsScript;
+    }
+
+    public String getTestResult() {
+        return testResult;
     }
 }
