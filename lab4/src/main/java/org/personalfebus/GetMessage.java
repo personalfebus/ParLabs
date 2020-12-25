@@ -11,6 +11,11 @@ public class GetMessage {
     public GetMessage(int packageId, String jsScript, String functionName, String testName, String testResult,
     String parameters) {
         this.packageId = packageId;
+        this.parameters = parameters;
+        this.jsScript = jsScript;
+        this.functionName = functionName;
+        this.testName = testName;
+        this.testResult = testResult;
     }
 
     public int getPackageId() {
