@@ -6,4 +6,8 @@ public class GetMessage {
     public GetMessage(int packageId) {
         this.packageId = packageId;
     }
+
+    public int getPackageId() {
+        return packageId;
+    }
 }
