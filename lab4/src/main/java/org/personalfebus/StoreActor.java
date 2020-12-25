@@ -10,7 +10,7 @@ public class StoreActor extends AbstractActor {
     @Override
     public Receive createReceive() {
         return ReceiveBuilder.create()
-                .match(TestMessage.class, m -> {
+                .match(StoreMessage.class, m -> {
                     Map<String, Boolean> mp = store.get(m.get);
                     System.out.println("receive message! "+m.toString());
                 })
