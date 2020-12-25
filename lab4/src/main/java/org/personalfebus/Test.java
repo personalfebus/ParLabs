@@ -10,4 +10,16 @@ public class Test {
         this.expectedResult = expectedResult;
         this.parameters = parameters;
     }
+
+    public String getExpectedResult() {
+        return expectedResult;
+    }
+
+    public String getTestName() {
+        return testName;
+    }
+
+    public String getParameters() {
+        return parameters;
+    }
 }
