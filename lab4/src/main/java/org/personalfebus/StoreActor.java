@@ -16,6 +16,7 @@ public class StoreActor extends AbstractActor {
                         testToResult = new HashMap<>();
                         testToResult.put(m.getTestName(), m.getTestResult());
                     }
+                    
                     System.out.println("receive message! "+m.toString());
                 })
                 .match(GetMessage.class, req -> sender().tell(
