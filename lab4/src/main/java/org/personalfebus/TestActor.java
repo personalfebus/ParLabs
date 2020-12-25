@@ -6,6 +6,6 @@ import akka.japi.pf.ReceiveBuilder;
 public class TestActor extends AbstractActor {
     public AbstractActor.Receive createReceive() {
         return ReceiveBuilder.create()
-                .match()
+                .match();
     }
 }
