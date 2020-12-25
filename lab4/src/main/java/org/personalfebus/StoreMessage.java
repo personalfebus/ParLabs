@@ -6,6 +6,8 @@ public class StoreMessage {
     private boolean testResult;
 
     public StoreMessage(int packageId, String testName, boolean testResult) {
-    
+        this.packageId = packageId;
+        this.testName = testName;
+        this.testResult = testResult;
     }
 }
