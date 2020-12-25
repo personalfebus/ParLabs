@@ -7,6 +7,7 @@ public class MapTestMessage {
     private int packageId;
 
     public MapTestMessage(HashMap<String, Boolean> result, int packageId) {
-        
+        this.result = result;
+        this.packageId = packageId;
     }
 }
