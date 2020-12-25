@@ -21,4 +21,24 @@ public class GetMessage {
     public int getPackageId() {
         return packageId;
     }
+
+    public String getTestName() {
+        return testName;
+    }
+
+    public String getParameters() {
+        return parameters;
+    }
+
+    public String getFunctionName() {
+        return functionName;
+    }
+
+    public String getJsScript() {
+        return jsScript;
+    }
+
+    public String getTestResult() {
+        return testResult;
+    }
 }
