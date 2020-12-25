@@ -10,7 +10,5 @@ public class RunnerActor extends AbstractActor {
     @Override
     public Receive createReceive() {
 
-    }
-
-    ;
+    };
 }
