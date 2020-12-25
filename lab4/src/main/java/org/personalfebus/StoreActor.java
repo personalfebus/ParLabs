@@ -5,7 +5,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class StoreActor extends AbstractActor {
-    private HashMap<Integer, Map<String, Boolean>> store = new HashMap<>();
+    private HashMap<Integer, HashMap<String, Boolean>> store = new HashMap<>();
 
     @Override
     public Receive createReceive() {
