@@ -19,7 +19,7 @@ public class StoreMessage {
         return testName;
     }
 
-    public boolean isTestResult() {
+    public boolean getTestResult() {
         return testResult;
     }
 }
