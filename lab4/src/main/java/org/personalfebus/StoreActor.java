@@ -13,7 +13,7 @@ public class StoreActor extends AbstractActor {
                 .match(StoreMessage.class, m -> {
                     HashMap<String, Boolean> testToResult = store.get(m.getPackageId());
                     if (testToResult == null) {
-                        testToResult = new
+                        testToResult = new HashMap<>();
                     }
                     System.out.println("receive message! "+m.toString());
                 })
