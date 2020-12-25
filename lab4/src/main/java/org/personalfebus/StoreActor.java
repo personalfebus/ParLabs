@@ -12,6 +12,9 @@ public class StoreActor extends AbstractActor {
         return ReceiveBuilder.create()
                 .match(StoreMessage.class, m -> {
                     Map<String, Boolean> testToResult = store.get(m.getPackageId());
+                    if (testToResult == null) {
+                        
+                    }
                     System.out.println("receive message! "+m.toString());
                 })
                 .match(GetMessage.class, req -> sender().tell(
