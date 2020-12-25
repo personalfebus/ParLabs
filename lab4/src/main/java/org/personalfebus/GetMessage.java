@@ -6,7 +6,7 @@ public class GetMessage {
     private String functionName;
     private String testName;
     private String testResult;
-    
+    private String parameters;
 
     public GetMessage(int packageId) {
         this.packageId = packageId;
