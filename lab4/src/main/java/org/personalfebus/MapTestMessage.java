@@ -10,4 +10,12 @@ public class MapTestMessage {
         this.result = result;
         this.packageId = packageId;
     }
+
+    public int getPackageId() {
+        return packageId;
+    }
+
+    public HashMap<String, Boolean> getResult() {
+        return result;
+    }
 }
