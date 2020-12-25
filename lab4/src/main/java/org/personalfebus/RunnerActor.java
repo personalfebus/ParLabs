@@ -1,2 +1,4 @@
-package org.personalfebus;public class RunnerActor {
+package org.personalfebus;
+
+public class RunnerActor {
 }
