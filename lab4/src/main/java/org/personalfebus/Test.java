@@ -6,6 +6,8 @@ public class Test {
     private String parameters;
 
     public Test(String testName, String expectedResult, String parameters) {
-        
+        this.testName = testName;
+        this.expectedResult = expectedResult;
+        this.parameters = parameters;
     }
 }
