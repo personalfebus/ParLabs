@@ -1,2 +1,4 @@
-package org.personalfebus;public class MapTestMessage {
+package org.personalfebus;
+
+public class MapTestMessage {
 }
