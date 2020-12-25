@@ -6,5 +6,7 @@ public class MapTestMessage {
     private HashMap<String, Boolean> result;
     private int packageId;
 
-    public MapTestMessage()
+    public MapTestMessage(HashMap<String, Boolean> result, int packageId) {
+        
+    }
 }
