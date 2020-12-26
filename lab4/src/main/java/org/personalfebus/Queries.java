@@ -1,6 +1,7 @@
 package org.personalfebus;
 
 import akka.NotUsed;
+import akka.actor.Actor;
 import akka.actor.ActorRef;
 import akka.actor.ActorSystem;
 import akka.actor.Props;
@@ -19,7 +20,7 @@ public class Queries {
     private static final String PROPERTY_PACKAGE_ID = "packageId";
     private static final int QUERY_TIMEOUT = 10000;
 
-    public static Route createRoute()
+    public static Route createRoute(ActorRef actorRef)
     static void main(String[] args) {
         ActorSystem system = ActorSystem.create("test");
         ActorRef storeActor = system.actorOf(Props.create(TestActor.class));
