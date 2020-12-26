@@ -9,6 +9,6 @@ public class Queries {
     static void main(String[] args) {
         ActorSystem system = ActorSystem.create("test");
         ActorRef storeActor = system.actorOf(Props.create(TestActor.class));
-        final Http http = 
+        final Http http = Http.get()
     }
 }
