@@ -22,16 +22,8 @@ public class TestMessage {
         return testName;
     }
 
-    public String getParameters() {
+    public Object[] getParameters() {
         return parameters;
-    }
-
-    public String getFunctionName() {
-        return functionName;
-    }
-
-    public String getJsScript() {
-        return jsScript;
     }
 
     public String getTestResult() {
