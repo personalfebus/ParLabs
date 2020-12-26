@@ -28,7 +28,7 @@ public class RunnerActor extends AbstractActor {
     public AbstractActor.Receive createReceive() {
         return ReceiveBuilder.create()
                 .match(RunTestMessage.class m -> {
-                    
-                })
+
+                }).build();
     };
 }
