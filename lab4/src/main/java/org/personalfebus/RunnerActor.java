@@ -11,7 +11,7 @@ import java.util.Map;
 public class RunnerActor extends AbstractActor {
     private static final String JS_ENGINE_NAME = "nashorn";
     private static final String EQ_FUNCTION_NAME = "eq";
-    private static final String EQ_SCRIPT = "var " + EQUALLER_FUNCTION_NAME + " = function(a, b) {return a == b}";
+    private static final String EQ_SCRIPT = "var " + EQ_FUNCTION_NAME + " = function(a, b) {return a == b}";
     private static final Invocable eq;
 
     static {
@@ -29,6 +29,7 @@ public class RunnerActor extends AbstractActor {
         return ReceiveBuilder.create()
                 .match(RunTestMessage.class m -> {
                     ScriptEngine scriptEngine = new ScriptEngineManager().getEngineByName(JS_ENGINE_NAME);
+                    
                 }).build();
     };
 }
