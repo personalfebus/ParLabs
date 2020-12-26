@@ -31,7 +31,7 @@ public class RunnerActor extends AbstractActor {
                     ScriptEngine scriptEngine = new ScriptEngineManager().getEngineByName(JS_ENGINE_NAME);
                     scriptEngine.eval(m.getJsScript());
                     Invocable invocable = (Invocable)scriptEngine;
-                    invocable.invokeFunction()
+                    invocable.invokeFunction(m.getFunctionName(), m.getParameters());
                 }).build();
     };
 }
