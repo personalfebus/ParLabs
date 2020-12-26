@@ -9,6 +9,7 @@ import akka.http.javadsl.ConnectHttp;
 import akka.http.javadsl.Http;
 import akka.http.javadsl.ServerBinding;
 import akka.http.javadsl.marshallers.jackson.Jackson;
+import akka.http.javadsl.model.HttpMessage;
 import akka.http.javadsl.model.HttpRequest;
 import akka.http.javadsl.model.HttpResponse;
 import akka.http.javadsl.server.Route;
@@ -25,7 +26,7 @@ public class Queries {
     private static final int QUERY_TIMEOUT = 10000;
 
     public static Route createRoute(ActorRef actorRef) {
-        return post(() -> entity(Jackson.unmarshaller(HttpQuery.class), m -> {
+        return post(() -> entity(Jackson.unmarshaller(HttpMessage.class), m -> {
 
         }
     }
