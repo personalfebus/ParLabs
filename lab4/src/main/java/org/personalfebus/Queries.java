@@ -11,6 +11,6 @@ public class Queries {
         ActorSystem system = ActorSystem.create("test");
         ActorRef storeActor = system.actorOf(Props.create(TestActor.class));
         final Http http = Http.get(system);
-        final ActorMaterializer
+        final ActorMaterializer materializer 
     }
 }
