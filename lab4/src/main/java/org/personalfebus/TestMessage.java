@@ -14,10 +14,6 @@ public class TestMessage {
         this.testResult = testResult;
     }
 
-    public int getPackageId() {
-        return packageId;
-    }
-
     public String getTestName() {
         return testName;
     }
