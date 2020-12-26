@@ -8,4 +8,6 @@ public class QueryMessage {
     @JsonProperty("functionName")       private String functionName;
     @JsonProperty("jsScript")           private String jsScript;
     @JsonProperty("tests")               private Test[] tests;
+
+    
 }
