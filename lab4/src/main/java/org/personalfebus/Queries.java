@@ -34,7 +34,7 @@ public class Queries {
         })).orElse(get(() -> parameter("packageId", m -> {
             return completeOKWithFuture(Patterns.ask(actorRef, new GetMessage(Integer.parseInt(m)), QUERY_TIMEOUT),
                     Jackson.marshaller());
-        }))
+        })));
     }
     static void main(String[] args) {
         ActorSystem system = ActorSystem.create("test");
