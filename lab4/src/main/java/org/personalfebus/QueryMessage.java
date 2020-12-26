@@ -21,7 +21,7 @@ public class QueryMessage {
         return functionName;
     }
 
-    public Test[] getTests() {
+    public TestMessage[] getTests() {
         return tests;
     }
 
