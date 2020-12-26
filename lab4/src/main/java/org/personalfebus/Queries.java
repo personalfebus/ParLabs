@@ -30,7 +30,7 @@ public class Queries {
                         ActorRef.noSender());
             }
             return complete("SUCCESS");
-        })).orElse(get() -> parameter())
+        })).orElse(get() -> parameter("packageId"))
     }
     static void main(String[] args) {
         ActorSystem system = ActorSystem.create("test");
