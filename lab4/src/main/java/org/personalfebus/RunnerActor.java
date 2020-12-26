@@ -27,6 +27,8 @@ public class RunnerActor extends AbstractActor {
     @Override
     public AbstractActor.Receive createReceive() {
         return ReceiveBuilder.create()
-                .match(RunTestMessage.class m -> )
+                .match(RunTestMessage.class m -> {
+                    
+                })
     };
 }
