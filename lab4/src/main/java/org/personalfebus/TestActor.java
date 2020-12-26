@@ -7,7 +7,7 @@ import akka.japi.pf.ReceiveBuilder;
 import akka.routing.RoundRobinPool;
 
 public class TestActor extends AbstractActor {
-    final 
+    static final int 
     private ActorRef storeActor = getContext().actorOf(Props.create(StoreActor.class));
     private ActorRef testRunners = getContext().actorOf(new RoundRobinPool())
     public AbstractActor.Receive createReceive() {
