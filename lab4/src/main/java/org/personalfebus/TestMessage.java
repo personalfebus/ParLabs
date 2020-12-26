@@ -8,12 +8,10 @@ public class TestMessage {
     @JsonProperty("parameters") private String parameters;
     @JsonProperty("testResult") private String testResult;
 
-    public TestMessage(int packageId, String jsScript, String functionName, String testName, String testResult,
+    public TestMessage(int packageId, String testName, String testResult,
                       String parameters) {
         this.packageId = packageId;
         this.parameters = parameters;
-        this.jsScript = jsScript;
-        this.functionName = functionName;
         this.testName = testName;
         this.testResult = testResult;
     }
