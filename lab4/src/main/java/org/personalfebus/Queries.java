@@ -20,6 +20,6 @@ public class Queries {
         final Http http = Http.get(system);
         final ActorMaterializer materializer = ActorMaterializer.create(system);
         final Flow<HttpRequest, HttpResponse, NotUsed> flow = ;
-        final CompletionStage<ServerBinding> binding = http.bindAndHandle()
+        final CompletionStage<ServerBinding> binding = http.bindAndHandle(routeFlow, ConnectHttp.toHost("localhost", 8080), materializer);)
     }
 }
