@@ -33,7 +33,7 @@ public class RunnerActor extends AbstractActor {
                     Invocable invocable = (Invocable)scriptEngine;
                     Object result = invocable.invokeFunction(m.getFunctionName(), m.getParameters());
                     Object isEq = eq.invokeFunction(EQ_FUNCTION_NAME, result, m.getTestResult());
-                    sender().tell(new );
+                    sender().tell(new StoreMessage());
                 }).build();
     };
 }
