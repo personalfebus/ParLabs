@@ -27,6 +27,9 @@ public class QueryMessage {
 
     public QueryMessage(@JsonProperty("packageId") int packageId, @JsonProperty("functionName") String functionName,
                         @JsonProperty("jsScript") String jsScript, @JsonProperty("tests") Test[] tests){
-        
+        this.packageId = packageId;
+        this.functionName = functionName;
+        this.jsScript = jsScript;
+        this.tests = tests;
     }
 }
