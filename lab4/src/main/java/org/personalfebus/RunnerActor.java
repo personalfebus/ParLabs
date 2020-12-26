@@ -27,10 +27,10 @@ public class RunnerActor extends AbstractActor {
     @Override
     public AbstractActor.Receive createReceive() {
         return ReceiveBuilder.create()
-                .match(RunTestMessage.class m -> {
+                .match(RunTestMessage.class, m -> {
                     ScriptEngine scriptEngine = new ScriptEngineManager().getEngineByName(JS_ENGINE_NAME);
                     scriptEngine.eval(m.getJsScript());
-                    
+
                 }).build();
     };
 }
