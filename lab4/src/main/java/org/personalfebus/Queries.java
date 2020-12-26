@@ -8,6 +8,7 @@ import akka.actor.Props;
 import akka.http.javadsl.ConnectHttp;
 import akka.http.javadsl.Http;
 import akka.http.javadsl.ServerBinding;
+import akka.http.javadsl.marshallers.jackson.Jackson;
 import akka.http.javadsl.model.HttpRequest;
 import akka.http.javadsl.model.HttpResponse;
 import akka.http.javadsl.server.Route;
@@ -16,12 +17,17 @@ import akka.stream.javadsl.Flow;
 
 import java.util.concurrent.CompletionStage;
 
+import static akka.http.javadsl.server.Directives.entity;
+import static akka.http.javadsl.server.Directives.post;
+
 public class Queries {
     private static final String PROPERTY_PACKAGE_ID = "packageId";
     private static final int QUERY_TIMEOUT = 10000;
 
     public static Route createRoute(ActorRef actorRef) {
-        
+        return post(() -> entity(Jackson.unmarshaller(HttpQuery.class), m -> {
+
+        }
     }
     static void main(String[] args) {
         ActorSystem system = ActorSystem.create("test");
