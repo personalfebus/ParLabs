@@ -3,7 +3,6 @@ package org.personalfebus;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
 public class TestMessage {
-    private int packageId;
     @JsonProperty("testName") private String testName;
     @JsonProperty("parameters") private String parameters;
     @JsonProperty("testResult") private String testResult;
