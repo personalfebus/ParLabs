@@ -31,7 +31,7 @@ public class Queries {
                         ActorRef.noSender());
             }
             return complete("SUCCESS");
-        }
+        }))
     }
     static void main(String[] args) {
         ActorSystem system = ActorSystem.create("test");
