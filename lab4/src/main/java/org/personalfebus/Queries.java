@@ -21,7 +21,6 @@ import java.util.concurrent.CompletionStage;
 import static akka.http.javadsl.server.Directives.*;
 
 public class Queries {
-    private static final String PROPERTY_PACKAGE_ID = "packageId";
     private static final int QUERY_TIMEOUT = 10000;
 
     public static Route createRoute(ActorRef actorRef) {
