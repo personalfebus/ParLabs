@@ -7,5 +7,5 @@ public class QueryMessage {
     @JsonProperty("packageId")          private int packageId;
     @JsonProperty("functionName")       private String functionName;
     @JsonProperty("jsScript")           private String jsScript;
-    @JsonProperty(PROPERTY_TESTS)               private Test[] tests;
+    @JsonProperty("tests")               private Test[] tests;
 }
