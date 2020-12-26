@@ -28,7 +28,7 @@ public class Queries {
     public static Route createRoute(ActorRef actorRef) {
         return post(() -> entity(Jackson.unmarshaller(QueryMessage.class), m -> {
             for (TestMessage t : m.getTests()) {
-                actorRef.tell();
+                actorRef.tell(new RunTestMessage());
             }
 
         }
