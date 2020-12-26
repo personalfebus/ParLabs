@@ -9,7 +9,6 @@ public class TestMessage {
 
     public TestMessage(@JsonProperty("testName") String testName, @JsonProperty("testResult") String testResult,
                        @JsonProperty("parameters") Object[] parameters) {
-        this.packageId = packageId;
         this.parameters = parameters;
         this.testName = testName;
         this.testResult = testResult;
