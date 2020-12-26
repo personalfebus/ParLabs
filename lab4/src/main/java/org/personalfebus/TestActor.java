@@ -9,6 +9,8 @@ public class TestActor extends AbstractActor {
                 .match(StoreMessage.class, m -> {
 
                 })
-                .match()
+                .match(GetMessage.class, m -> {
+                    
+                })
     }
 }
