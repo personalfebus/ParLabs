@@ -31,7 +31,7 @@ public class Queries {
                         ActorRef.noSender());
             }
             return complete("SUCCESS");
-        })).orElse(get())
+        })).orElse(get() -> parameter())
     }
     static void main(String[] args) {
         ActorSystem system = ActorSystem.create("test");
