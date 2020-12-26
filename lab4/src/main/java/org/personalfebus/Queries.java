@@ -17,6 +17,7 @@ import akka.pattern.Patterns;
 import akka.stream.ActorMaterializer;
 import akka.stream.javadsl.Flow;
 
+import java.io.IOException;
 import java.util.concurrent.CompletionStage;
 
 import static akka.http.javadsl.server.Directives.*;
@@ -44,7 +45,11 @@ public class Queries {
         final ActorMaterializer materializer = ActorMaterializer.create(system);
         final Flow<HttpRequest, HttpResponse, NotUsed> flow = createRoute(testActor).flow(system, materializer);
         final CompletionStage<ServerBinding> binding = http.bindAndHandle(flow, ConnectHttp.toHost("localhost", 8080), materializer);
-        System.in.read();
+        try {
+            System.in.read();
+        } catch (IOException exception) {
+            System.out.println(exception.getMessage());
+        }
         binding.thenCompose(ServerBinding::unbind)
                 .thenAccept(unbound -> system.terminate());
     }
