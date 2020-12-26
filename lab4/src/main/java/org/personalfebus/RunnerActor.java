@@ -17,11 +17,11 @@ public class RunnerActor extends AbstractActor {
     static {
         ScriptEngine scriptEngine = new ScriptEngineManager().getEngineByName(JS_ENGINE_NAME);
         try {
-            scriptEngine.eval(EQUALLER_SCRIPT);
+            scriptEngine.eval(EQ_SCRIPT);
         } catch (Exception ex) {
             throw new RuntimeException("equal function eval error", ex);
         }
-        equaller = (Invocable)scriptEngine;
+        eq = (Invocable)scriptEngine;
     }
 
     @Override
