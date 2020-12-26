@@ -4,11 +4,11 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 
 public class TestMessage {
     @JsonProperty("testName") private String testName;
-    @JsonProperty("parameters") private String parameters;
+    @JsonProperty("parameters") private Object[] parameters;
     @JsonProperty("testResult") private String testResult;
 
-    public TestMessage(int packageId, String testName, String testResult,
-                      String parameters) {
+    public TestMessage(@JsonProperty("testName") String testName, String testResult,
+                       @JsonProperty("parameters") Object[] parameters) {
         this.packageId = packageId;
         this.parameters = parameters;
         this.testName = testName;
