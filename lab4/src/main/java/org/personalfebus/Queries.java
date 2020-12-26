@@ -23,5 +23,7 @@ public class Queries {
         final Flow<HttpRequest, HttpResponse, NotUsed> flow = ;
         final CompletionStage<ServerBinding> binding = http.bindAndHandle(routeFlow, ConnectHttp.toHost("localhost", 8080), materializer);
         System.in.read();
+        binding.thenCompose(ServerBinding::unbind)
+                .thenAccept(unbound -> actorSystem.terminate());
     }
 }
