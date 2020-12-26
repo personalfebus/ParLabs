@@ -6,7 +6,7 @@
 
 Лабораторная работа 3 (Spark, airport pairs delay&cancell) - сделана  
 
-Лабораторная работа 3 (akka, js funtion test) - сделана  
+Лабораторная работа 4 (akka, js funtion test) - сделана  
 
 
 
