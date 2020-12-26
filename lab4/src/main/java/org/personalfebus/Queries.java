@@ -26,7 +26,7 @@ public class Queries {
     private static final int QUERY_TIMEOUT = 10000;
 
     public static Route createRoute(ActorRef actorRef) {
-        return post(() -> entity(Jackson.unmarshaller(HttpMessage.class), m -> {
+        return post(() -> entity(Jackson.unmarshaller(QueryMessage.class), m -> {
 
         }
     }
