@@ -17,7 +17,7 @@ public class TestActor extends AbstractActor {
 
                 })
                 .match(GetMessage.class, m -> {
-
+                    storeActor.tell();
                 });
     }
 }
