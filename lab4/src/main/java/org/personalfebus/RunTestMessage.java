@@ -6,10 +6,10 @@ public class RunTestMessage {
     private String functionName;
     private String testName;
     private String testResult;
-    private String parameters;
+    private Object[] parameters;
 
     public RunTestMessage(int packageId, String jsScript, String functionName, String testName, String testResult,
-                          String parameters) {
+                          Object[] parameters) {
         this.packageId = packageId;
         this.parameters = parameters;
         this.jsScript = jsScript;
