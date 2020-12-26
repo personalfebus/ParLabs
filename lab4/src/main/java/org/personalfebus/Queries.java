@@ -42,7 +42,7 @@ public class Queries {
         ActorRef testActor = system.actorOf(Props.create(TestActor.class));
         final Http http = Http.get(system);
         final ActorMaterializer materializer = ActorMaterializer.create(system);
-        final Flow<HttpRequest, HttpResponse, NotUsed> flow = createRoute(testActor).flow(system, );
+        final Flow<HttpRequest, HttpResponse, NotUsed> flow = createRoute(testActor).flow(system, materializer);
         final CompletionStage<ServerBinding> binding = http.bindAndHandle(flow, ConnectHttp.toHost("localhost", 8080), materializer);
         System.in.read();
         binding.thenCompose(ServerBinding::unbind)
