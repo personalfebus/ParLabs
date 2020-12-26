@@ -7,7 +7,7 @@ public class TestMessage {
     @JsonProperty("parameters") private Object[] parameters;
     @JsonProperty("testResult") private String testResult;
 
-    public TestMessage(@JsonProperty("testName") String testName, String testResult,
+    public TestMessage(@JsonProperty("testName") String testName, @JsonProperty("testResult") String testResult,
                        @JsonProperty("parameters") Object[] parameters) {
         this.packageId = packageId;
         this.parameters = parameters;
