@@ -9,6 +9,7 @@ import akka.http.javadsl.Http;
 import akka.http.javadsl.ServerBinding;
 import akka.http.javadsl.model.HttpRequest;
 import akka.http.javadsl.model.HttpResponse;
+import akka.http.javadsl.server.Route;
 import akka.stream.ActorMaterializer;
 import akka.stream.javadsl.Flow;
 
@@ -18,7 +19,7 @@ public class Queries {
     private static final String PROPERTY_PACKAGE_ID = "packageId";
     private static final int QUERY_TIMEOUT = 10000;
 
-    public static Route 
+    public static Route createRoute()
     static void main(String[] args) {
         ActorSystem system = ActorSystem.create("test");
         ActorRef storeActor = system.actorOf(Props.create(TestActor.class));
