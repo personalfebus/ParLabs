@@ -1,5 +1,7 @@
 package org.personalfebus;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
+
 public class QueryMessage {
 
     @JsonProperty(PROPERTY_PACKAGE_ID)          private int packageId;
