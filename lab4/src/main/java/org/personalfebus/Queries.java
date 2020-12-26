@@ -31,7 +31,7 @@ public class Queries {
                         ActorRef.noSender());
             }
             return complete("SUCCESS");
-        })).orElse(get() -> parameter("packageId", m -> {
+        })).orElse(get(() -> parameter("packageId", m -> {
             return completeOKWithFuture(Patterns.ask(actorRef, new GetMessage(Integer.parseInt(m)), QUERY_TIMEOUT),
                     Jackson.marshaller());
         }))
