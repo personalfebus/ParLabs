@@ -13,6 +13,7 @@ import akka.http.javadsl.model.HttpMessage;
 import akka.http.javadsl.model.HttpRequest;
 import akka.http.javadsl.model.HttpResponse;
 import akka.http.javadsl.server.Route;
+import akka.pattern.Patterns;
 import akka.stream.ActorMaterializer;
 import akka.stream.javadsl.Flow;
 
@@ -31,7 +32,8 @@ public class Queries {
             }
             return complete("SUCCESS");
         })).orElse(get() -> parameter("packageId", m -> {
-            
+            return completeOKWithFuture(Patterns.ask(actor, new QueryMessage(Integer.parseInt(m)), QUERY_TIMEOUT),
+                    Jackson.marshaller());
         }))
     }
     static void main(String[] args) {
