@@ -20,7 +20,9 @@ public class Queries {
     private static final String PROPERTY_PACKAGE_ID = "packageId";
     private static final int QUERY_TIMEOUT = 10000;
 
-    public static Route createRoute(ActorRef actorRef)
+    public static Route createRoute(ActorRef actorRef) {
+        
+    }
     static void main(String[] args) {
         ActorSystem system = ActorSystem.create("test");
         ActorRef storeActor = system.actorOf(Props.create(TestActor.class));
