@@ -9,5 +9,19 @@ public class QueryMessage {
     @JsonProperty("jsScript")           private String jsScript;
     @JsonProperty("tests")               private Test[] tests;
 
-    
+    public int getPackageId() {
+        return packageId;
+    }
+
+    public String getJsScript() {
+        return jsScript;
+    }
+
+    public String getFunctionName() {
+        return functionName;
+    }
+
+    public Test[] getTests() {
+        return tests;
+    }
 }
