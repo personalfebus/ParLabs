@@ -32,7 +32,7 @@ public class Queries {
             }
             return complete("SUCCESS");
         })).orElse(get() -> parameter("packageId", m -> {
-            return completeOKWithFuture(Patterns.ask(actor, new QueryMessage(Integer.parseInt(m)), QUERY_TIMEOUT),
+            return completeOKWithFuture(Patterns.ask(actor, new GetMessage(Integer.parseInt(m)), QUERY_TIMEOUT),
                     Jackson.marshaller());
         }))
     }
