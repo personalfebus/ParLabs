@@ -18,8 +18,7 @@ import akka.stream.javadsl.Flow;
 
 import java.util.concurrent.CompletionStage;
 
-import static akka.http.javadsl.server.Directives.entity;
-import static akka.http.javadsl.server.Directives.post;
+import static akka.http.javadsl.server.Directives.*;
 
 public class Queries {
     private static final String PROPERTY_PACKAGE_ID = "packageId";
