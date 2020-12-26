@@ -7,7 +7,8 @@ public class TestActor extends AbstractActor {
     public AbstractActor.Receive createReceive() {
         return ReceiveBuilder.create()
                 .match(StoreMessage.class, m -> {
-                    
-                });
+
+                })
+                .match()
     }
 }
