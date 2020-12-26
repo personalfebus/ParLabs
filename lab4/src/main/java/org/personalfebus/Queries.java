@@ -31,7 +31,7 @@ public class Queries {
                 actorRef.tell(new RunTestMessage(m.getPackageId(), m.getJsScript(), m.getFunctionName(), t.getTestName(), t.getTestResult(), t.getParameters()),
                         ActorRef.noSender());
             }
-            return complete("")
+            return complete("SUCCESS");
         }
     }
     static void main(String[] args) {
