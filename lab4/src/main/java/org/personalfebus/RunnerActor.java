@@ -29,7 +29,7 @@ public class RunnerActor extends AbstractActor {
         return ReceiveBuilder.create()
                 .match(RunTestMessage.class m -> {
                     ScriptEngine scriptEngine = new ScriptEngineManager().getEngineByName(JS_ENGINE_NAME);
-                    scriptEngine.eval(m.)
+                    scriptEngine.eval(m.getJsScript());
                 }).build();
     };
 }
