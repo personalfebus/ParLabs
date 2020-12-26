@@ -10,9 +10,8 @@ public class TestActor extends AbstractActor {
     static final int ROBBIN_NUMBER = 5;
     private ActorRef storeActor = getContext().actorOf(Props.create(StoreActor.class));
     private ActorRef testRunners = getContext().actorOf(new RoundRobinPool(ROBBIN_NUMBER).props(Props.create(RunnerActor.class)))
+
     public AbstractActor.Receive createReceive() {
-
-
         return ReceiveBuilder.create()
                 .match(StoreMessage.class, m -> {
 
