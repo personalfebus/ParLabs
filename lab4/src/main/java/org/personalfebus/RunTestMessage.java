@@ -26,7 +26,7 @@ public class RunTestMessage {
         return testName;
     }
 
-    public String getParameters() {
+    public Object[] getParameters() {
         return parameters;
     }
 
