@@ -14,6 +14,6 @@ public class TestActor extends AbstractActor {
     public AbstractActor.Receive createReceive() {
         return ReceiveBuilder.create()
                 .match(StoreMessage.class, m -> testRunners.tell(m, storeActor))
-                .match(GetMessage.class, m -> storeActor.tell(m, sender()));
+                .match(GetMessage.class, m -> storeActor.tell(m, sender())).build();
     }
 }
