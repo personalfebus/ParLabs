@@ -7,7 +7,7 @@ import akka.japi.pf.ReceiveBuilder;
 
 public class TestActor extends AbstractActor {
     private ActorRef storeActor = getContext().actorOf(Props.create(StoreActor.class));
-    private ActorRef testRunners = 
+    private ActorRef testRunners = getContext().actorOf()
     public AbstractActor.Receive createReceive() {
 
 
