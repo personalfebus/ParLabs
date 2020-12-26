@@ -7,7 +7,7 @@ public class QueryMessage {
     @JsonProperty("packageId")          private int packageId;
     @JsonProperty("functionName")       private String functionName;
     @JsonProperty("jsScript")           private String jsScript;
-    @JsonProperty("tests")               private Test[] tests;
+    @JsonProperty("tests")               private TestMessage[] tests;
 
     public int getPackageId() {
         return packageId;
@@ -26,7 +26,7 @@ public class QueryMessage {
     }
 
     public QueryMessage(@JsonProperty("packageId") int packageId, @JsonProperty("functionName") String functionName,
-                        @JsonProperty("jsScript") String jsScript, @JsonProperty("tests") Test[] tests){
+                        @JsonProperty("jsScript") String jsScript, @JsonProperty("tests") TestMessage[] tests){
         this.packageId = packageId;
         this.functionName = functionName;
         this.jsScript = jsScript;
