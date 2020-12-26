@@ -2,11 +2,9 @@ package org.personalfebus;
 
 public class TestMessage {
     private int packageId;
-    private String jsScript;
-    private String functionName;
     private String testName;
-    private String testResult;
     private String parameters;
+    private String testResult;
 
     public TestMessage(int packageId, String jsScript, String functionName, String testName, String testResult,
                       String parameters) {
