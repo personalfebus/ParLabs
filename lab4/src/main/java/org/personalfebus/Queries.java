@@ -15,6 +15,10 @@ import akka.stream.javadsl.Flow;
 import java.util.concurrent.CompletionStage;
 
 public class Queries {
+    private static final String PROPERTY_PACKAGE_ID = "packageId";
+    private static final int QUERY_TIMEOUT = 10000;
+
+    
     static void main(String[] args) {
         ActorSystem system = ActorSystem.create("test");
         ActorRef storeActor = system.actorOf(Props.create(TestActor.class));
