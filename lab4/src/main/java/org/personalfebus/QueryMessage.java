@@ -24,4 +24,6 @@ public class QueryMessage {
     public Test[] getTests() {
         return tests;
     }
+
+    public QueryMessage()
 }
