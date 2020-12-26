@@ -1,8 +1,10 @@
 package org.personalfebus;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
+
 public class TestMessage {
     private int packageId;
-    private String testName;
+    @JsonProperty("te")private String testName;
     private String parameters;
     private String testResult;
 
